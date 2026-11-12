@@ -37,3 +37,7 @@ Pushing to `main` deploys to GitHub Pages (`.github/workflows/pages.yml`).
 - `js/data.js`  all content: roles, topics, explainers, exercises, clips, UI strings
 - `js/app.js`   screens, player, exercise and the "I'm stuck" finder
 - `css/style.css`  hand-drawn look
+
+## Explainer video
+
+[`video/AI-Launchpad-explainer.mp4`](video/AI-Launchpad-explainer.mp4) is a 1 min 47 s hand-drawn explainer of the app: the mission, real-teacher videos cut into snippets, the personalised plan, the fix-the-prompt exercise and the "I'm stuck" just-in-time help. The voice and music are synthetic placeholders.
