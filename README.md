@@ -40,4 +40,4 @@ Pushing to `main` deploys to GitHub Pages (`.github/workflows/pages.yml`).
 
 ## Explainer video
 
-[`video/AI-Launchpad-explainer.mp4`](video/AI-Launchpad-explainer.mp4) is a 1 min 51 s hand-drawn explainer of the app: the mission, real-teacher videos cut into snippets, the personalised plan, the fix-the-prompt exercise and the "I'm stuck" just-in-time help. The voice and music are synthetic placeholders.
+[`video/AI-Launchpad-explainer.mp4`](video/AI-Launchpad-explainer.mp4) is a 1 min 45 s hand-drawn explainer of the app: the mission, real-teacher videos cut into snippets, the personalised plan, the fix-the-prompt exercise and the "I'm stuck" just-in-time help. The voice and music are synthetic placeholders.
