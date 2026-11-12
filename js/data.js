@@ -1,9 +1,12 @@
 /* Prototype content. Everything here is hand-written placeholder data.
-   In the PoC this file is replaced by the snippet index produced by the content studio
+   In the proof of concept this file is replaced by the snippet index produced by the content studio
    (transcribe -> AI cuts -> AI tags -> human review).
-   A snippet with a `src` field plays a real video; without one the player shows placeholder footage. */
 
-window.DURATIONS = { "10s": 10, "20s": 20, "1m": 60, "5m": 300, "10m": 600, "15m": 900 };
+   Model: role -> topics. Each topic is one lesson = a short explainer video + one exercise.
+   The exercise is "fix the prompt": the learner adds details to a weak prompt and sees the AI answer change.
+   Every useful detail (chip with ok:1) carries the "I'm stuck" question it answers and the clip that teaches it. */
+
+window.DURATIONS = { "10s": 10, "20s": 20, "1m": 60, "10m": 600 };
 
 window.LANGS = {
   en: { name: "English", native: "English" },
@@ -11,42 +14,66 @@ window.LANGS = {
   te: { name: "Telugu", native: "తెలుగు" }
 };
 
-/* UI strings. Video voice-over language follows the chosen language in the real product. */
+/* UI strings. Lesson content stays in English in the prototype; real videos carry the chosen language. */
 window.I18N = {
   en: {
-    tagline: "Learn AI for your own job, in minutes a day",
-    start: "Get started", pickRole: "What do you do?", pickRoleSub: "We build your plan around your work.",
-    pickLang: "Which language?", pickLangSub: "Videos play in this language.", pickMins: "Minutes per day?",
-    pickMinsSub: "We cut the lessons to fit.", min: "min", build: "Build my plan", yourWeek: "Your week",
-    today: "Today", watch: "Watch", done: "Done", stuck: "I'm stuck", progress: "Progress", cohort: "Cohort",
-    plan: "Plan", streak: "day streak", xp: "XP", soon: "Soon", howCanWeHelp: "What's tricky?",
-    askOwn: "Or type your question", find: "Find", shorter: "Say it shorter", example: "Show an example",
-    deeper: "Go deeper", backToLesson: "Back to my lesson", gotIt: "Got it", stillStuck: "Still stuck",
-    quickCheck: "Quick check", continue: "Continue", tryAgain: "Try again", lessonDone: "Lesson done",
+    tagline: "Learn AI for your own job, in minutes a day", start: "Get started", next: "Next",
+    pickRole: "What do you do?", pickRoleSub: "We build your plan around your work.",
+    pickTopics: "What should AI help you with?", pickTopicsSub: "Pick up to 3. Your plan starts with these.",
+    pickLevel: "How much have you used AI?", pickLevelSub: "We start where you are.",
+    lvNew: "New to AI", lvNewSub: "I have not really used it",
+    lvSome: "Tried it a few times", lvSomeSub: "I have asked it a few things",
+    lvOften: "I use it most weeks", lvOftenSub: "I want to get better at it",
+    pickLang: "Which language?", pickLangSub: "Videos play in this language.",
+    pickMins: "Minutes per day?", pickMinsSub: "We cut the lessons to fit.", min: "min", build: "Build my plan",
+    building: "Building your plan", startLesson: "Start lesson 1",
+    yourWeek: "Your week", today: "Today", stuck: "I'm stuck", progress: "Progress", cohort: "Cohort", plan: "Plan",
+    streak: "day streak", soon: "Soon", explainer: "Explainer", exercise: "Exercise",
+    nowYouTry: "Now you try", skipToExercise: "Skip to the exercise", yourTask: "Your task",
+    addToPrompt: "Add to your prompt", send: "Send", sendAgain: "Send again",
+    stuckOn: "What are you stuck on?", askOwn: "Or type your question", find: "Find",
+    backToExercise: "Back to my exercise", gotIt: "Got it", stillStuck: "Still stuck",
+    finish: "Finish lesson", lessonDone: "Lesson done", seeWeek: "See my week",
     leaderboard: "This week in your cohort", you: "You"
   },
   hi: {
-    tagline: "अपने काम के लिए AI सीखिए, रोज़ कुछ मिनटों में",
-    start: "शुरू करें", pickRole: "आप क्या काम करते हैं?", pickRoleSub: "हम आपके काम के हिसाब से प्लान बनाते हैं।",
-    pickLang: "कौन सी भाषा?", pickLangSub: "वीडियो इसी भाषा में चलेंगे।", pickMins: "रोज़ कितने मिनट?",
-    pickMinsSub: "हम पाठ को उसी हिसाब से काटते हैं।", min: "मिनट", build: "मेरा प्लान बनाएँ", yourWeek: "आपका हफ़्ता",
-    today: "आज", watch: "देखें", done: "पूरा", stuck: "मैं अटक गया", progress: "प्रगति", cohort: "समूह",
-    plan: "प्लान", streak: "दिन की लड़ी", xp: "XP", soon: "जल्द", howCanWeHelp: "क्या मुश्किल लग रहा है?",
-    askOwn: "या अपना सवाल लिखें", find: "खोजें", shorter: "छोटे में समझाएँ", example: "उदाहरण दिखाएँ",
-    deeper: "और गहराई से", backToLesson: "पाठ पर वापस", gotIt: "समझ गया", stillStuck: "अभी भी अटका हूँ",
-    quickCheck: "झटपट जाँच", continue: "आगे बढ़ें", tryAgain: "फिर कोशिश करें", lessonDone: "पाठ पूरा",
+    tagline: "अपने काम के लिए AI सीखिए, रोज़ कुछ मिनटों में", start: "शुरू करें", next: "आगे",
+    pickRole: "आप क्या काम करते हैं?", pickRoleSub: "हम आपके काम के हिसाब से प्लान बनाते हैं।",
+    pickTopics: "AI से किस काम में मदद चाहिए?", pickTopicsSub: "3 तक चुनें। आपका प्लान इन्हीं से शुरू होगा।",
+    pickLevel: "आपने AI कितना इस्तेमाल किया है?", pickLevelSub: "हम वहीं से शुरू करते हैं जहाँ आप हैं।",
+    lvNew: "AI में नया हूँ", lvNewSub: "अभी तक खास इस्तेमाल नहीं किया",
+    lvSome: "कुछ बार आज़माया है", lvSomeSub: "कुछ सवाल पूछे हैं",
+    lvOften: "लगभग हर हफ़्ते इस्तेमाल करता हूँ", lvOftenSub: "और बेहतर होना चाहता हूँ",
+    pickLang: "कौन सी भाषा?", pickLangSub: "वीडियो इसी भाषा में चलेंगे।",
+    pickMins: "रोज़ कितने मिनट?", pickMinsSub: "हम पाठ को उसी हिसाब से काटते हैं।", min: "मिनट", build: "मेरा प्लान बनाएँ",
+    building: "आपका प्लान बन रहा है", startLesson: "पाठ 1 शुरू करें",
+    yourWeek: "आपका हफ़्ता", today: "आज", stuck: "मैं अटक गया", progress: "प्रगति", cohort: "समूह", plan: "प्लान",
+    streak: "दिन की लड़ी", soon: "जल्द", explainer: "वीडियो", exercise: "अभ्यास",
+    nowYouTry: "अब आप कोशिश करें", skipToExercise: "सीधे अभ्यास पर जाएँ", yourTask: "आपका काम",
+    addToPrompt: "अपने प्रॉम्प्ट में जोड़ें", send: "भेजें", sendAgain: "फिर भेजें",
+    stuckOn: "आप कहाँ अटके हैं?", askOwn: "या अपना सवाल लिखें", find: "खोजें",
+    backToExercise: "अभ्यास पर वापस", gotIt: "समझ गया", stillStuck: "अभी भी अटका हूँ",
+    finish: "पाठ पूरा करें", lessonDone: "पाठ पूरा", seeWeek: "मेरा हफ़्ता देखें",
     leaderboard: "इस हफ़्ते आपके समूह में", you: "आप"
   },
   te: {
-    tagline: "మీ పనికి AI నేర్చుకోండి, రోజుకు కొన్ని నిమిషాల్లో",
-    start: "ప్రారంభించండి", pickRole: "మీరు ఏ పని చేస్తారు?", pickRoleSub: "మీ పనికి తగ్గట్టు ప్లాన్ తయారు చేస్తాం.",
-    pickLang: "ఏ భాష?", pickLangSub: "వీడియోలు ఈ భాషలో వస్తాయి.", pickMins: "రోజుకు ఎన్ని నిమిషాలు?",
-    pickMinsSub: "పాఠాలను దానికి తగ్గట్టు కట్ చేస్తాం.", min: "నిమి", build: "నా ప్లాన్ తయారు చేయండి", yourWeek: "మీ వారం",
-    today: "ఈరోజు", watch: "చూడండి", done: "పూర్తి", stuck: "నేను ఇరుక్కున్నాను", progress: "పురోగతి", cohort: "గ్రూప్",
-    plan: "ప్లాన్", streak: "రోజుల వరుస", xp: "XP", soon: "త్వరలో", howCanWeHelp: "ఏది కష్టంగా ఉంది?",
-    askOwn: "లేదా మీ ప్రశ్న రాయండి", find: "వెతుకు", shorter: "క్లుప్తంగా చెప్పండి", example: "ఉదాహరణ చూపండి",
-    deeper: "లోతుగా", backToLesson: "పాఠానికి తిరిగి", gotIt: "అర్థమైంది", stillStuck: "ఇంకా ఇరుక్కున్నాను",
-    quickCheck: "త్వరిత పరీక్ష", continue: "కొనసాగించండి", tryAgain: "మళ్లీ ప్రయత్నించండి", lessonDone: "పాఠం పూర్తి",
+    tagline: "మీ పనికి AI నేర్చుకోండి, రోజుకు కొన్ని నిమిషాల్లో", start: "ప్రారంభించండి", next: "తర్వాత",
+    pickRole: "మీరు ఏ పని చేస్తారు?", pickRoleSub: "మీ పనికి తగ్గట్టు ప్లాన్ తయారు చేస్తాం.",
+    pickTopics: "AI ఏ పనిలో సహాయం చేయాలి?", pickTopicsSub: "3 వరకు ఎంచుకోండి. మీ ప్లాన్ వీటితో మొదలవుతుంది.",
+    pickLevel: "మీరు AI ఎంత వాడారు?", pickLevelSub: "మీరు ఉన్న చోటి నుంచే మొదలుపెడతాం.",
+    lvNew: "AI నాకు కొత్త", lvNewSub: "ఇంతవరకు పెద్దగా వాడలేదు",
+    lvSome: "కొన్నిసార్లు ప్రయత్నించాను", lvSomeSub: "కొన్ని ప్రశ్నలు అడిగాను",
+    lvOften: "దాదాపు ప్రతి వారం వాడతాను", lvOftenSub: "ఇంకా మెరుగవ్వాలనుకుంటున్నాను",
+    pickLang: "ఏ భాష?", pickLangSub: "వీడియోలు ఈ భాషలో వస్తాయి.",
+    pickMins: "రోజుకు ఎన్ని నిమిషాలు?", pickMinsSub: "పాఠాలను దానికి తగ్గట్టు కట్ చేస్తాం.", min: "నిమి", build: "నా ప్లాన్ తయారు చేయండి",
+    building: "మీ ప్లాన్ తయారవుతోంది", startLesson: "పాఠం 1 మొదలుపెట్టండి",
+    yourWeek: "మీ వారం", today: "ఈరోజు", stuck: "నేను ఇరుక్కున్నాను", progress: "పురోగతి", cohort: "గ్రూప్", plan: "ప్లాన్",
+    streak: "రోజుల వరుస", soon: "త్వరలో", explainer: "వీడియో", exercise: "అభ్యాసం",
+    nowYouTry: "ఇప్పుడు మీరు ప్రయత్నించండి", skipToExercise: "నేరుగా అభ్యాసానికి", yourTask: "మీ పని",
+    addToPrompt: "మీ ప్రాంప్ట్‌కు జోడించండి", send: "పంపండి", sendAgain: "మళ్లీ పంపండి",
+    stuckOn: "ఎక్కడ ఇరుక్కున్నారు?", askOwn: "లేదా మీ ప్రశ్న రాయండి", find: "వెతుకు",
+    backToExercise: "అభ్యాసానికి తిరిగి", gotIt: "అర్థమైంది", stillStuck: "ఇంకా ఇరుక్కున్నాను",
+    finish: "పాఠం పూర్తి చేయండి", lessonDone: "పాఠం పూర్తి", seeWeek: "నా వారం చూడండి",
     leaderboard: "ఈ వారం మీ గ్రూప్‌లో", you: "మీరు"
   }
 };
@@ -60,6 +87,12 @@ window.ROLES = [
   { id: "student", icon: "🎓", name: "College student", live: false }
 ];
 
+window.LEVELS = [
+  { id: "new", icon: "🌱", key: "lvNew", sub: "lvNewSub", explainer: "1m", plan: "New to AI: a 1-minute explainer before every exercise" },
+  { id: "some", icon: "🌿", key: "lvSome", sub: "lvSomeSub", explainer: "20s", plan: "Some experience: 20-second explainers, more time on practice" },
+  { id: "often", icon: "🌳", key: "lvOften", sub: "lvOftenSub", explainer: "10s", plan: "Regular user: 10-second recaps, straight to practice" }
+];
+
 /* The real-human presenters (placeholders until the videos arrive). */
 window.PRESENTERS = {
   teacher: { name: "Anjali ma'am", title: "Former Class 8 science teacher", tone: "#CFE8E4" },
@@ -68,203 +101,234 @@ window.PRESENTERS = {
   finance: { name: "Meenakshi", title: "Chartered accountant", tone: "#E3DDF2" }
 };
 
-/* Each role has a 5-day week. Per day:
-   title, blurb      what the learner sees in the plan
-   hook              the real-task framing
-   transcript[]      caption lines shown while the placeholder footage "plays"
-   check             one quick question; `help` is the snippet surfaced on a wrong answer
-   stuck[]           pre-tagged "questions this answers": the JIT index
-                     v = snippet length, from = where the clip comes from in the long video */
-window.PLANS = {
+/* Topic fields
+   ex     explainer video: title + 4 caption lines (shorter levels use fewer lines)
+   task   what the learner must get the AI to produce
+   base   the weak prompt they start with
+   head   title of the AI's answer
+   chips  details the learner can add to the prompt.
+          ok:1  -> useful. `no`/`yes` = the answer line without/with it, `bad`/`good` = the label on that line,
+                   `q` = the "I'm stuck" question it answers, `title` + `tip` = the 20-second clip.
+          else  -> a distractor; `note` explains why it did nothing.
+   next   title of the follow-up lesson shown (locked) in the plan */
+window.TOPICS = {
   teacher: [
-    { title: "What AI can do for a lesson plan", blurb: "See AI draft a plan in 30 seconds, then fix it.", kind: "Video",
-      transcript: ["Think of the last lesson plan you wrote. How long did it take?", "Today we'll ask an AI to draft one for Class 7 science, on photosynthesis.", "Notice what it gets right: the structure, the timing, the activities.", "Now notice what it gets wrong: it doesn't know your students or your textbook.", "That is the job: you are the teacher, the AI is your fast assistant."],
-      check: { q: "What is the AI's draft best treated as?", options: ["A finished plan to print", "A first draft you correct", "Something to ignore"], correct: 1,
-        help: { v: "20s", title: "The AI drafts, you decide", from: "02:40", lines: ["Treat every AI answer as a first draft.", "It is quick, but it doesn't know your class.", "You read it, fix it, and then use it."] } },
-      stuck: [
-        { q: "What exactly is AI doing here?", v: "20s", from: "00:35", title: "What an AI assistant is, in one breath", lines: ["It predicts useful text from what you ask.", "It has read a lot, but it has not met your students.", "So the better you describe them, the better the draft."] },
-        { q: "The plan has mistakes. Is AI wrong?", v: "1m", from: "03:10", title: "Why AI sounds sure and still errs", lines: ["AI writes fluent text, even when a fact is off.", "That's why you always check dates, numbers and names.", "Look at this example: it listed the wrong organelle.", "Spotting that is your expertise at work."] },
-        { q: "Can I trust it with student data?", v: "1m", from: "06:50", title: "What to never paste into AI", lines: ["Don't paste names, marks or photos of children.", "Describe the class instead: 'Class 7, 40 students, mixed level'.", "You get the same help without the risk."] }
+    { id: "worksheets", icon: "📝", name: "Worksheets & question papers", next: "Turn a worksheet into a question paper",
+      ex: { title: "Why the first worksheet never fits", lines: ["Ask an AI for a worksheet and you get one in seconds.", "But it doesn't know your class, so it writes for nobody in particular.", "Tell it three things: who the students are, how much you want, and how simple the words should be.", "Same AI, same topic, and now the worksheet fits your classroom."] },
+      task: "Get a photosynthesis worksheet your Class 7 can actually do.", base: "Make a worksheet on photosynthesis.", head: "Worksheet: Photosynthesis",
+      chips: [
+        { t: "Please make it really good.", note: "“Make it good” gave the AI nothing to work with." },
+        { t: "It is for Class 7, mixed reading levels.", ok: 1, no: "1. Describe the light-dependent reactions in the thylakoid membrane.", yes: "1. What three things does a plant need to make food?", bad: "Too hard for Class 7", good: "Right level for Class 7",
+          q: "The questions are too hard for my class.", title: "Tell the AI who your students are", tip: ["The AI can't see your classroom.", "Say the class and the level, and the questions come down to match."] },
+        { t: "Give 5 questions with an answer key.", ok: 1, no: "… and 19 more questions, with no answers", yes: "… 4 more questions, with an answer key", bad: "Too long, no answer key", good: "5 questions with answers",
+          q: "There are far too many questions, and no answers.", title: "Say how much you want", tip: ["Ask for a number: five questions, with an answer key.", "The AI stops guessing how much you need."] },
+        { t: "IMPORTANT!!! EASY!!!", note: "Shouting didn't help. Details do." },
+        { t: "Use short sentences and everyday words.", ok: 1, no: "Instructions: Attempt all questions with reference to the prescribed text.", yes: "Instructions: Write short answers. One line is enough.", bad: "Textbook language", good: "Simple, everyday words",
+          q: "The language is too difficult for my students.", title: "Ask for simple words", tip: ["Tell the AI how the words should sound: short sentences, everyday words.", "It will rewrite everything that way."] }
       ] },
-    { title: "Tell the AI your class, level and language", blurb: "One prompt that gets a Class 7 worksheet, not a generic one.", kind: "Exercise",
-      transcript: ["Yesterday's draft was generic. Today we fix that with one sentence.", "Say who the learners are: Class 7, 40 students, government school.", "Say the level: some read well, some struggle with long sentences.", "Say the language: simple Telugu, with English terms in brackets.", "Same AI, same topic, and the answer is suddenly usable."],
-      check: { q: "Which prompt will give the most useful worksheet?", options: ["Make a worksheet on photosynthesis", "Make a 10-question photosynthesis worksheet for Class 7, simple Telugu, mixed level", "Photosynthesis worksheet please, make it good"], correct: 1,
-        help: { v: "20s", title: "Class, level, language", from: "01:55", lines: ["Three things change the answer most: who, how hard, which language.", "Say all three in the first sentence.", "Then ask for the format you want."] } },
-      stuck: [
-        { q: "These worksheet questions are too hard for my class.", v: "1m", from: "02:20", title: "Tell the AI the level, then ask again", lines: ["Say the class and the reading level out loud, to the AI.", "Add: 'use short sentences and everyday words'.", "Ask again and compare. Watch the difference."] },
-        { q: "How do I get answers in Telugu?", v: "20s", from: "03:45", title: "Ask for the language in the prompt", lines: ["Write: 'answer in simple Telugu, English terms in brackets'.", "Check one answer yourself before sharing."] },
-        { q: "Why does it give a different answer every time?", v: "1m", from: "05:05", title: "Same question, different answers", lines: ["AI is not a lookup table; it composes each answer fresh.", "So give it more detail to narrow what it writes.", "And save the prompts that worked for you."] }
+    { id: "lessonplans", icon: "🗓️", name: "Lesson plans", next: "Plan a whole week in one go",
+      ex: { title: "A lesson plan in 30 seconds", lines: ["A lesson plan takes you an hour. An AI drafts one in 30 seconds.", "The draft is only as good as what you tell it.", "Give it the class, the time you have, and what is in your room.", "Then you fix it, because you are the teacher."] },
+      task: "Get a plan for tomorrow's class on fractions that you could really teach.", base: "Write a lesson plan on fractions.", head: "Lesson plan: Fractions",
+      chips: [
+        { t: "It is Class 5's first lesson on fractions.", ok: 1, no: "Start: Revise equivalent fractions from last year.", yes: "Start: Fold a paper in half. “This is one half.”", bad: "Assumes they already know fractions", good: "Starts from zero for Class 5",
+          q: "The plan is too advanced for my students.", title: "Say the class and what they already know", tip: ["The AI can't tell what your students have learnt.", "Say the class and where they are, and the plan starts in the right place."] },
+        { t: "Make it the best lesson plan ever.", note: "“Best ever” told the AI nothing new." },
+        { t: "I have one 40-minute period.", ok: 1, no: "Length: a 3-day unit with an assessment.", yes: "Length: one 40-minute period, in 4 steps.", bad: "Far too long", good: "Fits one period",
+          q: "The plan is far too long for one period.", title: "Give it your time limit", tip: ["Tell the AI exactly how long you have.", "It cuts the plan to fit the bell."] },
+        { t: "I have only chalk, a board and paper.", ok: 1, no: "Activity: a tablet quiz and a projector slideshow.", yes: "Activity: pair work with paper strips and chalk.", bad: "Needs a projector and tablets", good: "Uses what you have",
+          q: "It asks for things my school doesn't have.", title: "Tell it what is in your room", tip: ["List what you really have: chalk, board, paper.", "The activities change to match."] },
+        { t: "Think step by step.", note: "It sounded clever and changed nothing here." }
       ] },
-    { title: "Build this week's worksheet", blurb: "A real task: make and check a worksheet you will actually use.", kind: "Real task",
-      transcript: ["Now the real task. Pick a topic you teach this week.", "Write your prompt: class, level, language, number of questions.", "Read what comes back as a student would.", "Cut what is too hard, fix what is wrong, keep what is good.", "Print it. That's a worksheet you made in ten minutes."],
-      check: { q: "What should you do before giving it to students?", options: ["Nothing, AI is accurate", "Read it and fix errors", "Ask the AI if it is correct"], correct: 1,
-        help: { v: "10s", title: "Always check first", from: "04:30", lines: ["Read it yourself before it reaches a child.", "That's the whole rule."] } },
-      stuck: [
-        { q: "How many questions should I ask for?", v: "20s", from: "01:10", title: "Start small", lines: ["Ask for 5 to 10 questions.", "You can always ask for more of the kind you liked."] },
-        { q: "Can it make a picture or diagram?", v: "1m", from: "05:40", title: "Pictures and diagrams: what works today", lines: ["Describe the diagram in words and ask for labels to fill in.", "For real pictures, use a drawing you trust, and have the AI write the questions."] },
-        { q: "The answers it gave look wrong.", v: "1m", from: "03:55", title: "When the AI is wrong", lines: ["Tell it exactly what is wrong and ask it to redo only that part.", "If it keeps failing, write that one yourself. It's your class."] }
+    { id: "explain", icon: "💡", name: "Explaining hard topics", next: "Five ways to explain one idea",
+      ex: { title: "An explanation your students can follow", lines: ["Some topics are hard to explain, even when you know them well.", "An AI can give you five different ways to explain the same idea.", "Say who it is for, ask for an example from their life, and keep it short.", "Pick the one that fits and make it yours."] },
+      task: "Get an explanation of day and night that a Class 4 child will follow.", base: "Explain day and night.", head: "Why we have day and night",
+      chips: [
+        { t: "It is for a 9-year-old in Class 4.", ok: 1, no: "The Earth rotates on an axis inclined at 23.5° to its orbital plane.", yes: "The Earth is like a ball that keeps turning.", bad: "Written for adults", good: "Right for a 9-year-old",
+          q: "The explanation is too difficult for children.", title: "Say the child's age", tip: ["Tell the AI the child's age or class.", "It changes its words to match."] },
+        { t: "Use an example from daily life.", ok: 1, no: "The terminator line divides the illuminated hemisphere from the dark one.", yes: "Shine a torch on a ball: the bright side is day, the dark side is night.", bad: "No example, only theory", good: "Uses a torch and a ball",
+          q: "It is all theory, with no example.", title: "Ask for an everyday example", tip: ["Ask for an example from daily life.", "Children remember the torch and the ball, not the definition."] },
+        { t: "Explain it properly.", note: "“Properly” means nothing to an AI." },
+        { t: "Be very detailed.", note: "“Very detailed” made it longer, not clearer." },
+        { t: "Keep it to 4 short sentences.", ok: 1, no: "(continues for a full page)", yes: "(4 sentences in total)", bad: "Too long to use in class", good: "Four short sentences",
+          q: "The answer is too long to use in class.", title: "Set the length", tip: ["Say how long you want it: four sentences, or one minute.", "The AI sticks to it."] }
       ] },
-    { title: "Fix what went wrong", blurb: "Learn the three quick fixes for a bad AI answer.", kind: "Video",
-      transcript: ["Some AI answers will miss. That's normal.", "Fix one: say what's wrong, in plain words.", "Fix two: give an example of what you wanted.", "Fix three: break the job into smaller steps.", "Try each on yesterday's worksheet."],
-      check: { q: "An answer is too long. What's the quickest fix?", options: ["Start a new chat", "Tell it: 'shorter, five lines'", "Give up on AI"], correct: 1,
-        help: { v: "20s", title: "Just say what to change", from: "01:20", lines: ["You can talk to the AI like a colleague.", "'Shorter', 'simpler', 'with an example', all work."] } },
-      stuck: [
-        { q: "I don't know what to say back to the AI.", v: "1m", from: "02:10", title: "Three sentences that fix most answers", lines: ["'Make it shorter.' 'Explain like I'm in Class 7.' 'Give one example.'", "Try these; they work on almost everything."] },
-        { q: "Should I start a new chat?", v: "20s", from: "04:00", title: "When to start fresh", lines: ["If the chat is long and confused, start a new one.", "Paste the best prompt and begin again."] },
-        { q: "Is it okay to use AI at all in teaching?", v: "10m", from: "08:00", title: "Using AI as a teacher: the long conversation", lines: ["Anjali ma'am talks through her own doubts and rules.", "What she delegates, what she never does, and what she tells parents."] }
-      ] },
-    { title: "Share a lesson with your cohort", blurb: "Post your best prompt; borrow two from colleagues.", kind: "Assignment",
-      transcript: ["Learning sticks when you share it.", "Pick the prompt that worked best this week.", "Post it to your cohort with one line on what it made.", "Try two prompts from colleagues. Which saved you the most time?", "That's how a staff room learns together."],
-      check: { q: "Why share your prompt with colleagues?", options: ["They can reuse and improve it", "It keeps the AI busy", "It is required"], correct: 0,
-        help: { v: "10s", title: "Prompts are reusable", from: "02:00", lines: ["A good prompt is a small tool.", "Share it and the whole school saves time."] } },
-      stuck: [
-        { q: "How do I write a good prompt to share?", v: "1m", from: "01:30", title: "What a shareable prompt looks like", lines: ["Say what it is for, then paste the prompt.", "Mention what to change: class, topic, language."] },
-        { q: "What if my cohort is not active?", v: "20s", from: "04:20", title: "Start with just one colleague", lines: ["Invite one colleague you trust.", "Two people sharing is already a cohort."] },
-        { q: "What's next after this week?", v: "20s", from: "05:00", title: "Your next week", lines: ["Next week you'll build question banks and parent notes.", "Your plan updates with what you struggled with."] }
+    { id: "parents", icon: "✉️", name: "Messages to parents", next: "A term's worth of parent updates",
+      ex: { title: "Messages parents will read", lines: ["A note to parents has to be short, kind and clear.", "An AI can draft it in seconds, but it guesses the tone.", "Tell it who is reading, the tone you want, and the one thing they must do.", "Read it once as a parent before you send it."] },
+      task: "Write a note asking parents to help with reading practice at home.", base: "Write a message to parents about reading.", head: "Message to parents",
+      chips: [
+        { t: "Make it professional.", note: "“Professional” made it stiffer." },
+        { t: "Parents are busy and will read it on a phone.", ok: 1, no: "Dear Parent/Guardian, it has been observed that reading proficiency is below the expected standard.", yes: "Namaste! A short note about reading this term.", bad: "Reads like an office circular", good: "Short enough for a phone",
+          q: "It sounds like an office circular.", title: "Say who is reading, and where", tip: ["Tell the AI who will read it and on what.", "A parent on a phone needs four lines, not a circular."] },
+        { t: "Be warm and respectful, not complaining.", ok: 1, no: "Parents have not been monitoring reading at home.", yes: "Your child is working hard, and a little help at home goes a long way.", bad: "Sounds like a complaint", good: "Warm and respectful",
+          q: "The tone feels like I am blaming the parents.", title: "Name the tone", tip: ["Say the tone in plain words: warm, respectful, not complaining.", "The AI follows it closely."] },
+        { t: "Use impressive words.", note: "Impressive words are harder to read." },
+        { t: "End with one request: 10 minutes of reading a day.", ok: 1, no: "Kindly take necessary action.", yes: "Could you listen to them read aloud for 10 minutes each evening?", bad: "No clear request", good: "One clear request",
+          q: "Parents won't know what to do after reading it.", title: "End with one ask", tip: ["Decide the one thing you want parents to do.", "Ask the AI to end with exactly that."] }
       ] }
   ],
 
   marketing: [
-    { title: "What AI can do for a campaign", blurb: "Go from a brief to five campaign ideas in a minute.", kind: "Video",
-      transcript: ["You have a launch next month and a blank page.", "Let's ask an AI for five campaign angles from a one-line brief.", "Notice the speed, and notice how safe the ideas feel.", "The AI gives volume; you give taste.", "Your job moves from typing to choosing."],
-      check: { q: "What does AI give you most reliably?", options: ["A final, polished campaign", "Many quick options to choose from", "Your brand voice automatically"], correct: 1,
-        help: { v: "20s", title: "Volume from AI, taste from you", from: "02:15", lines: ["AI is great at many options, fast.", "Choosing and sharpening is still your skill."] } },
-      stuck: [
-        { q: "All the ideas sound generic.", v: "1m", from: "03:00", title: "Why AI starts generic, and how to fix it", lines: ["With no detail, AI writes the average of all brands.", "Give it your customer, your tone and one thing you hate.", "Ask again and compare."] },
-        { q: "What is a good brief to give it?", v: "1m", from: "01:30", title: "The 4-line brief", lines: ["Product. Customer. Goal. Tone.", "Four lines are enough to move from generic to useful."] },
-        { q: "Is it safe to paste my client's data?", v: "20s", from: "05:20", title: "Client data and AI", lines: ["Remove names and numbers you wouldn't post publicly.", "When unsure, ask the client."] }
+    { id: "social", icon: "📱", name: "Social media posts", next: "A week of posts from one idea",
+      ex: { title: "Posts that sound like your brand", lines: ["An AI can write ten posts before your tea gets cold.", "Left alone, it writes the average of every brand on the internet.", "Tell it the customer, the tone, and the one offer.", "You pick the best and add the detail only you know."] },
+      task: "Get an Instagram caption for a cafe's new mango lassi.", base: "Write an Instagram post for our new mango lassi.", head: "Instagram caption",
+      chips: [
+        { t: "It is for college students near our Hyderabad cafe.", ok: 1, no: "Introducing our NEW Mango Lassi, a treat the whole family will love!", yes: "Exams got you melting? 🥭", bad: "Could be for anyone", good: "Speaks to college students",
+          q: "The post could be for any brand, anywhere.", title: "Name the customer", tip: ["Say exactly who you want to reach.", "The AI changes its words, jokes and offers to fit them."] },
+        { t: "Make it go viral.", note: "“Go viral” is a wish, not an instruction." },
+        { t: "Sound playful, like a friend texting.", ok: 1, no: "Crafted with the finest ingredients for a refreshing experience.", yes: "Bring a friend. We'll pretend you're studying.", bad: "Sounds like an advertisement", good: "Sounds like a friend",
+          q: "It sounds like an advertisement.", title: "Describe the voice", tip: ["Describe the voice like a person: a friend texting.", "Better still, paste a post you like and say: write like this."] },
+        { t: "Add lots of hashtags.", note: "Twenty hashtags added clutter, not reach." },
+        { t: "Under 30 words, with one offer: ₹49 with a college ID.", ok: 1, no: "Visit us today! #mango #lassi #food #yum #instafood #foodie …", yes: "₹49 with your college ID, this week only.", bad: "Long, with no offer", good: "Short, with one offer",
+          q: "The caption is long and has no hook.", title: "Set the length and the offer", tip: ["Give a word limit and the one offer.", "Short posts with one ask get the taps."] }
       ] },
-    { title: "Write in your brand's voice", blurb: "Teach the AI your tone with three samples.", kind: "Exercise",
-      transcript: ["Your brand sounds like someone. The AI doesn't know who.", "Paste three posts you love and say: write like this.", "Ask for a new post on the same product.", "Compare it with the generic version from yesterday.", "Save this voice prompt. You'll reuse it daily."],
-      check: { q: "How do you best teach the AI your voice?", options: ["Describe it with adjectives only", "Show it three real samples", "Say 'sound professional'"], correct: 1,
-        help: { v: "20s", title: "Show, don't tell", from: "01:40", lines: ["Samples beat adjectives.", "Paste three posts and say: write like this."] } },
-      stuck: [
-        { q: "It sounds too formal.", v: "20s", from: "02:30", title: "Loosen the tone", lines: ["Say: 'more casual, short sentences, one emoji at most'.", "Then show a sample line."] },
-        { q: "Can it write in Hindi and Hinglish?", v: "1m", from: "04:10", title: "Hindi, Hinglish and code-mixing", lines: ["Name the exact mix you want, with a sample.", "Always have a native speaker read the final line."] },
-        { q: "Will my posts look AI-written?", v: "1m", from: "05:45", title: "Keeping it human", lines: ["Edit every draft with one detail only you would know.", "That detail is what readers remember."] }
+    { id: "ads", icon: "🎯", name: "Ad copy", next: "Three versions to test",
+      ex: { title: "One ad, one person, one action", lines: ["A good ad says one thing to one person.", "An AI will happily write an ad that says everything to everyone.", "Give it the buyer, the result they want, and the action to take.", "Then ask for three versions and test them."] },
+      task: "Get ad copy for a weekend tailoring class.", base: "Write an ad for our tailoring class.", head: "Ad copy",
+      chips: [
+        { t: "Make it catchy.", note: "“Catchy” gave the AI nothing to aim at." },
+        { t: "Lead with the result: a first paid order in 6 weeks.", ok: 1, no: "Join our Tailoring Class!", yes: "Your first paid stitching order in 6 weeks.", bad: "Leads with the product", good: "Leads with the result",
+          q: "It lists features but doesn't sell.", title: "Lead with the result", tip: ["People buy the result, not the syllabus.", "Tell the AI the result and ask it to open with that."] },
+        { t: "It is for women who want to earn from home.", ok: 1, no: "Experienced trainers, modern machines, flexible timings, certificates.", yes: "Weekend classes for women who want to earn from home.", bad: "Features for nobody in particular", good: "Speaks to one buyer",
+          q: "The ad isn't speaking to anyone in particular.", title: "Say who the buyer is", tip: ["Start with the buyer, not the product.", "One clear person makes the whole ad sharper."] },
+        { t: "End with: WhatsApp us to book a free trial.", ok: 1, no: "Limited seats. Enrol now for a bright future!", yes: "WhatsApp us to book a free trial class.", bad: "No clear next step", good: "One clear next step",
+          q: "People won't know what to do next.", title: "Give one next step", tip: ["Every ad needs one action.", "Give the AI the exact words of the call to action."] },
+        { t: "Use powerful words.", note: "Powerful words, same weak message." }
       ] },
-    { title: "Build this week's content calendar", blurb: "A real task: a week of posts, checked and ready.", kind: "Real task",
-      transcript: ["Open your content plan for the week.", "Give the AI your product, audience and three events.", "Ask for a calendar with a hook and format for each day.", "Cut two ideas you don't believe in.", "Schedule what's left."],
-      check: { q: "What should you do with ideas you don't believe in?", options: ["Post them anyway", "Cut them", "Ask the AI to justify them"], correct: 1,
-        help: { v: "10s", title: "You are the filter", from: "03:30", lines: ["Cut what you don't believe in.", "Fewer, better posts win."] } },
-      stuck: [
-        { q: "How many posts should I ask for?", v: "20s", from: "01:00", title: "Ask for a few more than you need", lines: ["Ask for ten, keep five.", "Having to cut makes the week stronger."] },
-        { q: "Can it check my facts and claims?", v: "1m", from: "04:20", title: "Claims, numbers and the law", lines: ["Verify every number and claim yourself.", "Ads have rules; check them before posting."] },
-        { q: "It repeats the same hook.", v: "20s", from: "02:50", title: "Break the pattern", lines: ["Tell it: 'no hook starting with a question'.", "Constraints create variety."] }
+    { id: "email", icon: "📧", name: "Customer emails", next: "A subject line people open",
+      ex: { title: "Emails people actually open", lines: ["Most marketing emails are deleted in two seconds.", "An AI drafts one fast, but it loves long, polite paragraphs.", "Tell it the reader, the one piece of news, and the length.", "Then cut one more sentence yourself."] },
+      task: "Get an email telling past customers about a Diwali offer.", base: "Write an email about our Diwali offer.", head: "Email",
+      chips: [
+        { t: "Under 80 words, with a subject line.", ok: 1, no: "(no subject line, then four long paragraphs)", yes: "Subject: A Diwali thank-you for you", bad: "Too long, no subject line", good: "Short, with a subject line",
+          q: "The email is too long.", title: "Set the length", tip: ["Give a word limit and ask for a subject line.", "The AI cuts the politeness and keeps the news."] },
+        { t: "Make it festive and grand.", note: "More adjectives, same vague offer." },
+        { t: "It goes to customers who bought from us last year.", ok: 1, no: "Dear Valued Customer, we hope this email finds you well.", yes: "Hello again! You shopped with us last Diwali, so you hear this first.", bad: "Sounds like we have never met", good: "Greets a returning customer",
+          q: "It sounds like we have never met the customer.", title: "Say who is reading", tip: ["Tell the AI what the reader already knows about you.", "A returning customer should be greeted like one."] },
+        { t: "Sound very formal.", note: "Formal made it colder." },
+        { t: "One offer: 20% off everything, this week only.", ok: 1, no: "We are delighted to announce a range of exciting offers.", yes: "20% off everything, this week only.", bad: "The offer is vague", good: "One clear offer",
+          q: "The offer isn't clear.", title: "Give the exact offer", tip: ["The AI can't invent your offer.", "Give the number and the deadline, and it leads with them."] }
       ] },
-    { title: "Fix what went wrong", blurb: "Three quick fixes when the copy misses.", kind: "Video",
-      transcript: ["Some copy will miss. Here's how to fix it quickly.", "Say what's wrong, plainly.", "Show an example of what you wanted.", "Break the job into smaller steps.", "Try each on yesterday's calendar."],
-      check: { q: "The copy is too long. Best fix?", options: ["Delete lines yourself every time", "Say: 'half the length, keep the hook'", "Start over"], correct: 1,
-        help: { v: "20s", title: "Say what to change", from: "01:20", lines: ["Tell the AI exactly what to change.", "It redoes it in seconds."] } },
-      stuck: [
-        { q: "How do I give feedback to AI?", v: "1m", from: "02:00", title: "Feedback the AI can use", lines: ["Be specific: 'shorter', 'warmer', 'drop the second line'.", "One change at a time."] },
-        { q: "It ignores my instruction.", v: "1m", from: "03:40", title: "When it ignores you", lines: ["Move the instruction to the first line.", "Repeat it at the end if it still slips."] },
-        { q: "How do I keep a good prompt?", v: "20s", from: "05:10", title: "Save what works", lines: ["Keep a notes file of your best prompts.", "Reuse and improve them each week."] }
-      ] },
-    { title: "Share a campaign idea with your cohort", blurb: "Post your best prompt; borrow two.", kind: "Assignment",
-      transcript: ["Share your best prompt of the week.", "Add one line on what it made.", "Try two from colleagues.", "Which saved you the most time?", "That's how a team gets faster together."],
-      check: { q: "Why share prompts?", options: ["Teams reuse and improve them", "To impress people", "It's a rule"], correct: 0,
-        help: { v: "10s", title: "Prompts are tools", from: "02:00", lines: ["Share a good prompt and the whole team saves time."] } },
-      stuck: [
-        { q: "What makes a prompt worth sharing?", v: "1m", from: "01:30", title: "A shareable prompt", lines: ["Say what it's for.", "Show the result.", "Note what to change."] },
-        { q: "My team doesn't use AI.", v: "20s", from: "04:00", title: "Start with one friend", lines: ["Pick one person and share one prompt.", "Show, don't preach."] },
-        { q: "What next?", v: "20s", from: "05:00", title: "Next week", lines: ["Next: ad copy testing and reporting.", "Your plan updates from what you struggled with."] }
+    { id: "research", icon: "🔍", name: "Customer research", next: "Let the AI play your customer",
+      ex: { title: "Better questions before you spend", lines: ["Before you spend on a campaign, you want to know what customers think.", "An AI can't replace real customers, but it can help you prepare.", "Tell it who you are asking, keep it short, and ask for plain words.", "Then test the questions on five real people."] },
+      task: "Get survey questions to learn why customers left a tiffin service.", base: "Write survey questions for our customers.", head: "Survey",
+      chips: [
+        { t: "It is for customers who stopped ordering our tiffins.", ok: 1, no: "1. How satisfied are you with our service overall?", yes: "1. What was the main reason you stopped ordering?", bad: "Generic satisfaction questions", good: "Asks why they stopped",
+          q: "The questions are too general.", title: "Say who you are asking, and why", tip: ["Tell the AI exactly who will answer and what you want to learn.", "The questions go straight to the point."] },
+        { t: "Use plain words, no marketing terms.", ok: 1, no: "2. How would you rate our value proposition?", yes: "2. What would bring you back?", bad: "Marketing jargon", good: "Plain, everyday words",
+          q: "The wording is full of jargon.", title: "Ask for plain words", tip: ["Customers don't say “value proposition”.", "Ask the AI for words a customer would use."] },
+        { t: "Make it scientific.", note: "“Scientific” added jargon." },
+        { t: "Only 5 questions, answerable in a minute on WhatsApp.", ok: 1, no: "… and 23 more questions", yes: "… 3 more questions, one minute in total", bad: "Nobody will finish it", good: "Five quick questions",
+          q: "Nobody will finish this survey.", title: "Limit the questions", tip: ["Long surveys get abandoned.", "Give the AI a number and where it will be answered."] },
+        { t: "Cover everything.", note: "Covering everything made it endless." }
       ] }
   ],
 
   sales: [
-    { title: "What AI can do before a sales call", blurb: "Prep a call in two minutes instead of twenty.", kind: "Video",
-      transcript: ["You've a call at 4pm with a distributor.", "Ask the AI to summarise what that business likely cares about.", "Ask for five questions worth asking.", "Notice it's a good start, not the truth.", "You check, then you walk in prepared."],
-      check: { q: "The AI's research on a customer is...", options: ["A starting point to verify", "Always accurate", "Not useful"], correct: 0,
-        help: { v: "20s", title: "Prep, then verify", from: "02:00", lines: ["AI gives you a head start.", "Check the facts that matter before you quote them."] } },
-      stuck: [
-        { q: "What should I ask the AI to prep?", v: "1m", from: "01:20", title: "A 3-part prep prompt", lines: ["Who they are. What they need. What to ask.", "Paste what you already know about them."] },
-        { q: "It invented a fact about the customer.", v: "1m", from: "03:30", title: "Invented facts", lines: ["AI can write confident, wrong details.", "Never quote a fact you haven't checked."] },
-        { q: "Can I paste the customer's emails?", v: "20s", from: "05:10", title: "Customer data", lines: ["Remove personal details first.", "Follow your company's rules."] }
+    { id: "callprep", icon: "📞", name: "Preparing for a call", next: "Research a customer in two minutes",
+      ex: { title: "Two minutes of prep", lines: ["Twenty minutes of prep before every call is time you don't have.", "An AI can do the first draft of that prep in two minutes.", "Tell it who you are meeting, what you sell, and the format you want.", "Check the facts that matter, then walk in ready."] },
+      task: "Prepare for a first meeting with a pharmacy owner.", base: "Help me prepare for a sales call.", head: "Call prep",
+      chips: [
+        { t: "I am meeting a pharmacy owner with 2 shops.", ok: 1, no: "Customer: a business that may need solutions.", yes: "Customer: a pharmacy owner running 2 shops.", bad: "Advice for any customer", good: "About this customer",
+          q: "The advice is too general.", title: "Describe the customer", tip: ["The AI doesn't know who you are meeting.", "One line about the customer changes every answer."] },
+        { t: "Help me close the deal for sure.", note: "No prompt can promise a deal." },
+        { t: "I sell billing software for small shops.", ok: 1, no: "Pitch: explain your company's products and services.", yes: "Angle: billing and stock across both shops.", bad: "Doesn't know what you sell", good: "Tied to your product",
+          q: "It doesn't mention my product.", title: "Say what you sell", tip: ["Tell the AI what you sell, in one line.", "It connects your product to the customer's problems."] },
+        { t: "Be an expert salesman.", note: "A title alone changed little." },
+        { t: "Give me 5 questions to ask, not a script.", ok: 1, no: "Script: “Hello Sir/Madam, may I take a few minutes of your valuable time?”", yes: "Ask: How do you bill today? What goes wrong at month-end? (+3 more)", bad: "A script to read out", good: "Questions to ask",
+          q: "It gave me a script I can't use.", title: "Ask for the format you need", tip: ["Say what form you want: questions, not a script.", "The AI gives you exactly that shape."] }
       ] },
-    { title: "Write a follow-up that sounds like you", blurb: "Turn call notes into a clear message.", kind: "Exercise",
-      transcript: ["After the call you've rough notes and no time.", "Paste the notes and say who it's for.", "Ask for a short message in your tone.", "Read it aloud. Would you say that?", "Fix one line and send."],
-      check: { q: "What should you do before sending the message?", options: ["Read it aloud and edit", "Send immediately", "Ask AI to send it"], correct: 0,
-        help: { v: "10s", title: "Read it aloud", from: "02:10", lines: ["If you wouldn't say it, change it."] } },
-      stuck: [
-        { q: "It sounds pushy.", v: "20s", from: "02:20", title: "Soften the tone", lines: ["Say: 'friendly, no pressure, one clear next step'."] },
-        { q: "Can it write in Hindi or Telugu?", v: "1m", from: "03:50", title: "Local-language messages", lines: ["Name the language and the formality.", "Have a native speaker read the first one."] },
-        { q: "How long should it be?", v: "20s", from: "01:30", title: "Keep it short", lines: ["Three to five lines.", "One ask at the end."] }
+    { id: "followup", icon: "💬", name: "Follow-up messages", next: "Three follow-ups that don't nag",
+      ex: { title: "The follow-up that gets a reply", lines: ["Most deals are lost in the silence after the meeting.", "An AI can turn your rough notes into a clear message in seconds.", "Give it what happened, the tone, and the one next step.", "Read it aloud. If you wouldn't say it, change it."] },
+      task: "Write a WhatsApp follow-up to a school principal after a demo.", base: "Write a follow-up message.", head: "WhatsApp message",
+      chips: [
+        { t: "Make them reply fast.", note: "Urgency words made it pushier." },
+        { t: "Yesterday I demoed our fee software to a school principal.", ok: 1, no: "Dear Sir/Madam, I am following up regarding our products and services.", yes: "Good morning, ma'am. Thank you for your time at yesterday's demo.", bad: "Doesn't mention the meeting", good: "Refers to the demo",
+          q: "It doesn't mention what we discussed.", title: "Give it the context", tip: ["The AI wasn't in the meeting.", "Tell it what happened, and the message sounds like you were there."] },
+        { t: "Be friendly and respectful, with no pressure.", ok: 1, no: "Please revert at the earliest with your decision.", yes: "No hurry at all; happy to answer any questions.", bad: "Sounds pushy", good: "Friendly, no pressure",
+          q: "It sounds pushy.", title: "Name the tone", tip: ["Say the tone in plain words: friendly, no pressure.", "The AI drops the pushy phrases."] },
+        { t: "End with: can we talk on Thursday at 4?", ok: 1, no: "Kindly do the needful.", yes: "Can we talk on Thursday at 4?", bad: "No next step", good: "One clear next step",
+          q: "It doesn't say what should happen next.", title: "End with one next step", tip: ["A follow-up needs one easy next step.", "Give the AI the exact question to end on."] },
+        { t: "Sound very professional.", note: "It got longer and stiffer." }
       ] },
-    { title: "Handle an objection", blurb: "A real task: rehearse the 'price is too high' call.", kind: "Real task",
-      transcript: ["The hardest part of sales is the objection.", "Ask the AI to play the customer who says 'too expensive'.", "Practise your answer out loud, then type it.", "Ask it to rate the answer and suggest one change.", "Repeat twice. You're better already."],
-      check: { q: "How can AI help you practise?", options: ["By playing the customer", "By closing the deal for you", "By hiding objections"], correct: 0,
-        help: { v: "20s", title: "AI as a practice partner", from: "01:40", lines: ["Tell it to play the customer.", "Practice is free and private."] } },
-      stuck: [
-        { q: "How do I set up the role-play?", v: "1m", from: "02:00", title: "Setting up a role-play", lines: ["Say who they are, their mood, and their objection.", "Ask it to stay in character."] },
-        { q: "It's too easy on me.", v: "20s", from: "03:20", title: "Make it harder", lines: ["Say: 'push back twice before agreeing'."] },
-        { q: "Is it ok to use AI on a live call?", v: "1m", from: "05:00", title: "Live calls", lines: ["Use it before and after, not during.", "Customers can tell when you're reading."] }
+    { id: "objections", icon: "🛡️", name: "Handling objections", next: "Practise three more objections",
+      ex: { title: "Practise the hard conversation", lines: ["“It's too expensive.” Every salesperson hears it.", "An AI can play the customer, so you can practise in private.", "Tell it who to be, the exact objection, and how tough to be.", "Practise twice. The real call gets easier."] },
+      task: "Set up a practice round with a customer who says your price is too high.", base: "Help me with objections.", head: "Practice round",
+      chips: [
+        { t: "Play a kirana shop owner I am selling a card machine to.", ok: 1, no: "Here are 10 tips for handling objections: listen, empathise…", yes: "(as the shop owner) “I already have a free QR code.”", bad: "Tips, not practice", good: "Plays the customer",
+          q: "It only gives tips. I want to practise.", title: "Ask it to play the customer", tip: ["An AI can act a part.", "Tell it who to be, and you get a practice partner."] },
+        { t: "Your objection: the monthly fee is too high.", ok: 1, no: "Customers may object about many things.", yes: "“₹299 every month is too much for my shop.”", bad: "Not the objection you face", good: "Raises the price objection",
+          q: "It isn't raising the objection I actually face.", title: "Give the exact objection", tip: ["Give the AI the exact words customers say to you.", "Then you practise the real thing."] },
+        { t: "Teach me to win every argument.", note: "A sale isn't an argument to win." },
+        { t: "Give me magic words.", note: "There are no magic words." },
+        { t: "Push back twice, then tell me what I did well.", ok: 1, no: "“OK, that sounds good. I'll take it.”", yes: "(pushes back twice, then tells you what worked)", bad: "Gives in too easily", good: "Pushes back, then gives feedback",
+          q: "It gives in too easily.", title: "Set the difficulty", tip: ["Tell the AI how tough to be.", "Ask for feedback at the end, and it becomes a coach."] }
       ] },
-    { title: "Fix what went wrong", blurb: "Three quick fixes when a draft misses.", kind: "Video",
-      transcript: ["Some drafts miss. Fix them fast.", "Say what's wrong.", "Show an example.", "Break it into steps.", "Try each on yesterday's message."],
-      check: { q: "The draft is vague. Best fix?", options: ["Add specifics about the customer", "Make it longer", "Start over"], correct: 0,
-        help: { v: "20s", title: "Specifics beat length", from: "01:30", lines: ["Vague in, vague out.", "Add the customer's name, product and need."] } },
-      stuck: [
-        { q: "How do I give feedback?", v: "1m", from: "02:00", title: "Feedback the AI can use", lines: ["Be specific, one change at a time."] },
-        { q: "It keeps repeating itself.", v: "20s", from: "03:00", title: "Repetition", lines: ["Start a fresh chat with your best prompt."] },
-        { q: "Can I trust the numbers?", v: "1m", from: "04:00", title: "Numbers", lines: ["Check every number against your own source."] }
-      ] },
-    { title: "Share a winning script with your cohort", blurb: "Post your best prompt; borrow two.", kind: "Assignment",
-      transcript: ["Share the prompt that saved you the most time.", "Say what it made.", "Try two from colleagues.", "Keep the best.", "Your team gets faster together."],
-      check: { q: "Why share?", options: ["Teams reuse and improve", "To compete", "It's a rule"], correct: 0,
-        help: { v: "10s", title: "Share to speed up", from: "02:00", lines: ["A shared prompt saves everyone time."] } },
-      stuck: [
-        { q: "What makes it shareable?", v: "1m", from: "01:30", title: "Shareable prompts", lines: ["Say what it's for, show the result."] },
-        { q: "My team isn't on it.", v: "20s", from: "04:00", title: "Start small", lines: ["One friend is enough."] },
-        { q: "What next?", v: "20s", from: "05:00", title: "Next week", lines: ["Proposals and follow-up sequences."] }
+    { id: "proposals", icon: "📄", name: "Quotes & proposals", next: "Turn call notes into a quote",
+      ex: { title: "A proposal the buyer reads", lines: ["A proposal nobody reads wins nothing.", "An AI can draft one from your notes in a minute.", "Tell it the customer's problem, your exact offer, and the length.", "Check every number yourself before it goes out."] },
+      task: "Draft a proposal for supplying uniforms to a school.", base: "Write a proposal for uniforms.", head: "Proposal",
+      chips: [
+        { t: "Make us look big.", note: "Bigger words, less trust." },
+        { t: "The school had late deliveries last year.", ok: 1, no: "About us: established in 1998, a leading name in garments.", yes: "Last year your uniforms arrived late. This year they won't.", bad: "Talks about us", good: "Opens with their problem",
+          q: "It talks about us, not the customer.", title: "Start with their problem", tip: ["Buyers read about their own problem first.", "Tell the AI the problem, and ask it to open with that."] },
+        { t: "Our offer: all 600 sets in 21 days, or 5% off.", ok: 1, no: "We promise the best quality and timely service.", yes: "All 600 sets in 21 days, or 5% off.", bad: "Vague promises", good: "A specific promise",
+          q: "The offer sounds vague.", title: "Give the exact offer", tip: ["“Best quality” means nothing to a buyer.", "Give the AI your numbers, and it writes a promise."] },
+        { t: "Add our full company history.", note: "History pushed the offer to page 4." },
+        { t: "One page, with a simple price table.", ok: 1, no: "(6 pages, with the price on page 5)", yes: "(one page, with a simple price table)", bad: "Much too long", good: "One page with prices",
+          q: "It is much too long.", title: "Ask for one page", tip: ["Tell the AI the length and the layout.", "One page with a price table gets read."] }
       ] }
   ],
 
   finance: [
-    { title: "What AI can do for your books", blurb: "Explain a variance in plain words, in a minute.", kind: "Video",
-      transcript: ["Your manager asks why costs rose 12%.", "Paste the figures (no names) and ask the AI to explain.", "It writes a clear explanation, quickly.", "But it can't see the ledger; you verify.", "You're the accountant. The AI is the typist."],
-      check: { q: "What must you do with AI-written numbers?", options: ["Verify against the ledger", "Trust them", "Round them"], correct: 0,
-        help: { v: "20s", title: "Numbers need checking", from: "02:30", lines: ["AI can slip on arithmetic and facts.", "Tie every figure back to your books."] } },
-      stuck: [
-        { q: "Can AI do the calculations?", v: "1m", from: "03:00", title: "AI and arithmetic", lines: ["Use a spreadsheet for the maths.", "Use AI to explain and draft."] },
-        { q: "Is it safe to paste client figures?", v: "1m", from: "04:30", title: "Client confidentiality", lines: ["Strip names, PAN and bank details.", "Use rounded or sample figures if unsure."] },
-        { q: "What should I ask first?", v: "20s", from: "01:10", title: "A good first prompt", lines: ["Say the audience, the figures and what you want explained."] }
+    { id: "numbers", icon: "📊", name: "Explaining numbers", next: "A monthly summary for the owner",
+      ex: { title: "From figures to plain words", lines: ["Your manager asks why costs went up, and wants it in two lines.", "An AI is good at turning figures into plain words.", "Give it the figures, the reader, and the length.", "You check every number against the books."] },
+      task: "Explain a 12% rise in costs to an owner who isn't an accountant.", base: "Explain why costs went up.", head: "Why costs rose",
+      chips: [
+        { t: "Figures: rent +₹40,000, power +₹25,000, salaries flat.", ok: 1, no: "Costs may have risen due to inflation and market conditions.", yes: "Rent rose ₹40,000 and power rose ₹25,000; salaries did not change.", bad: "Guesses at reasons", good: "Uses your figures",
+          q: "It is guessing. It doesn't know my numbers.", title: "Give it the figures", tip: ["The AI can't see your books.", "Paste the figures, without names, and it explains those."] },
+        { t: "Make it sound smart.", note: "Smart-sounding, harder to read." },
+        { t: "It is for the owner, who is not an accountant.", ok: 1, no: "This reflects operating leverage dynamics.", yes: "In short: rent is the main reason.", bad: "Accounting jargon", good: "Plain words for the owner",
+          q: "It uses terms the owner won't understand.", title: "Say who is reading", tip: ["Tell the AI who will read the answer.", "It swaps the jargon for plain words."] },
+        { t: "Keep it to 3 lines, biggest reason first.", ok: 1, no: "(a full-page report)", yes: "(3 lines, biggest reason first)", bad: "Too long for a busy owner", good: "Three lines",
+          q: "It is too long for a busy owner.", title: "Set the length and the order", tip: ["Say how long, and what comes first.", "Busy readers get the main point in line one."] },
+        { t: "Be 100% accurate.", note: "Saying it doesn't make it so. You still check." }
       ] },
-    { title: "Write a clear note to a client", blurb: "Turn a technical point into plain Hindi or English.", kind: "Exercise",
-      transcript: ["Clients don't read jargon.", "Paste your technical note and ask for plain words.", "Ask for three lines, no more.", "Check no meaning changed.", "Send."],
-      check: { q: "What's the risk when AI simplifies a note?", options: ["It may change the meaning", "It becomes too short", "None"], correct: 0,
-        help: { v: "20s", title: "Simpler can mean wrong", from: "02:00", lines: ["Compare the simple version with the original.", "Make sure no condition has disappeared."] } },
-      stuck: [
-        { q: "It dropped a condition.", v: "1m", from: "03:00", title: "Lost conditions", lines: ["Tell it: 'keep every condition and deadline'.", "Check against the original."] },
-        { q: "Can it write in Hindi?", v: "1m", from: "04:00", title: "Hindi notes", lines: ["Ask for simple Hindi with English terms in brackets."] },
-        { q: "How long should it be?", v: "20s", from: "01:30", title: "Three lines", lines: ["One point, one reason, one next step."] }
+    { id: "clientnotes", icon: "✍️", name: "Notes to clients", next: "One note, three languages",
+      ex: { title: "Jargon out, meaning in", lines: ["Clients don't read jargon. They read what they must do, and by when.", "An AI can rewrite a technical note in plain words.", "Tell it the reader, what must stay exact, and how to end.", "Compare it with your original before you send it."] },
+      task: "Turn a technical GST note into a message a shop owner will act on.", base: "Simplify this GST note.", head: "Message to client",
+      chips: [
+        { t: "Make it very simple.", note: "“Very simple” also removed the deadline." },
+        { t: "It is for a shop owner with no accounts training.", ok: 1, no: "ITC reconciliation discrepancies necessitate rectification.", yes: "Three purchase bills don't match what your supplier filed.", bad: "Still full of jargon", good: "Plain words",
+          q: "It is still too technical.", title: "Say who is reading", tip: ["Tell the AI the reader has no accounts training.", "It explains the problem the way you would across a desk."] },
+        { t: "Keep every date and amount exactly as written.", ok: 1, no: "Please fix this soon.", yes: "Fix it by the 10th and you pay no interest.", bad: "Dropped the due date", good: "Date kept exact",
+          q: "It dropped an important date.", title: "Protect the facts", tip: ["Simplifying can lose a date or a condition.", "Tell the AI what must stay exact, then compare."] },
+        { t: "Sound authoritative.", note: "Authority brought the jargon back." },
+        { t: "End with what the client must do.", ok: 1, no: "Interest liability may accrue.", yes: "Please send us those 3 bills this week.", bad: "No clear action", good: "Says what to do",
+          q: "The client won't know what to do.", title: "End with the action", tip: ["A client note should end with one action.", "Ask the AI to finish with exactly that."] }
       ] },
-    { title: "Reconcile a messy list", blurb: "A real task: clean a vendor list with AI and check it.", kind: "Real task",
-      transcript: ["You've a vendor list with spelling variants.", "Ask the AI to group likely duplicates.", "Don't merge yet; review the groups.", "Fix the ones it got wrong.", "Then merge in your system."],
-      check: { q: "When AI groups duplicates, what next?", options: ["Review before merging", "Merge all", "Delete the list"], correct: 0,
-        help: { v: "10s", title: "Review before you merge", from: "03:00", lines: ["Merging is hard to undo.", "Check every group first."] } },
-      stuck: [
-        { q: "How do I paste a big list?", v: "1m", from: "01:30", title: "Large lists", lines: ["Work in batches of 50 rows.", "Keep a copy of the original."] },
-        { q: "It missed obvious duplicates.", v: "20s", from: "03:40", title: "Missed matches", lines: ["Ask it to look again with examples."] },
-        { q: "Is there a safer way?", v: "1m", from: "05:00", title: "A safer pipeline", lines: ["Use AI to suggest, a spreadsheet to apply, you to approve."] }
+    { id: "sheets", icon: "🧮", name: "Spreadsheet help", next: "Clean a messy vendor list",
+      ex: { title: "Ask for the formula, with your columns", lines: ["You know what you want from the sheet, but not the formula.", "An AI can write the formula, if it knows your sheet.", "Tell it your columns, the result you want, and your software.", "Test it on three rows before you trust it."] },
+      task: "Get a formula that totals sales for each salesperson.", base: "Give me a formula to total sales.", head: "Formula",
+      chips: [
+        { t: "Column A is the salesperson, column C is the amount.", ok: 1, no: "Uses: Sales[Amount], a table you don't have", yes: "Uses: column A for names, column C for amounts", bad: "Doesn't match your sheet", good: "Uses your columns",
+          q: "The formula doesn't match my sheet.", title: "Describe your columns", tip: ["The AI can't see your sheet.", "Tell it what is in each column, and the formula fits."] },
+        { t: "I want one total per salesperson.", ok: 1, no: "Result: one grand total for everyone", yes: "Result: one total for each salesperson", bad: "Adds everything into one number", good: "A total for each person",
+          q: "It adds everything into one number.", title: "Say the result you want", tip: ["Describe the answer you want to see.", "“One total per person” gets a different formula from “a total”."] },
+        { t: "Give me the best formula.", note: "“Best” didn't tell it your columns." },
+        { t: "I use Excel 2016. Explain each part.", ok: 1, no: "Function: GROUPBY, which Excel 2016 doesn't have", yes: "Function: SUMIF, works in Excel 2016, each part explained", bad: "Gives an error in your Excel", good: "Works in your Excel",
+          q: "The formula gives an error in my Excel.", title: "Name your software", tip: ["Newer formulas don't work in older Excel.", "Tell the AI your version and ask it to explain each part."] },
+        { t: "Make it advanced.", note: "Advanced made it harder to check." }
       ] },
-    { title: "Fix what went wrong", blurb: "Three quick fixes when an answer misses.", kind: "Video",
-      transcript: ["Some answers will miss.", "Say what's wrong.", "Show an example.", "Break it into steps.", "Try each on yesterday's note."],
-      check: { q: "An explanation is vague. Best fix?", options: ["Ask for a worked example", "Ignore it", "Make it longer"], correct: 0,
-        help: { v: "20s", title: "Ask for an example", from: "01:30", lines: ["A worked example exposes gaps fast."] } },
-      stuck: [
-        { q: "How do I give feedback?", v: "1m", from: "02:00", title: "Feedback the AI can use", lines: ["Be specific; one change at a time."] },
-        { q: "It sounds sure but is wrong.", v: "1m", from: "03:00", title: "Confident errors", lines: ["Ask it to show its steps.", "Check each step."] },
-        { q: "Should I start fresh?", v: "20s", from: "04:00", title: "Start fresh", lines: ["If the chat gets confused, restart with your best prompt."] }
-      ] },
-    { title: "Share a checklist with your cohort", blurb: "Post your best prompt; borrow two.", kind: "Assignment",
-      transcript: ["Share a prompt that saved you time.", "Say what it made.", "Try two from colleagues.", "Keep the best.", "Your office gets faster together."],
-      check: { q: "Why share?", options: ["Teams reuse and improve", "To compete", "It's a rule"], correct: 0,
-        help: { v: "10s", title: "Share to speed up", from: "02:00", lines: ["A shared prompt saves everyone time."] } },
-      stuck: [
-        { q: "What makes it shareable?", v: "1m", from: "01:30", title: "Shareable prompts", lines: ["Say what it's for, show the result."] },
-        { q: "My office isn't on it.", v: "20s", from: "04:00", title: "Start small", lines: ["One colleague is enough."] },
-        { q: "What next?", v: "20s", from: "05:00", title: "Next week", lines: ["Reports and audits."] }
+    { id: "reminders", icon: "⏰", name: "Payment reminders", next: "A reminder sequence for late payers",
+      ex: { title: "Firm, polite, paid", lines: ["Asking for money is awkward, so reminders get delayed.", "An AI can write a reminder that is firm and still polite.", "Give it the invoice, the tone, and the one thing to ask for.", "Check the amount twice before you send."] },
+      task: "Write a reminder for an invoice that is 30 days overdue.", base: "Write a payment reminder.", head: "Payment reminder",
+      chips: [
+        { t: "Make them pay immediately.", note: "Demands made it sound like a threat." },
+        { t: "Invoice 214 for ₹48,000, due 30 days ago.", ok: 1, no: "Your payment is overdue.", yes: "Invoice 214 for ₹48,000 was due last month.", bad: "No invoice details", good: "Names the invoice",
+          q: "It doesn't mention the invoice.", title: "Give the details", tip: ["The AI can't know which invoice you mean.", "Give the number, the amount and the due date."] },
+        { t: "Polite but firm. They are a long-standing customer.", ok: 1, no: "Failure to pay will result in legal action.", yes: "We value working with you, so this is a gentle reminder.", bad: "Sounds like a threat", good: "Polite but firm",
+          q: "The tone is too harsh.", title: "Name the tone", tip: ["Say the tone and the relationship.", "A long-standing customer gets a different message from a stranger."] },
+        { t: "Use legal language.", note: "Legal language scared; it didn't persuade." },
+        { t: "Ask for a payment date.", ok: 1, no: "Remit immediately.", yes: "Could you tell us the date we can expect payment?", bad: "No clear ask", good: "Asks for a date",
+          q: "It doesn't ask for anything specific.", title: "Make one clear ask", tip: ["A reminder should ask for one thing.", "A payment date is easier to give than money today."] }
       ] }
   ]
 };
