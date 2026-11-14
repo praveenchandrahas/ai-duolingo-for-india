@@ -1,0 +1,9 @@
+{
+ "provider": "file",
+ "prompt_chars": 7861,
+ "prompt_tokens_estimate": 1965,
+ "made_by": "Claude, in the build session, from the prompt in cut_prompt.txt (the API path was not run: no key)",
+ "snippets": 20,
+ "dropped": [],
+ "answer_tokens_estimate": 1902
+}

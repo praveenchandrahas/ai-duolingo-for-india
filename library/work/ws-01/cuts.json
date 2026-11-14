@@ -1,0 +1,433 @@
+{
+ "made_by": "Claude, in the build session, from the prompt in cut_prompt.txt (the API path was not run: no key)",
+ "snippets": [
+  {
+   "first": 0,
+   "last": 123,
+   "kind": "class",
+   "title": "Full class: worksheets that fit your class",
+   "summary": "The whole class: three things to tell the AI for a worksheet, and how to check it before printing.",
+   "concept": "ws-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me the whole class on worksheets",
+    "I want to see the full lesson again",
+    "how do I make a worksheet with AI from start to finish"
+   ]
+  },
+  {
+   "first": 0,
+   "last": 13,
+   "kind": "hook",
+   "title": "Why the first worksheet never fits",
+   "summary": "An AI writes a worksheet in seconds, but for nobody in particular, until you tell it three things.",
+   "concept": "ws-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why is the worksheet from AI so generic",
+    "what am I supposed to add to the prompt",
+    "I don't understand the task",
+    "why did AI give me a useless worksheet"
+   ]
+  },
+  {
+   "first": 3,
+   "last": 9,
+   "kind": "why",
+   "title": "What the AI gives you when it knows nothing",
+   "summary": "A worksheet asked for with no details came back with 24 college-level questions.",
+   "concept": "ws-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why are the AI's questions not for my class",
+    "AI worksheet does not suit my students",
+    "what goes wrong if I just ask for a worksheet"
+   ]
+  },
+  {
+   "first": 10,
+   "last": 12,
+   "kind": "point",
+   "title": "Tell the AI three things",
+   "summary": "Who your students are, how much you want, and how simple the words should be.",
+   "concept": "ws-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what should I tell the AI",
+    "what details do I add to my prompt",
+    "what are the three things"
+   ]
+  },
+  {
+   "first": 14,
+   "last": 43,
+   "kind": "section",
+   "title": "Rule 1: say who your students are",
+   "summary": "The rule, why it works, a worked example and a common mistake.",
+   "concept": "ws-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the questions are too hard for my class",
+    "how do I get questions at the right level",
+    "the worksheet is too advanced"
+   ]
+  },
+  {
+   "first": 14,
+   "last": 15,
+   "kind": "point",
+   "title": "Tell the AI who your students are",
+   "summary": "Say the class and the level, and the questions come down to match.",
+   "concept": "ws-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the questions are too hard for my class",
+    "how to make the worksheet easier",
+    "the level is wrong for my students"
+   ]
+  },
+  {
+   "first": 14,
+   "last": 18,
+   "kind": "why",
+   "title": "Why the AI needs to know your students",
+   "summary": "The AI cannot see your classroom, so it aims at adults unless you say who the students are.",
+   "concept": "ws-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why does AI give difficult questions",
+    "the questions are too hard for my students",
+    "AI wrote college level questions for school children",
+    "the worksheet is too tough for my kids"
+   ]
+  },
+  {
+   "first": 20,
+   "last": 37,
+   "kind": "example",
+   "title": "Worked example: add the class to the prompt",
+   "summary": "Adding “It is for Class 7, with mixed reading levels” turns a college question into one Class 7 can answer.",
+   "concept": "ws-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me an example of fixing a hard worksheet",
+    "what exactly do I type to make it suit class 7",
+    "my class has slow readers",
+    "how do I mention mixed levels in my class"
+   ]
+  },
+  {
+   "first": 38,
+   "last": 43,
+   "kind": "tip",
+   "title": "Give the class, not the adjective",
+   "summary": "Writing EASY in capitals tells the AI nothing: easy for whom?",
+   "concept": "ws-who",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "I wrote make it easy but it is still hard",
+    "does writing in capital letters help",
+    "I said IMPORTANT and nothing changed"
+   ]
+  },
+  {
+   "first": 44,
+   "last": 65,
+   "kind": "section",
+   "title": "Rule 2: say how much you want",
+   "summary": "The rule, why it works, a worked example and a tip about the answer key.",
+   "concept": "ws-howmuch",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "there are far too many questions",
+    "there are no answers",
+    "how do I control the length of the worksheet"
+   ]
+  },
+  {
+   "first": 44,
+   "last": 45,
+   "kind": "point",
+   "title": "Say how much you want",
+   "summary": "Ask for a number of questions, and ask for the answer key.",
+   "concept": "ws-howmuch",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "there are too many questions",
+    "how do I get an answer key",
+    "the worksheet is too long"
+   ]
+  },
+  {
+   "first": 44,
+   "last": 47,
+   "kind": "why",
+   "title": "Why the AI gives too many questions",
+   "summary": "With no number, the AI guesses and gives 20 or 30 questions, more than one period can hold.",
+   "concept": "ws-howmuch",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why did it give me so many questions",
+    "it gave 30 questions and I need only a few",
+    "the worksheet does not fit in one period"
+   ]
+  },
+  {
+   "first": 50,
+   "last": 61,
+   "kind": "example",
+   "title": "Worked example: five questions with an answer key",
+   "summary": "Adding “Give five questions with an answer key” cuts 24 questions to five with answers; you can also give the kinds of questions and the marks.",
+   "concept": "ws-howmuch",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me how to ask for fewer questions",
+    "how do I ask for fill in the blanks and one-line answers",
+    "can I ask for marks for each question",
+    "how to turn the worksheet into a class test"
+   ]
+  },
+  {
+   "first": 62,
+   "last": 65,
+   "kind": "tip",
+   "title": "Ask for the answer key in the same prompt",
+   "summary": "Asked for later, the answer key may come with changed questions.",
+   "concept": "ws-howmuch",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the answers do not match the questions",
+    "I asked for the answer key later and the questions changed",
+    "when should I ask for the answers"
+   ]
+  },
+  {
+   "first": 66,
+   "last": 92,
+   "kind": "section",
+   "title": "Rule 3: ask for simple words",
+   "summary": "The rule, why it works, a worked example and what not to ask for.",
+   "concept": "ws-words",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the language is too difficult for my students",
+    "the worksheet reads like a textbook"
+   ]
+  },
+  {
+   "first": 66,
+   "last": 67,
+   "kind": "point",
+   "title": "Ask for simple words",
+   "summary": "Tell the AI how the language should sound: short sentences and everyday words.",
+   "concept": "ws-words",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the language is too difficult",
+    "how do I make the wording simple",
+    "the English is too hard for my students"
+   ]
+  },
+  {
+   "first": 66,
+   "last": 71,
+   "kind": "why",
+   "title": "Why the AI writes like a textbook",
+   "summary": "The AI learnt from textbooks and reports, so children who know the science still trip on the wording.",
+   "concept": "ws-words",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why does it sound like a textbook",
+    "my students understand the topic but not the question",
+    "English is not my students' first language"
+   ]
+  },
+  {
+   "first": 72,
+   "last": 87,
+   "kind": "example",
+   "title": "Worked example: short sentences, everyday words",
+   "summary": "One added line turns “attempt all questions with reference to the prescribed text” into “write short answers”; you can also name the reading level or ask for Telugu or Hindi.",
+   "concept": "ws-words",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me how to simplify the language",
+    "can I get the worksheet in Telugu or Hindi",
+    "how do I ask for English a class 5 child can read",
+    "the instructions are too formal"
+   ]
+  },
+  {
+   "first": 88,
+   "last": 92,
+   "kind": "tip",
+   "title": "Do not ask for impressive language",
+   "summary": "“Professional” and “impressive” make a worksheet longer and stiffer; ask for short, plain and clear.",
+   "concept": "ws-words",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "I asked it to be professional and it got worse",
+    "should I ask for good English",
+    "the worksheet became long and stiff"
+   ]
+  },
+  {
+   "first": 93,
+   "last": 117,
+   "kind": "section",
+   "title": "Before you print: check it yourself",
+   "summary": "Three checks on the AI's worksheet, and how to ask for one change.",
+   "concept": "ws-check",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "can I trust the worksheet",
+    "what should I check before printing"
+   ]
+  },
+  {
+   "first": 93,
+   "last": 95,
+   "kind": "point",
+   "title": "The AI drafts, you are the teacher",
+   "summary": "Check the worksheet yourself before you print it.",
+   "concept": "ws-check",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "can I print it straight away",
+    "do I need to check what AI wrote"
+   ]
+  },
+  {
+   "first": 96,
+   "last": 102,
+   "kind": "example",
+   "title": "The full worksheet prompt, in four lines",
+   "summary": "The finished prompt: topic, class and level, number of questions with a key, and simple words.",
+   "concept": "ws-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what does the complete prompt look like",
+    "show me the final prompt",
+    "give me a prompt I can copy for a worksheet"
+   ]
+  },
+  {
+   "first": 103,
+   "last": 113,
+   "kind": "example",
+   "title": "Three checks before you print",
+   "summary": "Read the answer key for wrong facts, check against your textbook, and solve it once as a student.",
+   "concept": "ws-check",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "can I trust the answer key",
+    "the AI gave a wrong answer",
+    "is the AI always correct",
+    "a question is from a chapter we have not done",
+    "how do I know the worksheet is not too long"
+   ]
+  },
+  {
+   "first": 114,
+   "last": 117,
+   "kind": "tip",
+   "title": "Something wrong? Ask for one change",
+   "summary": "Tell the AI which question to fix; it keeps the rest.",
+   "concept": "ws-check",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "one question is bad, do I start again",
+    "how do I change just one question",
+    "can I ask the AI to replace a question"
+   ]
+  },
+  {
+   "first": 118,
+   "last": 121,
+   "kind": "tip",
+   "title": "Recap: three things to tell, one thing to do",
+   "summary": "Who your students are, how much you want, how simple the words should be; then check before you print.",
+   "concept": "ws-intro",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "give me a quick summary",
+    "what were the main points again"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "note": "Search test list: questions a learner might type when stuck, each with the concept whose snippet should come back. This starter list was written by Claude before the snippets were tagged. Replace it with questions from real learners; null means the library has no answer and the app should say so.",
+ "questions": [
+  {
+   "q": "the worksheet is too tough for my kids",
+   "concept": "ws-who"
+  },
+  {
+   "q": "AI gave college level questions for class 6",
+   "concept": "ws-who"
+  },
+  {
+   "q": "how do I make it match my students' level",
+   "concept": "ws-who"
+  },
+  {
+   "q": "it gave me 30 questions, I only need a few",
+   "concept": "ws-howmuch"
+  },
+  {
+   "q": "there is no answer key",
+   "concept": "ws-howmuch"
+  },
+  {
+   "q": "how to get a fixed number of questions",
+   "concept": "ws-howmuch"
+  },
+  {
+   "q": "the english is too difficult for my students",
+   "concept": "ws-words"
+  },
+  {
+   "q": "language sounds like a textbook",
+   "concept": "ws-words"
+  },
+  {
+   "q": "can I get the worksheet in Telugu",
+   "concept": "ws-words"
+  },
+  {
+   "q": "can I trust the answers AI gives",
+   "concept": "ws-check"
+  },
+  {
+   "q": "the AI gave a wrong answer in the key",
+   "concept": "ws-check"
+  },
+  {
+   "q": "do I have to start over if one question is bad",
+   "concept": "ws-check"
+  },
+  {
+   "q": "why is the AI worksheet so generic",
+   "concept": "ws-intro"
+  },
+  {
+   "q": "the plan assumes children already know the topic",
+   "concept": "lp-who"
+  },
+  {
+   "q": "my students are weak, the lesson plan is too advanced",
+   "concept": "lp-who"
+  },
+  {
+   "q": "the lesson plan is too long for one period",
+   "concept": "lp-time"
+  },
+  {
+   "q": "how to make the plan fit 40 minutes",
+   "concept": "lp-time"
+  },
+  {
+   "q": "I lose time taking attendance",
+   "concept": "lp-time"
+  },
+  {
+   "q": "it asks for a projector and we don't have one",
+   "concept": "lp-room"
+  },
+  {
+   "q": "my school has no computers or smart board",
+   "concept": "lp-room"
+  },
+  {
+   "q": "I have 45 students and fixed benches",
+   "concept": "lp-room"
+  },
+  {
+   "q": "what should I tell AI to get a good lesson plan",
+   "concept": "lp-intro"
+  },
+  {
+   "q": "the message sounds like a government notice",
+   "concept": "pm-who"
+  },
+  {
+   "q": "parents read on whatsapp, message is too long",
+   "concept": "pm-who"
+  },
+  {
+   "q": "parents don't read English well",
+   "concept": "pm-who"
+  },
+  {
+   "q": "it sounds like I am blaming the parents",
+   "concept": "pm-tone"
+  },
+  {
+   "q": "how do I make the message sound kind",
+   "concept": "pm-tone"
+  },
+  {
+   "q": "parents don't know what to do after reading",
+   "concept": "pm-ask"
+  },
+  {
+   "q": "the message ends with kindly do the needful",
+   "concept": "pm-ask"
+  },
+  {
+   "q": "how to get parents to reply",
+   "concept": "pm-ask"
+  },
+  {
+   "q": "how do I explain day and night to class 4",
+   "concept": null
+  },
+  {
+   "q": "how to make a timetable for exams",
+   "concept": null
+  },
+  {
+   "q": "can AI correct my students' handwriting",
+   "concept": null
+  }
+ ]
+}

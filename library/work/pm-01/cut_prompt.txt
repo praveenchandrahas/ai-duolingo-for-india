@@ -1,0 +1,121 @@
+You are preparing a recorded class for a micro-learning app. A real teacher is speaking. Learners will
+watch short snippets of this class, and when a learner is stuck the app plays the shortest snippet that answers
+their question. Your job is to choose where the snippets start and end and to describe each one. You never rewrite
+or summarise what the teacher teaches; you only pick sentences.
+
+CLASS: Messages parents will read
+ROLE THE CLASS IS FOR: School teacher
+LANGUAGE: en
+
+CONCEPTS this track teaches (use these ids; use null only if a snippet truly fits none):
+- pm-intro: Messages parents will read
+- pm-who: Say who is reading, and where
+- pm-tone: Name the tone
+- pm-ask: End with one ask
+
+TRANSCRIPT, one sentence per line as [number] (start-end) text. "||" marks a long pause after the sentence.
+[0] (00:01-00:02) Hello, teachers!
+[1] (00:02-00:04) Today, messages to parents.
+[2] (00:04-00:07) A note to parents has to be short, kind, and clear.
+[3] (00:08-00:13) An AI can draft one in seconds, but it guesses the tone, and it usually guesses wrong.
+[4] (00:14-00:18) Ask for a message about reading and you get an office circular.
+[5] (00:18-00:22) Dear parent or guardian, it has been observed and so on.
+[6] (00:22-00:24) Parents stop reading at the second line.
+[7] (00:25-00:27) So tell it three things.
+[8] (00:27-00:34) Who is raiding, the tone you want, and the one thing parents should do, then read it once as a parent before you send it?
+[9] (00:35-00:40) Our example today is a note asking parents to help with reading practice at home. ||
+[10] (00:42-00:44) First, say who is reading and where.
+[11] (00:44-00:47) A parent on a phone needs four lines, not a circular.
+[12] (00:48-00:50) The AI does not know your parents.
+[13] (00:51-00:59) It does not know that most of them will open this on WhatsApp, on a small screen on the bus home from work, when it does not know.
+[14] (00:59-01:04) It writes a formal letter because school letters on the internet look like that.
+[15] (01:04-01:06) Here is the first prompt.
+[16] (01:06-01:08) Write a message to parents about reading.
+[17] (01:09-01:10) The draft begins.
+[18] (01:10-01:12) Dear parent or guardian.
+[19] (01:12-01:17) It has been observed that reading proficiency is below the expected standard.
+[20] (01:17-01:18) Now I add one line.
+[21] (01:19-01:21) Parents are busy and will read it on a phone.
+[22] (01:22-01:23) I send it again.
+[23] (01:23-01:25) The new message begins, Namaste.
+[24] (01:25-01:27) A short note about reading this term.
+[25] (01:28-01:29) It is four lines long.
+[26] (01:30-01:31) No paragraphs to scroll through.
+[27] (01:32-01:34) You can tell it more about the readers.
+[28] (01:34-01:35) Many parents in my school.
+[29] (01:36-01:38) Read Tolugu more easily than English.
+[30] (01:39-01:41) So I add "Write it in simple Tolugu".
+[31] (01:42-01:44) Some parents ask a neighbor to read messages to them.
+[32] (01:45-01:49) Then I ask for very short sentences, which are easy to read aloud. ||
+[33] (01:50-02:00) Do not write, make it professional. Professional makes it stiffer and longer. For a parent, professional means clear and respectful, and you can ask for exactly that. ||
+[34] (02:02-02:03) Second, name the tone.
+[35] (02:04-02:05) Say it in plain words.
+[36] (02:06-02:08) Warm, respectful, not complaining.
+[37] (02:08-02:10) The AI follows it closely.
+[38] (02:11-02:17) Tone is where AI drafts go wrong most often, when the subject is a problem like weak reading.
+[39] (02:17-02:22) The AI writes like a complaint, and a parent who feels blamed does not help.
+[40] (02:22-02:25) They get defensive or they scold the child. ||
+[41] (02:26-02:31) In our draft, one line says, "Parents have not been monitoring reading at home."
+[42] (02:31-02:34) Imagine receiving that after a 12-hour shift.
+[43] (02:34-02:38) So I add, be warm and respectful, not complaining.
+[44] (02:38-02:44) The line becomes, "Your child is working hard and a little help at home goes a long way."
+[45] (02:44-02:45) Same message.
+[46] (02:45-02:47) The child needs to read at home.
+[47] (02:47-02:49) But now the parent is on our side.
+[48] (02:50-02:51) Here is a trick I use.
+[49] (02:51-02:53) I describe the tone as a person.
+[50] (02:53-02:57) Right like a kind class teacher talking to a parent at the school gate.
+[51] (02:58-03:02) The AI understands a person better than a list of adjectives.
+[52] (03:02-03:04) after the AI writes it.
+[53] (03:04-03:06) Read the message aloud once.
+[54] (03:06-03:10) If you would not say a sentence to a parent's face, remove it. ||
+[55] (03:12-03:13) Third, end with one ask.
+[56] (03:14-03:19) Decide the one thing you want parents to do and ask the AI to end with exactly that.
+[57] (03:20-03:24) Most school messages end with "kindly take necessary action."
+[58] (03:25-03:26) What action?
+[59] (03:26-03:29) The parent does not know, so nothing happens.
+[60] (03:29-03:33) A message works when the parent knows the next step, and the step is small.
+[61] (03:34-03:39) Our draft ends that way. Kindly take necessary action. So I add the last line.
+[62] (03:40-03:41) End with one request.
+[63] (03:42-03:43) 10 minutes of reading a day.
+[64] (03:43-03:44) Now it ends.
+[65] (03:45-03:48) Could you listen to them read aloud for 10 minutes each evening?
+[66] (03:49-03:51) That is something a parent can do tonight.
+[67] (03:51-03:55) Even a parent who cannot read English can listen and encourage.
+[68] (03:55-03:56) Keep it to one request.
+[69] (03:57-04:02) If you ask for reading and homework checks and a meeting and the fee, parents do none of them.
+[70] (04:03-04:04) One message, one ask.
+[71] (04:04-04:06) If you need a reply, say "How."
+[72] (04:06-04:11) For example, reply yes on WhatsApp. Then you can count who has seen it.
+[73] (04:12-04:13) and give a time.
+[74] (04:13-04:16) 10 minutes each evening is clear. Regularly is not. ||
+[75] (04:18-04:19) That is the whole method.
+[76] (04:20-04:21) Who is rating?
+[77] (04:21-04:22) The tone.
+[78] (04:22-04:23) One ask.
+[79] (04:23-04:27) Our full prompt was, "Write a message to parents about reading."
+[80] (04:28-04:30) Parents are busy and will read it on a phone.
+[81] (04:30-04:33) Be warm and respectful, not complaining.
+[82] (04:34-04:35) End with one request.
+[83] (04:35-04:40) 10 minutes of reading a day. Before you press send, read it once as apparent.
+[84] (04:40-04:43) If it sounds like a friend who cares about your child.
+[85] (04:44-04:44) Send it.
+
+Cut snippets at these lengths: about 10 seconds, about 20 seconds, about 1 minute, a whole section (2 to 5 minutes), and longer blocks of 10 and 15 minutes when the class is long enough.
+Rules:
+1. A snippet is a run of whole sentences, given as "first" and "last" sentence numbers (inclusive).
+2. It must make sense to someone who has seen nothing else: it starts where a thought starts, never mid-example,
+   and it does not open with words that point backwards ("this", "that", "so", "back to").
+3. It teaches one idea. If a run teaches two, cut two snippets.
+4. Short snippets sit inside longer ones: the 10-second point inside the 20-second explanation or the
+   1-minute example, those inside the section, the sections inside the whole class. Always include one snippet
+   that is the whole class.
+5. For every concept, try to give a 10-second, a 20-second and a 1-minute snippet, plus its section.
+6. "questions" are 3 to 6 things a learner would type or say when stuck, in their own everyday words, that this
+   snippet answers. Do not copy the teacher's sentences.
+7. "level" is "new", "some" or "often" (how much the learner has used AI). "kind" is one of
+   hook, point, why, example, tip, section, class.
+
+Answer with JSON only, in this shape:
+{"snippets": [{"first": 0, "last": 3, "kind": "example", "title": "...", "summary": "one sentence",
+  "concept": "concept-id or null", "level": "new", "roles": ["teacher"], "questions": ["...", "..."]}]}

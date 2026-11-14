@@ -1,0 +1,324 @@
+{
+ "snippets": {
+  "ws-01-0-123": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-0-13": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-3-9": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-10-12": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-14-43": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-14-15": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-14-18": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-20-37": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-38-43": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-44-65": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-44-45": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-44-47": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-50-61": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-62-65": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-66-92": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-66-67": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-66-71": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-72-87": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-88-92": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-93-117": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-93-95": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-96-102": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-103-113": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-114-117": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "ws-01-118-121": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-0-82": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-0-6": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-1-2": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-3-5": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-7-32": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-7-7": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-7-10": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-11-27": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-28-32": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-33-55": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-34-35": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-34-40": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-41-54": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-55-55": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-56-72": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-56-57": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-56-61": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-62-71": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-72-72": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "lp-01-74-82": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-0-85": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-0-9": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-2-3": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-4-8": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-10-33": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-10-11": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-10-14": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-15-32": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-33-33": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-34-54": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-34-37": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-34-40": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-41-51": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-52-54": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-55-74": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-55-56": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-55-60": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-57-72": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  },
+  "pm-01-75-85": {
+   "status": "approved",
+   "reviewer": "Claude (text check only, not listened to)",
+   "reviewed_at": "2026-11-14T09:30:00Z"
+  }
+ }
+}

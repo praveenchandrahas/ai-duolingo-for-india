@@ -1,0 +1,1412 @@
+{
+ "class": "pm-01",
+ "language": "en",
+ "duration": 285.23,
+ "engine": "whisper-small (sherpa-onnx) + silero-vad",
+ "seconds_to_transcribe": 180.2,
+ "realtime_factor": 0.632,
+ "cpus": 2,
+ "segments": [
+  {
+   "start": 0.54,
+   "end": 1.57,
+   "text": "Hello, teachers!"
+  },
+  {
+   "start": 1.94,
+   "end": 3.75,
+   "text": "Today, messages to parents."
+  },
+  {
+   "start": 4.09,
+   "end": 5.89,
+   "text": "A note to parents has to be short."
+  },
+  {
+   "start": 6.3,
+   "end": 7.27,
+   "text": "kind and clear."
+  },
+  {
+   "start": 7.83,
+   "end": 10.02,
+   "text": "An AI can draft one in seconds."
+  },
+  {
+   "start": 10.33,
+   "end": 11.49,
+   "text": "but it guesses the tone."
+  },
+  {
+   "start": 11.96,
+   "end": 13.38,
+   "text": "and it usually guesses wrong."
+  },
+  {
+   "start": 14.33,
+   "end": 16.1,
+   "text": "Ask for a message about reading."
+  },
+  {
+   "start": 16.5,
+   "end": 17.99,
+   "text": "and you get an office circular."
+  },
+  {
+   "start": 18.46,
+   "end": 19.94,
+   "text": "Dear parent or guardian"
+  },
+  {
+   "start": 20.31,
+   "end": 21.89,
+   "text": "It has been observed and so on."
+  },
+  {
+   "start": 22.33,
+   "end": 24.42,
+   "text": "Parents stop reading at the second line."
+  },
+  {
+   "start": 25.37,
+   "end": 26.72,
+   "text": "So tell it three things."
+  },
+  {
+   "start": 27.13,
+   "end": 27.94,
+   "text": "Who is rating?"
+  },
+  {
+   "start": 28.34,
+   "end": 29.44,
+   "text": "the tone you want."
+  },
+  {
+   "start": 29.78,
+   "end": 31.52,
+   "text": "and the one thing parents should do."
+  },
+  {
+   "start": 31.93,
+   "end": 34.34,
+   "text": "then read it once as apparent before you send it."
+  },
+  {
+   "start": 35.19,
+   "end": 36.39,
+   "text": "Our example today."
+  },
+  {
+   "start": 36.66,
+   "end": 40.29,
+   "text": "is a note asking parents to help with reading practice at home."
+  },
+  {
+   "start": 41.98,
+   "end": 43.78,
+   "text": "First, say who is reading and where."
+  },
+  {
+   "start": 44.18,
+   "end": 46.44,
+   "text": "A parent on a phone needs four lines."
+  },
+  {
+   "start": 46.71,
+   "end": 47.49,
+   "text": "not a circular."
+  },
+  {
+   "start": 48.38,
+   "end": 50.47,
+   "text": "The AI does not know your parents."
+  },
+  {
+   "start": 50.78,
+   "end": 54.12,
+   "text": "It does not know that most of them will open this on WhatsApp."
+  },
+  {
+   "start": 54.62,
+   "end": 57.22,
+   "text": "on a small screen on the bus home from work."
+  },
+  {
+   "start": 57.69,
+   "end": 58.76,
+   "text": "when it does not know."
+  },
+  {
+   "start": 59.16,
+   "end": 60.58,
+   "text": "It writes a formal letter."
+  },
+  {
+   "start": 60.95,
+   "end": 63.62,
+   "text": "because school letters on the internet look like that."
+  },
+  {
+   "start": 64.47,
+   "end": 65.83,
+   "text": "Here is the first prompt."
+  },
+  {
+   "start": 66.2,
+   "end": 68.32,
+   "text": "Write a message to parents about reading."
+  },
+  {
+   "start": 68.66,
+   "end": 69.96,
+   "text": "The draft begins."
+  },
+  {
+   "start": 70.33,
+   "end": 71.84,
+   "text": "Dear parent or guardian."
+  },
+  {
+   "start": 72.31,
+   "end": 76.8,
+   "text": "It has been observed that reading proficiency is below the expected standard."
+  },
+  {
+   "start": 77.18,
+   "end": 78.5,
+   "text": "Now I add one line."
+  },
+  {
+   "start": 78.9,
+   "end": 81.32,
+   "text": "Parents are busy and will read it on a phone."
+  },
+  {
+   "start": 81.66,
+   "end": 82.6,
+   "text": "I send it again."
+  },
+  {
+   "start": 83.03,
+   "end": 85.03,
+   "text": "The new message begins, Namaste."
+  },
+  {
+   "start": 85.34,
+   "end": 87.33,
+   "text": "A short note about reading this term."
+  },
+  {
+   "start": 87.67,
+   "end": 88.93,
+   "text": "It is four lines long."
+  },
+  {
+   "start": 89.53,
+   "end": 91.2,
+   "text": "No paragraphs to scroll through."
+  },
+  {
+   "start": 91.54,
+   "end": 93.54,
+   "text": "You can tell it more about the readers."
+  },
+  {
+   "start": 93.91,
+   "end": 95.43,
+   "text": "Many parents in my school."
+  },
+  {
+   "start": 95.8,
+   "end": 98.37,
+   "text": "Read Tolugu more easily than English."
+  },
+  {
+   "start": 98.71,
+   "end": 101.19,
+   "text": "So I add \"Write it in simple Tolugu\"."
+  },
+  {
+   "start": 101.53,
+   "end": 104.48,
+   "text": "Some parents ask a neighbor to read messages to them."
+  },
+  {
+   "start": 104.86,
+   "end": 107.4,
+   "text": "Then I ask for very short sentences."
+  },
+  {
+   "start": 107.7,
+   "end": 109.16,
+   "text": "which are easy to read aloud."
+  },
+  {
+   "start": 110.23,
+   "end": 112.0,
+   "text": "Do not write, make it professional."
+  },
+  {
+   "start": 112.41,
+   "end": 114.56,
+   "text": "Professional makes it stiffer and longer."
+  },
+  {
+   "start": 115.19,
+   "end": 115.68,
+   "text": "for a parent."
+  },
+  {
+   "start": 115.93,
+   "end": 118.18,
+   "text": "professional means clear and respectful."
+  },
+  {
+   "start": 118.58,
+   "end": 120.45,
+   "text": "and you can ask for exactly that."
+  },
+  {
+   "start": 122.07,
+   "end": 123.4,
+   "text": "Second, name the tone."
+  },
+  {
+   "start": 123.8,
+   "end": 125.16,
+   "text": "Say it in plain words."
+  },
+  {
+   "start": 125.53,
+   "end": 127.68,
+   "text": "Warm, respectful, not complaining."
+  },
+  {
+   "start": 128.06,
+   "end": 129.8,
+   "text": "The AI follows it closely."
+  },
+  {
+   "start": 130.68,
+   "end": 133.8,
+   "text": "Tone is where AI drafts go wrong most often."
+  },
+  {
+   "start": 134.17,
+   "end": 136.8,
+   "text": "when the subject is a problem like weak reading."
+  },
+  {
+   "start": 137.27,
+   "end": 139.14,
+   "text": "The AI writes like a complaint."
+  },
+  {
+   "start": 139.8,
+   "end": 141.99,
+   "text": "and a parent who feels blamed does not help."
+  },
+  {
+   "start": 142.46,
+   "end": 145.0,
+   "text": "They get defensive or they scold the child."
+  },
+  {
+   "start": 146.01,
+   "end": 147.88,
+   "text": "In our draft, one line says,"
+  },
+  {
+   "start": 148.25,
+   "end": 150.66,
+   "text": "Parents have not been monitoring reading at home."
+  },
+  {
+   "start": 151.0,
+   "end": 153.86,
+   "text": "Imagine receiving that after a 12-hour shift."
+  },
+  {
+   "start": 154.17,
+   "end": 156.58,
+   "text": "So I add, be warm and respectful."
+  },
+  {
+   "start": 157.21,
+   "end": 157.83,
+   "text": "not complaining."
+  },
+  {
+   "start": 158.2,
+   "end": 159.4,
+   "text": "The line becomes"
+  },
+  {
+   "start": 159.67,
+   "end": 163.65,
+   "text": "Your child is working hard and a little help at home goes a long way."
+  },
+  {
+   "start": 163.99,
+   "end": 164.93,
+   "text": "Same message."
+  },
+  {
+   "start": 165.27,
+   "end": 166.95,
+   "text": "The child needs to read at home."
+  },
+  {
+   "start": 167.35,
+   "end": 169.12,
+   "text": "But now the parent is on our side."
+  },
+  {
+   "start": 169.59,
+   "end": 170.95,
+   "text": "Here is a trick I use."
+  },
+  {
+   "start": 171.29,
+   "end": 173.09,
+   "text": "I describe the tone as a person."
+  },
+  {
+   "start": 173.46,
+   "end": 177.28,
+   "text": "Right like a kind class teacher talking to a parent at the school gate."
+  },
+  {
+   "start": 177.62,
+   "end": 181.54,
+   "text": "The AI understands a person better than a list of adjectives."
+  },
+  {
+   "start": 182.36,
+   "end": 183.94,
+   "text": "after the AI writes it."
+  },
+  {
+   "start": 184.34,
+   "end": 186.08,
+   "text": "Read the message aloud once."
+  },
+  {
+   "start": 186.42,
+   "end": 189.22,
+   "text": "If you would not say a sentence to a parent's face,"
+  },
+  {
+   "start": 189.5,
+   "end": 190.05,
+   "text": "Remove it."
+  },
+  {
+   "start": 191.7,
+   "end": 193.38,
+   "text": "Third, end with one ask."
+  },
+  {
+   "start": 193.78,
+   "end": 196.23,
+   "text": "Decide the one thing you want parents to do."
+  },
+  {
+   "start": 196.66,
+   "end": 199.33,
+   "text": "and ask the AI to end with exactly that."
+  },
+  {
+   "start": 200.18,
+   "end": 202.12,
+   "text": "Most school messages end with"
+  },
+  {
+   "start": 202.55,
+   "end": 204.42,
+   "text": "kindly take necessary action."
+  },
+  {
+   "start": 204.82,
+   "end": 205.54,
+   "text": "What action?"
+  },
+  {
+   "start": 206.04,
+   "end": 207.17,
+   "text": "The parent does not know."
+  },
+  {
+   "start": 207.38,
+   "end": 208.58,
+   "text": "so nothing happens."
+  },
+  {
+   "start": 208.92,
+   "end": 211.68,
+   "text": "A message works when the parent knows the next step."
+  },
+  {
+   "start": 212.09,
+   "end": 213.28,
+   "text": "and the step is small."
+  },
+  {
+   "start": 214.17,
+   "end": 215.46,
+   "text": "Our draft ends that way."
+  },
+  {
+   "start": 215.86,
+   "end": 217.57,
+   "text": "kindly take necessary action."
+  },
+  {
+   "start": 217.94,
+   "end": 219.36,
+   "text": "so I add the last line."
+  },
+  {
+   "start": 219.8,
+   "end": 221.22,
+   "text": "End with one request."
+  },
+  {
+   "start": 221.53,
+   "end": 223.04,
+   "text": "10 minutes of reading a day."
+  },
+  {
+   "start": 223.45,
+   "end": 224.42,
+   "text": "Now it ends."
+  },
+  {
+   "start": 224.76,
+   "end": 228.23,
+   "text": "Could you listen to them read aloud for 10 minutes each evening?"
+  },
+  {
+   "start": 228.57,
+   "end": 230.66,
+   "text": "That is something a parent can do tonight."
+  },
+  {
+   "start": 231.0,
+   "end": 234.69,
+   "text": "Even a parent who cannot read English can listen and encourage."
+  },
+  {
+   "start": 235.03,
+   "end": 236.36,
+   "text": "Keep it to one request."
+  },
+  {
+   "start": 236.7,
+   "end": 238.05,
+   "text": "If you ask for reading,"
+  },
+  {
+   "start": 238.26,
+   "end": 240.84,
+   "text": "and homework checks and a meeting and the fee"
+  },
+  {
+   "start": 241.18,
+   "end": 242.28,
+   "text": "Parents do none of them."
+  },
+  {
+   "start": 242.65,
+   "end": 244.16,
+   "text": "One message, one ask."
+  },
+  {
+   "start": 244.5,
+   "end": 246.12,
+   "text": "If you need a reply, say \"How.\""
+  },
+  {
+   "start": 246.49,
+   "end": 248.9,
+   "text": "For example, reply yes on WhatsApp."
+  },
+  {
+   "start": 249.4,
+   "end": 250.95,
+   "text": "then you can count who has seen it."
+  },
+  {
+   "start": 251.77,
+   "end": 252.61,
+   "text": "and give a time."
+  },
+  {
+   "start": 252.98,
+   "end": 254.95,
+   "text": "Ten minutes each evening is clear."
+  },
+  {
+   "start": 255.35,
+   "end": 256.48,
+   "text": "regularly is not."
+  },
+  {
+   "start": 258.23,
+   "end": 259.49,
+   "text": "That is the whole method."
+  },
+  {
+   "start": 259.93,
+   "end": 260.74,
+   "text": "Who is rating?"
+  },
+  {
+   "start": 261.14,
+   "end": 261.7,
+   "text": "The tone."
+  },
+  {
+   "start": 262.17,
+   "end": 262.98,
+   "text": "One ask."
+  },
+  {
+   "start": 263.32,
+   "end": 264.84,
+   "text": "Our full prompt was"
+  },
+  {
+   "start": 265.21,
+   "end": 267.3,
+   "text": "Write a message to parents about reading."
+  },
+  {
+   "start": 267.7,
+   "end": 268.74,
+   "text": "Parents are busy."
+  },
+  {
+   "start": 268.95,
+   "end": 270.08,
+   "text": "and we'll read it on a phone."
+  },
+  {
+   "start": 270.49,
+   "end": 272.07,
+   "text": "Be warm and respectful."
+  },
+  {
+   "start": 272.73,
+   "end": 273.16,
+   "text": "complaining."
+  },
+  {
+   "start": 273.53,
+   "end": 274.98,
+   "text": "End with one request."
+  },
+  {
+   "start": 275.29,
+   "end": 276.84,
+   "text": "10 minutes of reading a day."
+  },
+  {
+   "start": 277.14,
+   "end": 278.34,
+   "text": "before you press Send."
+  },
+  {
+   "start": 278.71,
+   "end": 280.04,
+   "text": "rid at once as apparent."
+  },
+  {
+   "start": 280.38,
+   "end": 283.2,
+   "text": "If it sounds like a friend who cares about your child."
+  },
+  {
+   "start": 283.61,
+   "end": 284.04,
+   "text": "Send it."
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.54,
+   "end": 1.57,
+   "text": "Hello, teachers!",
+   "pieces": 1,
+   "i": 0,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 1.94,
+   "end": 3.75,
+   "text": "Today, messages to parents.",
+   "pieces": 1,
+   "i": 1,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 4.09,
+   "end": 7.27,
+   "text": "A note to parents has to be short, kind, and clear.",
+   "pieces": 2,
+   "i": 2,
+   "pause_after": 0.56,
+   "at_pause": true
+  },
+  {
+   "start": 7.83,
+   "end": 13.38,
+   "text": "An AI can draft one in seconds, but it guesses the tone, and it usually guesses wrong.",
+   "pieces": 3,
+   "i": 3,
+   "pause_after": 0.95,
+   "at_pause": true
+  },
+  {
+   "start": 14.33,
+   "end": 17.99,
+   "text": "Ask for a message about reading and you get an office circular.",
+   "pieces": 2,
+   "i": 4,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 18.46,
+   "end": 21.89,
+   "text": "Dear parent or guardian, it has been observed and so on.",
+   "pieces": 2,
+   "i": 5,
+   "pause_after": 0.44,
+   "at_pause": true
+  },
+  {
+   "start": 22.33,
+   "end": 24.42,
+   "text": "Parents stop reading at the second line.",
+   "pieces": 1,
+   "i": 6,
+   "pause_after": 0.95,
+   "at_pause": true
+  },
+  {
+   "start": 25.37,
+   "end": 26.72,
+   "text": "So tell it three things.",
+   "pieces": 1,
+   "i": 7,
+   "pause_after": 0.41,
+   "at_pause": true
+  },
+  {
+   "start": 27.13,
+   "end": 34.34,
+   "text": "Who is raiding, the tone you want, and the one thing parents should do, then read it once as a parent before you send it?",
+   "pieces": 4,
+   "i": 8,
+   "pause_after": 0.85,
+   "at_pause": true
+  },
+  {
+   "start": 35.19,
+   "end": 40.29,
+   "text": "Our example today is a note asking parents to help with reading practice at home.",
+   "pieces": 2,
+   "i": 9,
+   "pause_after": 1.69,
+   "at_pause": true
+  },
+  {
+   "start": 41.98,
+   "end": 43.78,
+   "text": "First, say who is reading and where.",
+   "pieces": 1,
+   "i": 10,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 44.18,
+   "end": 47.49,
+   "text": "A parent on a phone needs four lines, not a circular.",
+   "pieces": 2,
+   "i": 11,
+   "pause_after": 0.89,
+   "at_pause": true
+  },
+  {
+   "start": 48.38,
+   "end": 50.47,
+   "text": "The AI does not know your parents.",
+   "pieces": 1,
+   "i": 12,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 50.78,
+   "end": 58.76,
+   "text": "It does not know that most of them will open this on WhatsApp, on a small screen on the bus home from work, when it does not know.",
+   "pieces": 3,
+   "i": 13,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 59.16,
+   "end": 63.62,
+   "text": "It writes a formal letter because school letters on the internet look like that.",
+   "pieces": 2,
+   "i": 14,
+   "pause_after": 0.85,
+   "at_pause": true
+  },
+  {
+   "start": 64.47,
+   "end": 65.83,
+   "text": "Here is the first prompt.",
+   "pieces": 1,
+   "i": 15,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 66.2,
+   "end": 68.32,
+   "text": "Write a message to parents about reading.",
+   "pieces": 1,
+   "i": 16,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 68.66,
+   "end": 69.96,
+   "text": "The draft begins.",
+   "pieces": 1,
+   "i": 17,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 70.33,
+   "end": 71.84,
+   "text": "Dear parent or guardian.",
+   "pieces": 1,
+   "i": 18,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 72.31,
+   "end": 76.8,
+   "text": "It has been observed that reading proficiency is below the expected standard.",
+   "pieces": 1,
+   "i": 19,
+   "pause_after": 0.38,
+   "at_pause": true
+  },
+  {
+   "start": 77.18,
+   "end": 78.5,
+   "text": "Now I add one line.",
+   "pieces": 1,
+   "i": 20,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 78.9,
+   "end": 81.32,
+   "text": "Parents are busy and will read it on a phone.",
+   "pieces": 1,
+   "i": 21,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 81.66,
+   "end": 82.6,
+   "text": "I send it again.",
+   "pieces": 1,
+   "i": 22,
+   "pause_after": 0.43,
+   "at_pause": true
+  },
+  {
+   "start": 83.03,
+   "end": 85.03,
+   "text": "The new message begins, Namaste.",
+   "pieces": 1,
+   "i": 23,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 85.34,
+   "end": 87.33,
+   "text": "A short note about reading this term.",
+   "pieces": 1,
+   "i": 24,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 87.67,
+   "end": 88.93,
+   "text": "It is four lines long.",
+   "pieces": 1,
+   "i": 25,
+   "pause_after": 0.6,
+   "at_pause": true
+  },
+  {
+   "start": 89.53,
+   "end": 91.2,
+   "text": "No paragraphs to scroll through.",
+   "pieces": 1,
+   "i": 26,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 91.54,
+   "end": 93.54,
+   "text": "You can tell it more about the readers.",
+   "pieces": 1,
+   "i": 27,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 93.91,
+   "end": 95.43,
+   "text": "Many parents in my school.",
+   "pieces": 1,
+   "i": 28,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 95.8,
+   "end": 98.37,
+   "text": "Read Tolugu more easily than English.",
+   "pieces": 1,
+   "i": 29,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 98.71,
+   "end": 101.19,
+   "text": "So I add \"Write it in simple Tolugu\".",
+   "pieces": 1,
+   "i": 30,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 101.53,
+   "end": 104.48,
+   "text": "Some parents ask a neighbor to read messages to them.",
+   "pieces": 1,
+   "i": 31,
+   "pause_after": 0.38,
+   "at_pause": true
+  },
+  {
+   "start": 104.86,
+   "end": 109.16,
+   "text": "Then I ask for very short sentences, which are easy to read aloud.",
+   "pieces": 2,
+   "i": 32,
+   "pause_after": 1.07,
+   "at_pause": true
+  },
+  {
+   "start": 110.23,
+   "end": 120.45,
+   "text": "Do not write, make it professional. Professional makes it stiffer and longer. For a parent, professional means clear and respectful, and you can ask for exactly that.",
+   "pieces": 5,
+   "i": 33,
+   "pause_after": 1.62,
+   "at_pause": true
+  },
+  {
+   "start": 122.07,
+   "end": 123.4,
+   "text": "Second, name the tone.",
+   "pieces": 1,
+   "i": 34,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 123.8,
+   "end": 125.16,
+   "text": "Say it in plain words.",
+   "pieces": 1,
+   "i": 35,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 125.53,
+   "end": 127.68,
+   "text": "Warm, respectful, not complaining.",
+   "pieces": 1,
+   "i": 36,
+   "pause_after": 0.38,
+   "at_pause": true
+  },
+  {
+   "start": 128.06,
+   "end": 129.8,
+   "text": "The AI follows it closely.",
+   "pieces": 1,
+   "i": 37,
+   "pause_after": 0.88,
+   "at_pause": true
+  },
+  {
+   "start": 130.68,
+   "end": 136.8,
+   "text": "Tone is where AI drafts go wrong most often, when the subject is a problem like weak reading.",
+   "pieces": 2,
+   "i": 38,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 137.27,
+   "end": 141.99,
+   "text": "The AI writes like a complaint, and a parent who feels blamed does not help.",
+   "pieces": 2,
+   "i": 39,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 142.46,
+   "end": 145.0,
+   "text": "They get defensive or they scold the child.",
+   "pieces": 1,
+   "i": 40,
+   "pause_after": 1.01,
+   "at_pause": true
+  },
+  {
+   "start": 146.01,
+   "end": 150.66,
+   "text": "In our draft, one line says, \"Parents have not been monitoring reading at home.\"",
+   "pieces": 2,
+   "i": 41,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 151.0,
+   "end": 153.86,
+   "text": "Imagine receiving that after a 12-hour shift.",
+   "pieces": 1,
+   "i": 42,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 154.17,
+   "end": 157.83,
+   "text": "So I add, be warm and respectful, not complaining.",
+   "pieces": 2,
+   "i": 43,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 158.2,
+   "end": 163.65,
+   "text": "The line becomes, \"Your child is working hard and a little help at home goes a long way.\"",
+   "pieces": 2,
+   "i": 44,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 163.99,
+   "end": 164.93,
+   "text": "Same message.",
+   "pieces": 1,
+   "i": 45,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 165.27,
+   "end": 166.95,
+   "text": "The child needs to read at home.",
+   "pieces": 1,
+   "i": 46,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 167.35,
+   "end": 169.12,
+   "text": "But now the parent is on our side.",
+   "pieces": 1,
+   "i": 47,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 169.59,
+   "end": 170.95,
+   "text": "Here is a trick I use.",
+   "pieces": 1,
+   "i": 48,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 171.29,
+   "end": 173.09,
+   "text": "I describe the tone as a person.",
+   "pieces": 1,
+   "i": 49,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 173.46,
+   "end": 177.28,
+   "text": "Right like a kind class teacher talking to a parent at the school gate.",
+   "pieces": 1,
+   "i": 50,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 177.62,
+   "end": 181.54,
+   "text": "The AI understands a person better than a list of adjectives.",
+   "pieces": 1,
+   "i": 51,
+   "pause_after": 0.82,
+   "at_pause": true
+  },
+  {
+   "start": 182.36,
+   "end": 183.94,
+   "text": "after the AI writes it.",
+   "pieces": 1,
+   "i": 52,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 184.34,
+   "end": 186.08,
+   "text": "Read the message aloud once.",
+   "pieces": 1,
+   "i": 53,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 186.42,
+   "end": 190.05,
+   "text": "If you would not say a sentence to a parent's face, remove it.",
+   "pieces": 2,
+   "i": 54,
+   "pause_after": 1.65,
+   "at_pause": true
+  },
+  {
+   "start": 191.7,
+   "end": 193.38,
+   "text": "Third, end with one ask.",
+   "pieces": 1,
+   "i": 55,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 193.78,
+   "end": 199.33,
+   "text": "Decide the one thing you want parents to do and ask the AI to end with exactly that.",
+   "pieces": 2,
+   "i": 56,
+   "pause_after": 0.85,
+   "at_pause": true
+  },
+  {
+   "start": 200.18,
+   "end": 204.42,
+   "text": "Most school messages end with \"kindly take necessary action.\"",
+   "pieces": 2,
+   "i": 57,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 204.82,
+   "end": 205.54,
+   "text": "What action?",
+   "pieces": 1,
+   "i": 58,
+   "pause_after": 0.5,
+   "at_pause": true
+  },
+  {
+   "start": 206.04,
+   "end": 208.58,
+   "text": "The parent does not know, so nothing happens.",
+   "pieces": 2,
+   "i": 59,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 208.92,
+   "end": 213.28,
+   "text": "A message works when the parent knows the next step, and the step is small.",
+   "pieces": 2,
+   "i": 60,
+   "pause_after": 0.89,
+   "at_pause": true
+  },
+  {
+   "start": 214.17,
+   "end": 219.36,
+   "text": "Our draft ends that way. Kindly take necessary action. So I add the last line.",
+   "pieces": 3,
+   "i": 61,
+   "pause_after": 0.44,
+   "at_pause": true
+  },
+  {
+   "start": 219.8,
+   "end": 221.22,
+   "text": "End with one request.",
+   "pieces": 1,
+   "i": 62,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 221.53,
+   "end": 223.04,
+   "text": "10 minutes of reading a day.",
+   "pieces": 1,
+   "i": 63,
+   "pause_after": 0.41,
+   "at_pause": true
+  },
+  {
+   "start": 223.45,
+   "end": 224.42,
+   "text": "Now it ends.",
+   "pieces": 1,
+   "i": 64,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 224.76,
+   "end": 228.23,
+   "text": "Could you listen to them read aloud for 10 minutes each evening?",
+   "pieces": 1,
+   "i": 65,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 228.57,
+   "end": 230.66,
+   "text": "That is something a parent can do tonight.",
+   "pieces": 1,
+   "i": 66,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 231.0,
+   "end": 234.69,
+   "text": "Even a parent who cannot read English can listen and encourage.",
+   "pieces": 1,
+   "i": 67,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 235.03,
+   "end": 236.36,
+   "text": "Keep it to one request.",
+   "pieces": 1,
+   "i": 68,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 236.7,
+   "end": 242.28,
+   "text": "If you ask for reading and homework checks and a meeting and the fee, parents do none of them.",
+   "pieces": 3,
+   "i": 69,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 242.65,
+   "end": 244.16,
+   "text": "One message, one ask.",
+   "pieces": 1,
+   "i": 70,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 244.5,
+   "end": 246.12,
+   "text": "If you need a reply, say \"How.\"",
+   "pieces": 1,
+   "i": 71,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 246.49,
+   "end": 250.95,
+   "text": "For example, reply yes on WhatsApp. Then you can count who has seen it.",
+   "pieces": 2,
+   "i": 72,
+   "pause_after": 0.82,
+   "at_pause": true
+  },
+  {
+   "start": 251.77,
+   "end": 252.61,
+   "text": "and give a time.",
+   "pieces": 1,
+   "i": 73,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 252.98,
+   "end": 256.48,
+   "text": "10 minutes each evening is clear. Regularly is not.",
+   "pieces": 2,
+   "i": 74,
+   "pause_after": 1.75,
+   "at_pause": true
+  },
+  {
+   "start": 258.23,
+   "end": 259.49,
+   "text": "That is the whole method.",
+   "pieces": 1,
+   "i": 75,
+   "pause_after": 0.44,
+   "at_pause": true
+  },
+  {
+   "start": 259.93,
+   "end": 260.74,
+   "text": "Who is rating?",
+   "pieces": 1,
+   "i": 76,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 261.14,
+   "end": 261.7,
+   "text": "The tone.",
+   "pieces": 1,
+   "i": 77,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 262.17,
+   "end": 262.98,
+   "text": "One ask.",
+   "pieces": 1,
+   "i": 78,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 263.32,
+   "end": 267.3,
+   "text": "Our full prompt was, \"Write a message to parents about reading.\"",
+   "pieces": 2,
+   "i": 79,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 267.7,
+   "end": 270.08,
+   "text": "Parents are busy and will read it on a phone.",
+   "pieces": 2,
+   "i": 80,
+   "pause_after": 0.41,
+   "at_pause": true
+  },
+  {
+   "start": 270.49,
+   "end": 273.16,
+   "text": "Be warm and respectful, not complaining.",
+   "pieces": 2,
+   "i": 81,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 273.53,
+   "end": 274.98,
+   "text": "End with one request.",
+   "pieces": 1,
+   "i": 82,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 275.29,
+   "end": 280.04,
+   "text": "10 minutes of reading a day. Before you press send, read it once as apparent.",
+   "pieces": 3,
+   "i": 83,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 280.38,
+   "end": 283.2,
+   "text": "If it sounds like a friend who cares about your child.",
+   "pieces": 1,
+   "i": 84,
+   "pause_after": 0.41,
+   "at_pause": true
+  },
+  {
+   "start": 283.61,
+   "end": 284.04,
+   "text": "Send it.",
+   "pieces": 1,
+   "i": 85,
+   "pause_after": 0.0,
+   "at_pause": true
+  }
+ ]
+}

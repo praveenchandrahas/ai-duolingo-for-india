@@ -1,0 +1,2054 @@
+{
+ "class": "ws-01",
+ "language": "en",
+ "duration": 427.35,
+ "engine": "whisper-small (sherpa-onnx) + silero-vad",
+ "seconds_to_transcribe": 274.8,
+ "realtime_factor": 0.643,
+ "cpus": 2,
+ "segments": [
+  {
+   "start": 0.54,
+   "end": 1.57,
+   "text": "Hello, teachers!"
+  },
+  {
+   "start": 1.91,
+   "end": 3.91,
+   "text": "Today we make a worksheet with AI."
+  },
+  {
+   "start": 4.28,
+   "end": 6.15,
+   "text": "Ask an AI for a worksheet."
+  },
+  {
+   "start": 6.49,
+   "end": 7.94,
+   "text": "and you get one in seconds."
+  },
+  {
+   "start": 8.28,
+   "end": 9.83,
+   "text": "but it does not know your class."
+  },
+  {
+   "start": 10.2,
+   "end": 12.29,
+   "text": "so it writes for nobody in particular."
+  },
+  {
+   "start": 13.18,
+   "end": 17.92,
+   "text": "Last year, I asked for a worksheet on photosynthesis for my class 7."
+  },
+  {
+   "start": 18.33,
+   "end": 19.94,
+   "text": "I got 24 questions."
+  },
+  {
+   "start": 20.28,
+   "end": 23.59,
+   "text": "The first one asked about light dependent reactions."
+  },
+  {
+   "start": 23.9,
+   "end": 25.51,
+   "text": "in the thylakoid membrane."
+  },
+  {
+   "start": 25.88,
+   "end": 27.24,
+   "text": "That is a college question."
+  },
+  {
+   "start": 27.61,
+   "end": 30.63,
+   "text": "My students would have closed the notebook at question one."
+  },
+  {
+   "start": 31.03,
+   "end": 32.48,
+   "text": "The AI was not wrong."
+  },
+  {
+   "start": 32.79,
+   "end": 35.17,
+   "text": "It just did not know who it was writing for."
+  },
+  {
+   "start": 36.06,
+   "end": 37.22,
+   "text": "The fix is simple."
+  },
+  {
+   "start": 37.59,
+   "end": 39.17,
+   "text": "Tell the AI three things."
+  },
+  {
+   "start": 39.54,
+   "end": 40.71,
+   "text": "who your students are."
+  },
+  {
+   "start": 41.11,
+   "end": 42.05,
+   "text": "How much you want?"
+  },
+  {
+   "start": 42.39,
+   "end": 44.26,
+   "text": "and how simple the word should be."
+  },
+  {
+   "start": 44.6,
+   "end": 46.5,
+   "text": "Same AI, same topic."
+  },
+  {
+   "start": 46.94,
+   "end": 49.09,
+   "text": "and now the worksheet fits your classroom."
+  },
+  {
+   "start": 49.94,
+   "end": 52.36,
+   "text": "In this class, we take them one at a time."
+  },
+  {
+   "start": 52.82,
+   "end": 55.46,
+   "text": "with the same photosynthesis worksheet."
+  },
+  {
+   "start": 55.77,
+   "end": 56.48,
+   "text": "at the end."
+  },
+  {
+   "start": 56.86,
+   "end": 59.17,
+   "text": "We check the worksheet before it goes to print."
+  },
+  {
+   "start": 60.79,
+   "end": 61.51,
+   "text": "Rule 1"
+  },
+  {
+   "start": 61.94,
+   "end": 63.94,
+   "text": "Tell the AI who your students are."
+  },
+  {
+   "start": 64.34,
+   "end": 65.83,
+   "text": "Say the class and the level."
+  },
+  {
+   "start": 66.2,
+   "end": 68.2,
+   "text": "and the questions come down to match."
+  },
+  {
+   "start": 69.08,
+   "end": 71.11,
+   "text": "The AI cannot see your classroom."
+  },
+  {
+   "start": 71.48,
+   "end": 75.52,
+   "text": "It does not know if you teach Class 3 or a teacher training college."
+  },
+  {
+   "start": 75.86,
+   "end": 76.96,
+   "text": "when it does not know."
+  },
+  {
+   "start": 77.56,
+   "end": 80.2,
+   "text": "It aims at the middle of everything it has read."
+  },
+  {
+   "start": 80.6,
+   "end": 82.76,
+   "text": "and most of that was written for adults."
+  },
+  {
+   "start": 83.13,
+   "end": 85.86,
+   "text": "One line about your students changes its target."
+  },
+  {
+   "start": 86.74,
+   "end": 87.59,
+   "text": "Let us try it."
+  },
+  {
+   "start": 87.99,
+   "end": 89.35,
+   "text": "Here is the first prompt."
+  },
+  {
+   "start": 89.72,
+   "end": 91.94,
+   "text": "Make a worksheet on photosynthesis."
+  },
+  {
+   "start": 92.25,
+   "end": 94.31,
+   "text": "And here is question one from the AI."
+  },
+  {
+   "start": 94.71,
+   "end": 98.82,
+   "text": "Describe the light-dependent reactions in the thylakoid membrane."
+  },
+  {
+   "start": 99.16,
+   "end": 100.61,
+   "text": "Too hard for Class 7."
+  },
+  {
+   "start": 100.98,
+   "end": 103.14,
+   "text": "Now I add one line to the prompt."
+  },
+  {
+   "start": 103.48,
+   "end": 104.71,
+   "text": "It is for Class 7."
+  },
+  {
+   "start": 105.05,
+   "end": 106.4,
+   "text": "with mixed reading levels."
+  },
+  {
+   "start": 106.74,
+   "end": 107.68,
+   "text": "I send it again."
+  },
+  {
+   "start": 108.12,
+   "end": 109.38,
+   "text": "Look at question one now."
+  },
+  {
+   "start": 109.78,
+   "end": 112.45,
+   "text": "What three things does a plant need to make food?"
+  },
+  {
+   "start": 112.98,
+   "end": 115.59,
+   "text": "That is a question my class 7 can answer."
+  },
+  {
+   "start": 115.93,
+   "end": 117.51,
+   "text": "Sunlight, water and air."
+  },
+  {
+   "start": 117.85,
+   "end": 120.07,
+   "text": "I did not ask the AI to be easy."
+  },
+  {
+   "start": 120.38,
+   "end": 122.12,
+   "text": "I did not write the word simple."
+  },
+  {
+   "start": 122.46,
+   "end": 124.29,
+   "text": "I only said who the students are."
+  },
+  {
+   "start": 124.66,
+   "end": 126.79,
+   "text": "and the level changed by itself."
+  },
+  {
+   "start": 127.1,
+   "end": 129.64,
+   "text": "if your class has children who read slowly."
+  },
+  {
+   "start": 130.01,
+   "end": 130.85,
+   "text": "Say that too."
+  },
+  {
+   "start": 131.22,
+   "end": 133.73,
+   "text": "Mixed reading levels is a useful phrase."
+  },
+  {
+   "start": 134.07,
+   "end": 137.48,
+   "text": "The AI will then mix easy and medium questions."
+  },
+  {
+   "start": 138.33,
+   "end": 140.1,
+   "text": "A common mistake here is to shout."
+  },
+  {
+   "start": 140.47,
+   "end": 141.83,
+   "text": "Teachers type important."
+  },
+  {
+   "start": 142.3,
+   "end": 144.39,
+   "text": "make it easy in capital letters."
+  },
+  {
+   "start": 144.73,
+   "end": 147.2,
+   "text": "Capital letters tell the AI nothing new."
+  },
+  {
+   "start": 147.54,
+   "end": 148.42,
+   "text": "Easy for home."
+  },
+  {
+   "start": 148.82,
+   "end": 152.2,
+   "text": "Easy for a class 10 student is hard for class 5."
+  },
+  {
+   "start": 152.57,
+   "end": 154.31,
+   "text": "Give the class not the adjective."
+  },
+  {
+   "start": 155.96,
+   "end": 156.71,
+   "text": "Rule 2"
+  },
+  {
+   "start": 157.08,
+   "end": 158.18,
+   "text": "Say how much you want."
+  },
+  {
+   "start": 158.65,
+   "end": 162.21,
+   "text": "Ask for a number of questions and ask for the answer key."
+  },
+  {
+   "start": 163.03,
+   "end": 164.36,
+   "text": "If you do not give a number"
+  },
+  {
+   "start": 164.82,
+   "end": 165.86,
+   "text": "the AI guesses."
+  },
+  {
+   "start": 166.2,
+   "end": 167.59,
+   "text": "and it likes to be generous."
+  },
+  {
+   "start": 167.93,
+   "end": 170.47,
+   "text": "It will give you 20 or 30 questions."
+  },
+  {
+   "start": 170.81,
+   "end": 172.58,
+   "text": "because more looks more helpful."
+  },
+  {
+   "start": 172.92,
+   "end": 175.3,
+   "text": "but you have one period of 40 minutes."
+  },
+  {
+   "start": 175.54,
+   "end": 177.44,
+   "text": "and you have to correct every notebook."
+  },
+  {
+   "start": 178.49,
+   "end": 179.56,
+   "text": "Back to our worksheet."
+  },
+  {
+   "start": 179.93,
+   "end": 182.34,
+   "text": "The level is right now, but look at the length."
+  },
+  {
+   "start": 182.65,
+   "end": 184.93,
+   "text": "24 questions and no answers."
+  },
+  {
+   "start": 185.27,
+   "end": 187.33,
+   "text": "so I add one more line to the prompt."
+  },
+  {
+   "start": 187.9,
+   "end": 190.08,
+   "text": "Give five questions with an answer key."
+  },
+  {
+   "start": 190.42,
+   "end": 191.14,
+   "text": "I send it."
+  },
+  {
+   "start": 191.45,
+   "end": 193.8,
+   "text": "Now there are five questions and under them."
+  },
+  {
+   "start": 194.2,
+   "end": 195.36,
+   "text": "5 answers."
+  },
+  {
+   "start": 195.7,
+   "end": 197.16,
+   "text": "That fits one period."
+  },
+  {
+   "start": 197.53,
+   "end": 200.61,
+   "text": "and the correction takes me 10 minutes instead of an hour."
+  },
+  {
+   "start": 200.98,
+   "end": 202.56,
+   "text": "you can go one step further."
+  },
+  {
+   "start": 202.9,
+   "end": 204.45,
+   "text": "Tell it the kinds of questions."
+  },
+  {
+   "start": 204.79,
+   "end": 205.54,
+   "text": "For example,"
+  },
+  {
+   "start": 205.75,
+   "end": 207.08,
+   "text": "to fill in the blanks."
+  },
+  {
+   "start": 207.45,
+   "end": 210.56,
+   "text": "two one-line answers and one diagram to label."
+  },
+  {
+   "start": 210.9,
+   "end": 213.16,
+   "text": "The AI follows that list exactly."
+  },
+  {
+   "start": 213.46,
+   "end": 215.27,
+   "text": "I often ask for the marks too."
+  },
+  {
+   "start": 215.61,
+   "end": 217.96,
+   "text": "Five questions, ten marks in total."
+  },
+  {
+   "start": 218.33,
+   "end": 221.57,
+   "text": "Then the worksheet is ready to become a small class test."
+  },
+  {
+   "start": 222.42,
+   "end": 223.36,
+   "text": "One more tip."
+  },
+  {
+   "start": 223.7,
+   "end": 226.53,
+   "text": "Always ask for the answer key in the same prompt."
+  },
+  {
+   "start": 227.03,
+   "end": 228.1,
+   "text": "If you ask later"
+  },
+  {
+   "start": 228.63,
+   "end": 231.04,
+   "text": "The AI sometimes changes the questions."
+  },
+  {
+   "start": 231.38,
+   "end": 232.29,
+   "text": "Ask once."
+  },
+  {
+   "start": 232.7,
+   "end": 235.14,
+   "text": "and you get the questions and the answers together."
+  },
+  {
+   "start": 236.79,
+   "end": 237.6,
+   "text": "Rule 3"
+  },
+  {
+   "start": 237.98,
+   "end": 239.4,
+   "text": "Ask for simple words."
+  },
+  {
+   "start": 239.74,
+   "end": 241.96,
+   "text": "Tell the AI how the language should sound."
+  },
+  {
+   "start": 242.52,
+   "end": 244.87,
+   "text": "short sentences and everyday words."
+  },
+  {
+   "start": 245.75,
+   "end": 248.04,
+   "text": "The AI learned to write from textbooks."
+  },
+  {
+   "start": 248.47,
+   "end": 249.7,
+   "text": "reports and websites."
+  },
+  {
+   "start": 250.04,
+   "end": 252.39,
+   "text": "So its natural voice sounds like a textbook."
+  },
+  {
+   "start": 252.7,
+   "end": 253.92,
+   "text": "for many of our students."
+  },
+  {
+   "start": 254.23,
+   "end": 256.68,
+   "text": "English is a second or third language."
+  },
+  {
+   "start": 257.02,
+   "end": 258.79,
+   "text": "A child may know the science."
+  },
+  {
+   "start": 259.0,
+   "end": 261.44,
+   "text": "and still get stuck on the wording of the question."
+  },
+  {
+   "start": 262.36,
+   "end": 264.68,
+   "text": "Look at the instruction line on our worksheet."
+  },
+  {
+   "start": 265.02,
+   "end": 265.7,
+   "text": "It says..."
+  },
+  {
+   "start": 266.1,
+   "end": 269.6,
+   "text": "attempt all questions with reference to the prescribed text."
+  },
+  {
+   "start": 269.91,
+   "end": 272.04,
+   "text": "No 12 year old talks like that."
+  },
+  {
+   "start": 272.38,
+   "end": 274.6,
+   "text": "So I add the third line to the prompt."
+  },
+  {
+   "start": 274.94,
+   "end": 277.64,
+   "text": "Use short sentences and everyday words."
+  },
+  {
+   "start": 278.04,
+   "end": 278.72,
+   "text": "I send it."
+  },
+  {
+   "start": 279.06,
+   "end": 280.64,
+   "text": "The instruction now says..."
+  },
+  {
+   "start": 281.02,
+   "end": 282.34,
+   "text": "Write short answers."
+  },
+  {
+   "start": 282.68,
+   "end": 283.88,
+   "text": "One line is enough."
+  },
+  {
+   "start": 284.22,
+   "end": 286.02,
+   "text": "and the questions changed as well."
+  },
+  {
+   "start": 286.36,
+   "end": 287.65,
+   "text": "before it asked."
+  },
+  {
+   "start": 287.99,
+   "end": 289.99,
+   "text": "What is the significance of chlorophyll?"
+  },
+  {
+   "start": 290.39,
+   "end": 291.33,
+   "text": "Now it asks."
+  },
+  {
+   "start": 291.61,
+   "end": 293.54,
+   "text": "What does the green color in a leaf do?"
+  },
+  {
+   "start": 293.88,
+   "end": 296.58,
+   "text": "Same idea in words a child uses."
+  },
+  {
+   "start": 296.95,
+   "end": 299.04,
+   "text": "You can also name the language level."
+  },
+  {
+   "start": 299.38,
+   "end": 300.36,
+   "text": "I sometimes write."
+  },
+  {
+   "start": 300.79,
+   "end": 303.49,
+   "text": "Use English that a Class 5 student can read."
+  },
+  {
+   "start": 304.12,
+   "end": 307.17,
+   "text": "or ask for the worksheet in Tolugu or Hindi."
+  },
+  {
+   "start": 307.58,
+   "end": 309.64,
+   "text": "if that is the language of your classroom."
+  },
+  {
+   "start": 310.49,
+   "end": 312.64,
+   "text": "Do not ask for impressive language."
+  },
+  {
+   "start": 313.02,
+   "end": 314.82,
+   "text": "Do not ask it to be professional."
+  },
+  {
+   "start": 315.22,
+   "end": 318.08,
+   "text": "Those words make the worksheet longer and stiffer."
+  },
+  {
+   "start": 318.42,
+   "end": 319.65,
+   "text": "Ask for the opposite."
+  },
+  {
+   "start": 319.99,
+   "end": 321.41,
+   "text": "Short, plain and clear."
+  },
+  {
+   "start": 323.06,
+   "end": 323.94,
+   "text": "before you print."
+  },
+  {
+   "start": 324.5,
+   "end": 325.76,
+   "text": "Check the worksheet yourself."
+  },
+  {
+   "start": 326.1,
+   "end": 327.33,
+   "text": "the AI drafts."
+  },
+  {
+   "start": 327.67,
+   "end": 328.64,
+   "text": "You are the teacher."
+  },
+  {
+   "start": 329.56,
+   "end": 331.36,
+   "text": "Here is the full prompt we built."
+  },
+  {
+   "start": 331.83,
+   "end": 334.05,
+   "text": "Make a worksheet on photosynthesis."
+  },
+  {
+   "start": 334.39,
+   "end": 335.62,
+   "text": "It is for Class 7."
+  },
+  {
+   "start": 335.99,
+   "end": 337.35,
+   "text": "with mixed reading levels."
+  },
+  {
+   "start": 337.69,
+   "end": 339.84,
+   "text": "Give five questions with an answer key."
+  },
+  {
+   "start": 340.15,
+   "end": 342.85,
+   "text": "Use short sentences and everyday words."
+  },
+  {
+   "start": 343.26,
+   "end": 344.39,
+   "text": "Four short lines."
+  },
+  {
+   "start": 344.86,
+   "end": 346.34,
+   "text": "It took me under a minute to type."
+  },
+  {
+   "start": 346.78,
+   "end": 347.75,
+   "text": "Now the checking."
+  },
+  {
+   "start": 348.15,
+   "end": 349.76,
+   "text": "First, I read the answer key."
+  },
+  {
+   "start": 350.1,
+   "end": 352.29,
+   "text": "AI makes mistakes with facts."
+  },
+  {
+   "start": 352.6,
+   "end": 354.6,
+   "text": "and it makes them with full confidence."
+  },
+  {
+   "start": 354.9,
+   "end": 356.26,
+   "text": "in one of my worksheets."
+  },
+  {
+   "start": 356.66,
+   "end": 359.65,
+   "text": "The key said plants breathe in oxygen to make food."
+  },
+  {
+   "start": 360.22,
+   "end": 360.96,
+   "text": "That is wrong."
+  },
+  {
+   "start": 361.4,
+   "end": 362.76,
+   "text": "It is carbon dioxide."
+  },
+  {
+   "start": 363.16,
+   "end": 364.1,
+   "text": "If I had printed it,"
+  },
+  {
+   "start": 364.44,
+   "end": 366.28,
+   "text": "40 children would have learned it wrong."
+  },
+  {
+   "start": 366.71,
+   "end": 368.93,
+   "text": "Second, I check against my textbook."
+  },
+  {
+   "start": 369.27,
+   "end": 372.1,
+   "text": "The AI does not know which chapter we finish."
+  },
+  {
+   "start": 372.44,
+   "end": 374.98,
+   "text": "If Question 4 is from next month's lesson"
+  },
+  {
+   "start": 375.38,
+   "end": 376.07,
+   "text": "I remove it."
+  },
+  {
+   "start": 376.41,
+   "end": 376.87,
+   "text": "Third"
+  },
+  {
+   "start": 377.21,
+   "end": 379.33,
+   "text": "I solved the worksheet once as a student."
+  },
+  {
+   "start": 379.7,
+   "end": 383.52,
+   "text": "If I need more than 15 minutes, it is too long for my class."
+  },
+  {
+   "start": 384.34,
+   "end": 385.51,
+   "text": "If something is wrong,"
+  },
+  {
+   "start": 385.85,
+   "end": 387.01,
+   "text": "you do not start again."
+  },
+  {
+   "start": 387.38,
+   "end": 389.44,
+   "text": "Just tell the AI what to change."
+  },
+  {
+   "start": 389.82,
+   "end": 392.29,
+   "text": "Question 3 is too hard make it simpler."
+  },
+  {
+   "start": 392.66,
+   "end": 393.03,
+   "text": "or"
+  },
+  {
+   "start": 393.43,
+   "end": 395.88,
+   "text": "Replace question 4 with one about sunlight."
+  },
+  {
+   "start": 396.38,
+   "end": 398.66,
+   "text": "It keeps the rest and fixes that one part."
+  },
+  {
+   "start": 400.31,
+   "end": 401.22,
+   "text": "Let us close."
+  },
+  {
+   "start": 401.59,
+   "end": 404.0,
+   "text": "Three things to tell the AI every time."
+  },
+  {
+   "start": 404.38,
+   "end": 405.57,
+   "text": "who your students are."
+  },
+  {
+   "start": 405.94,
+   "end": 406.88,
+   "text": "How much you want?"
+  },
+  {
+   "start": 407.26,
+   "end": 408.87,
+   "text": "how simple the words should be."
+  },
+  {
+   "start": 409.18,
+   "end": 410.6,
+   "text": "and one thing for you to do."
+  },
+  {
+   "start": 410.94,
+   "end": 412.16,
+   "text": "Check before you print."
+  },
+  {
+   "start": 412.5,
+   "end": 415.72,
+   "text": "Try it today with the next topic in your own syllabus."
+  },
+  {
+   "start": 416.06,
+   "end": 418.31,
+   "text": "Your first prompt will take two minutes."
+  },
+  {
+   "start": 418.68,
+   "end": 419.75,
+   "text": "by the end of the week."
+  },
+  {
+   "start": 419.96,
+   "end": 421.57,
+   "text": "it will take 30 seconds."
+  },
+  {
+   "start": 421.91,
+   "end": 422.98,
+   "text": "in the next class."
+  },
+  {
+   "start": 423.35,
+   "end": 426.15,
+   "text": "We use the same idea to plan a whole lesson."
+  }
+ ],
+ "sentences": [
+  {
+   "start": 0.54,
+   "end": 1.57,
+   "text": "Hello, teachers!",
+   "pieces": 1,
+   "i": 0,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 1.91,
+   "end": 3.91,
+   "text": "Today we make a worksheet with AI.",
+   "pieces": 1,
+   "i": 1,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 4.28,
+   "end": 12.29,
+   "text": "Ask an AI for a worksheet and you get one in seconds, but it does not know your class, so it writes for nobody in particular.",
+   "pieces": 4,
+   "i": 2,
+   "pause_after": 0.89,
+   "at_pause": true
+  },
+  {
+   "start": 13.18,
+   "end": 17.92,
+   "text": "Last year, I asked for a worksheet on photosynthesis for my class 7.",
+   "pieces": 1,
+   "i": 3,
+   "pause_after": 0.41,
+   "at_pause": true
+  },
+  {
+   "start": 18.33,
+   "end": 19.94,
+   "text": "I got 24 questions.",
+   "pieces": 1,
+   "i": 4,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 20.28,
+   "end": 25.51,
+   "text": "The first one asked about light-dependent reactions in the thylakoid membrane.",
+   "pieces": 2,
+   "i": 5,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 25.88,
+   "end": 27.24,
+   "text": "That is a college question.",
+   "pieces": 1,
+   "i": 6,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 27.61,
+   "end": 30.63,
+   "text": "My students would have closed the notebook at question one.",
+   "pieces": 1,
+   "i": 7,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 31.03,
+   "end": 32.48,
+   "text": "The AI was not wrong.",
+   "pieces": 1,
+   "i": 8,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 32.79,
+   "end": 35.17,
+   "text": "It just did not know who it was writing for.",
+   "pieces": 1,
+   "i": 9,
+   "pause_after": 0.89,
+   "at_pause": true
+  },
+  {
+   "start": 36.06,
+   "end": 37.22,
+   "text": "The fix is simple.",
+   "pieces": 1,
+   "i": 10,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 37.59,
+   "end": 44.26,
+   "text": "Tell the AI three things, who your students are, how much you want, and how simple the words should be.",
+   "pieces": 4,
+   "i": 11,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 44.6,
+   "end": 49.09,
+   "text": "Same AI, same topic, and now the worksheet fits your classroom.",
+   "pieces": 2,
+   "i": 12,
+   "pause_after": 0.85,
+   "at_pause": true
+  },
+  {
+   "start": 49.94,
+   "end": 59.17,
+   "text": "In this class, we take them one at a time, with the same photosynthesis worksheet. At the end, we check the worksheet before it goes to print.",
+   "pieces": 4,
+   "i": 13,
+   "pause_after": 1.62,
+   "at_pause": true
+  },
+  {
+   "start": 60.79,
+   "end": 63.94,
+   "text": "Rule 1. Tell the AI who your students are.",
+   "pieces": 2,
+   "i": 14,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 64.34,
+   "end": 68.2,
+   "text": "Say the class and the level, and the questions come down to match.",
+   "pieces": 2,
+   "i": 15,
+   "pause_after": 0.88,
+   "at_pause": true
+  },
+  {
+   "start": 69.08,
+   "end": 71.11,
+   "text": "The AI cannot see your classroom.",
+   "pieces": 1,
+   "i": 16,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 71.48,
+   "end": 82.76,
+   "text": "It does not know if you teach class 3 or a teacher training college. When it does not know, it aims at the middle of everything it has read, and most of that was written for adults.",
+   "pieces": 4,
+   "i": 17,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 83.13,
+   "end": 85.86,
+   "text": "One line about your students changes its target.",
+   "pieces": 1,
+   "i": 18,
+   "pause_after": 0.88,
+   "at_pause": true
+  },
+  {
+   "start": 86.74,
+   "end": 87.59,
+   "text": "Let us try it.",
+   "pieces": 1,
+   "i": 19,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 87.99,
+   "end": 89.35,
+   "text": "Here is the first prompt.",
+   "pieces": 1,
+   "i": 20,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 89.72,
+   "end": 91.94,
+   "text": "Make a worksheet on photosynthesis.",
+   "pieces": 1,
+   "i": 21,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 92.25,
+   "end": 94.31,
+   "text": "And here is question one from the AI.",
+   "pieces": 1,
+   "i": 22,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 94.71,
+   "end": 98.82,
+   "text": "Describe the light-dependent reactions in the thylakoid membrane.",
+   "pieces": 1,
+   "i": 23,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 99.16,
+   "end": 100.61,
+   "text": "Too hard for Class 7.",
+   "pieces": 1,
+   "i": 24,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 100.98,
+   "end": 103.14,
+   "text": "Now I add one line to the prompt.",
+   "pieces": 1,
+   "i": 25,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 103.48,
+   "end": 106.4,
+   "text": "It is for Class 7 with mixed reading levels.",
+   "pieces": 2,
+   "i": 26,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 106.74,
+   "end": 107.68,
+   "text": "I send it again.",
+   "pieces": 1,
+   "i": 27,
+   "pause_after": 0.44,
+   "at_pause": true
+  },
+  {
+   "start": 108.12,
+   "end": 109.38,
+   "text": "Look at question one now.",
+   "pieces": 1,
+   "i": 28,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 109.78,
+   "end": 112.45,
+   "text": "What three things does a plant need to make food?",
+   "pieces": 1,
+   "i": 29,
+   "pause_after": 0.53,
+   "at_pause": true
+  },
+  {
+   "start": 112.98,
+   "end": 115.59,
+   "text": "That is a question my class 7 can answer.",
+   "pieces": 1,
+   "i": 30,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 115.93,
+   "end": 117.51,
+   "text": "Sunlight, water and air.",
+   "pieces": 1,
+   "i": 31,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 117.85,
+   "end": 120.07,
+   "text": "I did not ask the AI to be easy.",
+   "pieces": 1,
+   "i": 32,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 120.38,
+   "end": 122.12,
+   "text": "I did not write the word simple.",
+   "pieces": 1,
+   "i": 33,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 122.46,
+   "end": 129.64,
+   "text": "I only said who the students are and the level changed by itself if your class has children who read slowly.",
+   "pieces": 3,
+   "i": 34,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 130.01,
+   "end": 130.85,
+   "text": "Say that too.",
+   "pieces": 1,
+   "i": 35,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 131.22,
+   "end": 133.73,
+   "text": "Mixed reading levels is a useful phrase.",
+   "pieces": 1,
+   "i": 36,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 134.07,
+   "end": 137.48,
+   "text": "The AI will then mix easy and medium questions.",
+   "pieces": 1,
+   "i": 37,
+   "pause_after": 0.85,
+   "at_pause": true
+  },
+  {
+   "start": 138.33,
+   "end": 140.1,
+   "text": "A common mistake here is to shout.",
+   "pieces": 1,
+   "i": 38,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 140.47,
+   "end": 144.39,
+   "text": "Teachers type important, make it easy in capital letters.",
+   "pieces": 2,
+   "i": 39,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 144.73,
+   "end": 147.2,
+   "text": "Capital letters tell the AI nothing new.",
+   "pieces": 1,
+   "i": 40,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 147.54,
+   "end": 148.42,
+   "text": "Easy for home.",
+   "pieces": 1,
+   "i": 41,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 148.82,
+   "end": 152.2,
+   "text": "Easy for a class 10 student is hard for class 5.",
+   "pieces": 1,
+   "i": 42,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 152.57,
+   "end": 154.31,
+   "text": "Give the class not the adjective.",
+   "pieces": 1,
+   "i": 43,
+   "pause_after": 1.65,
+   "at_pause": true
+  },
+  {
+   "start": 155.96,
+   "end": 158.18,
+   "text": "Rule 2. Say how much you want.",
+   "pieces": 2,
+   "i": 44,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 158.65,
+   "end": 162.21,
+   "text": "Ask for a number of questions and ask for the answer key.",
+   "pieces": 1,
+   "i": 45,
+   "pause_after": 0.82,
+   "at_pause": true
+  },
+  {
+   "start": 163.03,
+   "end": 167.59,
+   "text": "If you do not give a number, the AI guesses, and it likes to be generous.",
+   "pieces": 3,
+   "i": 46,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 167.93,
+   "end": 177.44,
+   "text": "It will give you 20 or 30 questions, because more looks more helpful. But you have one period of 40 minutes, and you have to correct every notebook.",
+   "pieces": 4,
+   "i": 47,
+   "pause_after": 1.05,
+   "at_pause": true
+  },
+  {
+   "start": 178.49,
+   "end": 179.56,
+   "text": "Back to our worksheet.",
+   "pieces": 1,
+   "i": 48,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 179.93,
+   "end": 182.34,
+   "text": "The level is right now, but look at the length.",
+   "pieces": 1,
+   "i": 49,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 182.65,
+   "end": 187.33,
+   "text": "24 questions and no answers. So I add one more line to the prompt.",
+   "pieces": 2,
+   "i": 50,
+   "pause_after": 0.57,
+   "at_pause": true
+  },
+  {
+   "start": 187.9,
+   "end": 190.08,
+   "text": "Give five questions with an answer key.",
+   "pieces": 1,
+   "i": 51,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 190.42,
+   "end": 191.14,
+   "text": "I send it.",
+   "pieces": 1,
+   "i": 52,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 191.45,
+   "end": 193.8,
+   "text": "Now there are five questions and under them.",
+   "pieces": 1,
+   "i": 53,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 194.2,
+   "end": 195.36,
+   "text": "5 answers.",
+   "pieces": 1,
+   "i": 54,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 195.7,
+   "end": 202.56,
+   "text": "That fits one period, and the correction takes me 10 minutes instead of an hour. You can go one step further.",
+   "pieces": 3,
+   "i": 55,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 202.9,
+   "end": 204.45,
+   "text": "Tell it the kinds of questions.",
+   "pieces": 1,
+   "i": 56,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 204.79,
+   "end": 210.56,
+   "text": "For example, two fill in the blanks, two one-line answers, and one diagram to label.",
+   "pieces": 3,
+   "i": 57,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 210.9,
+   "end": 213.16,
+   "text": "The AI follows that list exactly.",
+   "pieces": 1,
+   "i": 58,
+   "pause_after": 0.3,
+   "at_pause": true
+  },
+  {
+   "start": 213.46,
+   "end": 215.27,
+   "text": "I often ask for the marks too.",
+   "pieces": 1,
+   "i": 59,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 215.61,
+   "end": 217.96,
+   "text": "Five questions, ten marks in total.",
+   "pieces": 1,
+   "i": 60,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 218.33,
+   "end": 221.57,
+   "text": "Then the worksheet is ready to become a small class test.",
+   "pieces": 1,
+   "i": 61,
+   "pause_after": 0.85,
+   "at_pause": true
+  },
+  {
+   "start": 222.42,
+   "end": 223.36,
+   "text": "One more tip.",
+   "pieces": 1,
+   "i": 62,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 223.7,
+   "end": 226.53,
+   "text": "Always ask for the answer key in the same prompt.",
+   "pieces": 1,
+   "i": 63,
+   "pause_after": 0.5,
+   "at_pause": true
+  },
+  {
+   "start": 227.03,
+   "end": 231.04,
+   "text": "If you ask later, the AI sometimes changes the questions.",
+   "pieces": 2,
+   "i": 64,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 231.38,
+   "end": 235.14,
+   "text": "Ask once, and you get the questions and the answers together.",
+   "pieces": 2,
+   "i": 65,
+   "pause_after": 1.65,
+   "at_pause": true
+  },
+  {
+   "start": 236.79,
+   "end": 239.4,
+   "text": "Rule 3. Ask for simple words.",
+   "pieces": 2,
+   "i": 66,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 239.74,
+   "end": 244.87,
+   "text": "Tell the AI how the language should sound. Short sentences and everyday words.",
+   "pieces": 2,
+   "i": 67,
+   "pause_after": 0.88,
+   "at_pause": true
+  },
+  {
+   "start": 245.75,
+   "end": 249.7,
+   "text": "The AI learned to write from textbooks, reports, and websites.",
+   "pieces": 2,
+   "i": 68,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 250.04,
+   "end": 253.92,
+   "text": "So its natural voice sounds like a textbook for many of our students.",
+   "pieces": 2,
+   "i": 69,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 254.23,
+   "end": 256.68,
+   "text": "English is a second or third language.",
+   "pieces": 1,
+   "i": 70,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 257.02,
+   "end": 261.44,
+   "text": "A child may know the science and still get stuck on the wording of the question.",
+   "pieces": 2,
+   "i": 71,
+   "pause_after": 0.92,
+   "at_pause": true
+  },
+  {
+   "start": 262.36,
+   "end": 264.68,
+   "text": "Look at the instruction line on our worksheet.",
+   "pieces": 1,
+   "i": 72,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 265.02,
+   "end": 269.6,
+   "text": "It says, \"Attempt all questions with reference to the prescribed text.\"",
+   "pieces": 2,
+   "i": 73,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 269.91,
+   "end": 272.04,
+   "text": "No 12 year old talks like that.",
+   "pieces": 1,
+   "i": 74,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 272.38,
+   "end": 274.6,
+   "text": "So I add the third line to the prompt.",
+   "pieces": 1,
+   "i": 75,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 274.94,
+   "end": 277.64,
+   "text": "Use short sentences and everyday words.",
+   "pieces": 1,
+   "i": 76,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 278.04,
+   "end": 278.72,
+   "text": "I send it.",
+   "pieces": 1,
+   "i": 77,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 279.06,
+   "end": 280.64,
+   "text": "The instruction now says...",
+   "pieces": 1,
+   "i": 78,
+   "pause_after": 0.38,
+   "at_pause": true
+  },
+  {
+   "start": 281.02,
+   "end": 282.34,
+   "text": "Write short answers.",
+   "pieces": 1,
+   "i": 79,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 282.68,
+   "end": 287.65,
+   "text": "One line is enough, and the questions changed as well, before it asked.",
+   "pieces": 3,
+   "i": 80,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 287.99,
+   "end": 289.99,
+   "text": "What is the significance of chlorophyll?",
+   "pieces": 1,
+   "i": 81,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 290.39,
+   "end": 291.33,
+   "text": "Now it asks.",
+   "pieces": 1,
+   "i": 82,
+   "pause_after": 0.28,
+   "at_pause": true
+  },
+  {
+   "start": 291.61,
+   "end": 293.54,
+   "text": "What does the green color in a leaf do?",
+   "pieces": 1,
+   "i": 83,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 293.88,
+   "end": 296.58,
+   "text": "Same idea in words a child uses.",
+   "pieces": 1,
+   "i": 84,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 296.95,
+   "end": 299.04,
+   "text": "You can also name the language level.",
+   "pieces": 1,
+   "i": 85,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 299.38,
+   "end": 300.36,
+   "text": "I sometimes write.",
+   "pieces": 1,
+   "i": 86,
+   "pause_after": 0.43,
+   "at_pause": true
+  },
+  {
+   "start": 300.79,
+   "end": 309.64,
+   "text": "Use English that a Class 5 student can read. Or ask for the worksheet in Tolugu or Hindi, if that is the language of your classroom.",
+   "pieces": 3,
+   "i": 87,
+   "pause_after": 0.85,
+   "at_pause": true
+  },
+  {
+   "start": 310.49,
+   "end": 312.64,
+   "text": "Do not ask for impressive language.",
+   "pieces": 1,
+   "i": 88,
+   "pause_after": 0.38,
+   "at_pause": true
+  },
+  {
+   "start": 313.02,
+   "end": 314.82,
+   "text": "Do not ask it to be professional.",
+   "pieces": 1,
+   "i": 89,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 315.22,
+   "end": 318.08,
+   "text": "Those words make the worksheet longer and stiffer.",
+   "pieces": 1,
+   "i": 90,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 318.42,
+   "end": 319.65,
+   "text": "Ask for the opposite.",
+   "pieces": 1,
+   "i": 91,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 319.99,
+   "end": 321.41,
+   "text": "Short, plain and clear.",
+   "pieces": 1,
+   "i": 92,
+   "pause_after": 1.65,
+   "at_pause": true
+  },
+  {
+   "start": 323.06,
+   "end": 323.94,
+   "text": "before you print.",
+   "pieces": 1,
+   "i": 93,
+   "pause_after": 0.56,
+   "at_pause": true
+  },
+  {
+   "start": 324.5,
+   "end": 327.33,
+   "text": "Check the worksheet yourself, the AI drafts.",
+   "pieces": 2,
+   "i": 94,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 327.67,
+   "end": 328.64,
+   "text": "You are the teacher.",
+   "pieces": 1,
+   "i": 95,
+   "pause_after": 0.92,
+   "at_pause": true
+  },
+  {
+   "start": 329.56,
+   "end": 331.36,
+   "text": "Here is the full prompt we built.",
+   "pieces": 1,
+   "i": 96,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 331.83,
+   "end": 334.05,
+   "text": "Make a worksheet on photosynthesis.",
+   "pieces": 1,
+   "i": 97,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 334.39,
+   "end": 337.35,
+   "text": "It is for Class 7 with mixed reading levels.",
+   "pieces": 2,
+   "i": 98,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 337.69,
+   "end": 339.84,
+   "text": "Give five questions with an answer key.",
+   "pieces": 1,
+   "i": 99,
+   "pause_after": 0.31,
+   "at_pause": true
+  },
+  {
+   "start": 340.15,
+   "end": 342.85,
+   "text": "Use short sentences and everyday words.",
+   "pieces": 1,
+   "i": 100,
+   "pause_after": 0.41,
+   "at_pause": true
+  },
+  {
+   "start": 343.26,
+   "end": 344.39,
+   "text": "Four short lines.",
+   "pieces": 1,
+   "i": 101,
+   "pause_after": 0.47,
+   "at_pause": true
+  },
+  {
+   "start": 344.86,
+   "end": 346.34,
+   "text": "It took me under a minute to type.",
+   "pieces": 1,
+   "i": 102,
+   "pause_after": 0.44,
+   "at_pause": true
+  },
+  {
+   "start": 346.78,
+   "end": 347.75,
+   "text": "Now the checking.",
+   "pieces": 1,
+   "i": 103,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 348.15,
+   "end": 349.76,
+   "text": "First, I read the answer key.",
+   "pieces": 1,
+   "i": 104,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 350.1,
+   "end": 359.65,
+   "text": "AI makes mistakes with facts, and it makes them with full confidence. In one of my worksheets, the key said plants breathe in oxygen to make food.",
+   "pieces": 4,
+   "i": 105,
+   "pause_after": 0.57,
+   "at_pause": true
+  },
+  {
+   "start": 360.22,
+   "end": 360.96,
+   "text": "That is wrong.",
+   "pieces": 1,
+   "i": 106,
+   "pause_after": 0.44,
+   "at_pause": true
+  },
+  {
+   "start": 361.4,
+   "end": 362.76,
+   "text": "It is carbon dioxide.",
+   "pieces": 1,
+   "i": 107,
+   "pause_after": 0.4,
+   "at_pause": true
+  },
+  {
+   "start": 363.16,
+   "end": 366.28,
+   "text": "If I had printed it, 40 children would have learned it wrong.",
+   "pieces": 2,
+   "i": 108,
+   "pause_after": 0.43,
+   "at_pause": true
+  },
+  {
+   "start": 366.71,
+   "end": 368.93,
+   "text": "Second, I check against my textbook.",
+   "pieces": 1,
+   "i": 109,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 369.27,
+   "end": 372.1,
+   "text": "The AI does not know which chapter we finish.",
+   "pieces": 1,
+   "i": 110,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 372.44,
+   "end": 376.07,
+   "text": "If question 4 is from next month's lesson, I remove it.",
+   "pieces": 2,
+   "i": 111,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 376.41,
+   "end": 379.33,
+   "text": "Third, I solve the worksheet once as a student.",
+   "pieces": 2,
+   "i": 112,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 379.7,
+   "end": 383.52,
+   "text": "If I need more than 15 minutes, it is too long for my class.",
+   "pieces": 1,
+   "i": 113,
+   "pause_after": 0.82,
+   "at_pause": true
+  },
+  {
+   "start": 384.34,
+   "end": 387.01,
+   "text": "If something is wrong, you do not start again.",
+   "pieces": 2,
+   "i": 114,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 387.38,
+   "end": 389.44,
+   "text": "Just tell the AI what to change.",
+   "pieces": 1,
+   "i": 115,
+   "pause_after": 0.38,
+   "at_pause": true
+  },
+  {
+   "start": 389.82,
+   "end": 395.88,
+   "text": "Question 3 is too hard to make it simpler. Or, replace question 4 with one about sunlight.",
+   "pieces": 3,
+   "i": 116,
+   "pause_after": 0.5,
+   "at_pause": true
+  },
+  {
+   "start": 396.38,
+   "end": 398.66,
+   "text": "It keeps the rest and fixes that one part.",
+   "pieces": 1,
+   "i": 117,
+   "pause_after": 1.65,
+   "at_pause": true
+  },
+  {
+   "start": 400.31,
+   "end": 401.22,
+   "text": "Let us close.",
+   "pieces": 1,
+   "i": 118,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 401.59,
+   "end": 405.57,
+   "text": "Three things to tell the AI every time who your students are.",
+   "pieces": 2,
+   "i": 119,
+   "pause_after": 0.37,
+   "at_pause": true
+  },
+  {
+   "start": 405.94,
+   "end": 410.6,
+   "text": "How much you want, how simple the words should be, and one thing for you to do.",
+   "pieces": 3,
+   "i": 120,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 410.94,
+   "end": 412.16,
+   "text": "Check before you print.",
+   "pieces": 1,
+   "i": 121,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 412.5,
+   "end": 415.72,
+   "text": "Try it today with the next topic in your own syllabus.",
+   "pieces": 1,
+   "i": 122,
+   "pause_after": 0.34,
+   "at_pause": true
+  },
+  {
+   "start": 416.06,
+   "end": 426.15,
+   "text": "Your first prompt will take two minutes. By the end of the week, it will take 30 seconds. In the next class, we use the same idea to plan a whole lesson.",
+   "pieces": 5,
+   "i": 123,
+   "pause_after": 0.0,
+   "at_pause": true
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "note": "Caption corrections: sentences where the speech-to-text was wrong, fixed by hand against what was said. Times are not changed.",
+ "by": "Claude (from the lesson script)",
+ "sentences": {
+  "6": "Today's example is the first lesson on fractions for Class 5.",
+  "14": "Start: revise equivalent fractions from last year.",
+  "16": "It is Class 5's first lesson on fractions.",
+  "22": "Class 5 tells it the age.",
+  "33": "Second, give it your time limit.",
+  "35": "And it cuts the plan to fit the bell.",
+  "36": "Without a time limit,",
+  "42": "At the top it says, length: a three-day unit with an assessment.",
+  "44": "So I add, I have one 40-minute period.",
+  "46": "Now it says, length: one 40-minute period, in four steps.",
+  "47": "Five minutes to start, 15 to teach,",
+  "62": "In our plan, the activity says, a tablet quiz and a projector slideshow.",
+  "73": "So,",
+  "75": "What is in your room.",
+  "77": "It is Class 5's first lesson on fractions.",
+  "82": "The AI drafts. You decide."
+ }
+}

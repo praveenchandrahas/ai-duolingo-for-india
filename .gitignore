@@ -1,0 +1,6 @@
+models
+library/raw/_tmp/
+__pycache__/
+*.part.mp4
+*.part.m4a
+node_modules/

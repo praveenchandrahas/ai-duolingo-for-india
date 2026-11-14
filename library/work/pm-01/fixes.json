@@ -1,0 +1,23 @@
+{
+ "note": "Caption corrections: sentences where the speech-to-text was wrong, fixed by hand against what was said. Times are not changed.",
+ "by": "Claude (from the lesson script)",
+ "sentences": {
+  "8": "Who is reading, the tone you want, and the one thing parents should do. Then read it once as a parent before you send it.",
+  "13": "It does not know that most of them will open this on WhatsApp, on a small screen, on the bus home from work. When it does not know,",
+  "14": "it writes a formal letter, because school letters on the internet look like that.",
+  "23": "The new message begins, Namaste!",
+  "28": "Many parents in my school",
+  "29": "read Telugu more easily than English.",
+  "30": "So I add, write it in simple Telugu.",
+  "38": "Tone is where AI drafts go wrong most often. When the subject is a problem, like weak reading,",
+  "39": "the AI writes like a complaint. And a parent who feels blamed does not help.",
+  "50": "Write like a kind class teacher talking to a parent at the school gate.",
+  "52": "After the AI writes it,",
+  "71": "If you need a reply, say how.",
+  "73": "And give a time.",
+  "76": "Who is reading.",
+  "83": "Ten minutes of reading a day. Before you press send, read it once as a parent.",
+  "84": "If it sounds like a friend who cares about your child,",
+  "85": "send it."
+ }
+}

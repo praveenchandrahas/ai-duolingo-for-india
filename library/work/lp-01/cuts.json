@@ -1,0 +1,338 @@
+{
+ "made_by": "Claude, in the build session, from the prompt in cut_prompt.txt (the API path was not run: no key)",
+ "snippets": [
+  {
+   "first": 0,
+   "last": 82,
+   "kind": "class",
+   "title": "Full class: a lesson plan you can teach tomorrow",
+   "summary": "The whole class: three things to tell the AI for a lesson plan that fits your class, your period and your room.",
+   "concept": "lp-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me the whole class on lesson plans",
+    "how do I plan a lesson with AI from start to finish"
+   ]
+  },
+  {
+   "first": 0,
+   "last": 6,
+   "kind": "hook",
+   "title": "A lesson plan in 30 seconds",
+   "summary": "An AI drafts a plan in seconds, and the draft is only as good as what you tell it: the class, the time and the room.",
+   "concept": "lp-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what should I tell the AI to get a good lesson plan",
+    "I don't understand the task",
+    "why is the AI lesson plan not usable",
+    "what am I supposed to add"
+   ]
+  },
+  {
+   "first": 1,
+   "last": 2,
+   "kind": "point",
+   "title": "The draft is only as good as what you tell it",
+   "summary": "A plan that takes an hour by hand takes the AI 30 seconds, if you brief it well.",
+   "concept": "lp-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "is it worth using AI for lesson plans",
+    "how fast can AI write a lesson plan"
+   ]
+  },
+  {
+   "first": 3,
+   "last": 5,
+   "kind": "why",
+   "title": "Give it three things",
+   "summary": "Without details you get a three-day unit with a projector; give the class, the time and what is in your room.",
+   "concept": "lp-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what details does the AI need for a lesson plan",
+    "the lesson plan is unrealistic",
+    "what are the three things for a lesson plan"
+   ]
+  },
+  {
+   "first": 7,
+   "last": 32,
+   "kind": "section",
+   "title": "1: the class and what they already know",
+   "summary": "The rule, why it works, a worked example and a common mistake.",
+   "concept": "lp-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the plan is too advanced for my students",
+    "the plan starts in the wrong place"
+   ]
+  },
+  {
+   "first": 7,
+   "last": 7,
+   "kind": "point",
+   "title": "Say the class and what they already know",
+   "summary": "Then the plan starts in the right place.",
+   "concept": "lp-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the plan is too advanced for my students",
+    "the lesson starts at the wrong level"
+   ]
+  },
+  {
+   "first": 7,
+   "last": 10,
+   "kind": "why",
+   "title": "Why the plan starts in the wrong place",
+   "summary": "The AI cannot tell what your students have learnt, so it may revise something never taught.",
+   "concept": "lp-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the plan assumes my students know things they don't",
+    "why does it start with revision",
+    "it thinks the children have done this before"
+   ]
+  },
+  {
+   "first": 11,
+   "last": 27,
+   "kind": "example",
+   "title": "Worked example: a first lesson on fractions",
+   "summary": "Adding “It is Class 5's first lesson on fractions” changes the opening from revision to folding a paper in half.",
+   "concept": "lp-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me an example for a first lesson",
+    "my class is behind, how do I say that",
+    "my students are weak in the basics",
+    "how do I tell AI this is a new topic for the class"
+   ]
+  },
+  {
+   "first": 28,
+   "last": 32,
+   "kind": "tip",
+   "title": "“Best lesson plan ever” tells the AI nothing",
+   "summary": "Tell it about the children instead.",
+   "concept": "lp-who",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "I asked for the best lesson plan and it did not improve",
+    "does asking for the best help"
+   ]
+  },
+  {
+   "first": 33,
+   "last": 55,
+   "kind": "section",
+   "title": "2: your time limit",
+   "summary": "The rule, why it works, a worked example and a tip about timings.",
+   "concept": "lp-time",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the plan is far too long for one period",
+    "how do I fit the plan into my period"
+   ]
+  },
+  {
+   "first": 34,
+   "last": 35,
+   "kind": "point",
+   "title": "Tell the AI exactly how long you have",
+   "summary": "It cuts the plan to fit the bell.",
+   "concept": "lp-time",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the plan is far too long for one period",
+    "how do I make the plan shorter",
+    "the lesson will not finish in one period"
+   ]
+  },
+  {
+   "first": 34,
+   "last": 40,
+   "kind": "why",
+   "title": "Why the plan is too long",
+   "summary": "Without a time limit the AI plans for a school with no bell, and you would finish a third of it.",
+   "concept": "lp-time",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why did it give me a three day plan",
+    "there are too many activities for one class",
+    "I can't finish all this in a period"
+   ]
+  },
+  {
+   "first": 41,
+   "last": 54,
+   "kind": "example",
+   "title": "Worked example: one 40-minute period",
+   "summary": "Adding “I have one 40-minute period” gives four timed steps; say so if attendance takes the first five minutes.",
+   "concept": "lp-time",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me how to fit a plan into 40 minutes",
+    "how do I get timings for each step",
+    "attendance takes up my class time",
+    "my period is only 35 minutes"
+   ]
+  },
+  {
+   "first": 55,
+   "last": 55,
+   "kind": "tip",
+   "title": "Ask for the minutes next to every step",
+   "summary": "When the class runs late you can see which step to drop.",
+   "concept": "lp-time",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what do I do when the class runs late",
+    "which part of the plan can I skip"
+   ]
+  },
+  {
+   "first": 56,
+   "last": 72,
+   "kind": "section",
+   "title": "3: what is in your room",
+   "summary": "The rule, why it works, a worked example and a word on honesty.",
+   "concept": "lp-room",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "it asks for things my school doesn't have"
+   ]
+  },
+  {
+   "first": 56,
+   "last": 57,
+   "kind": "point",
+   "title": "Tell it what is in your room",
+   "summary": "List what you really have and the activities change to match.",
+   "concept": "lp-room",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "it asks for things my school doesn't have",
+    "the activities need equipment we lack"
+   ]
+  },
+  {
+   "first": 56,
+   "last": 61,
+   "kind": "why",
+   "title": "Why the AI suggests smart boards and tablets",
+   "summary": "It has read plans from well-equipped schools and does not know your room.",
+   "concept": "lp-room",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why does it suggest a projector",
+    "we do not have computers or tablets",
+    "the plan is for a rich school"
+   ]
+  },
+  {
+   "first": 62,
+   "last": 71,
+   "kind": "example",
+   "title": "Worked example: only chalk, a board and paper",
+   "summary": "Adding what you have swaps a tablet quiz for pair work with paper strips; class size, fixed benches and no printer change the plan too.",
+   "concept": "lp-room",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me an activity with no technology",
+    "I have a large class and benches that do not move",
+    "we have no printer for handouts",
+    "what can I do with only a blackboard"
+   ]
+  },
+  {
+   "first": 72,
+   "last": 72,
+   "kind": "tip",
+   "title": "Be honest about what the school lacks",
+   "summary": "The more honest the list, the more usable the plan.",
+   "concept": "lp-room",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "should I mention what we don't have",
+    "is it ok to say my school has few resources"
+   ]
+  },
+  {
+   "first": 74,
+   "last": 82,
+   "kind": "tip",
+   "title": "Recap: the full lesson-plan prompt",
+   "summary": "Three lines: the class and what they know, the time, and the room; then you decide.",
+   "concept": "lp-intro",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what does the complete lesson plan prompt look like",
+    "give me a quick summary of lesson planning",
+    "show me the final prompt for a lesson plan"
+   ]
+  }
+ ]
+}

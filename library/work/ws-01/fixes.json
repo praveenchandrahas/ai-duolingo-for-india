@@ -1,0 +1,20 @@
+{
+ "note": "Caption corrections: sentences where the speech-to-text was wrong, fixed by hand against what was said. Times are not changed.",
+ "by": "Claude (from the lesson script)",
+ "sentences": {
+  "34": "I only said who the students are, and the level changed by itself. If your class has children who read slowly,",
+  "35": "say that too.",
+  "39": "Teachers type, IMPORTANT, MAKE IT EASY, in capital letters.",
+  "41": "Easy for whom?",
+  "43": "Give the class, not the adjective.",
+  "69": "So its natural voice sounds like a textbook. For many of our students,",
+  "70": "English is a second or third language.",
+  "80": "One line is enough. And the questions changed as well. Before, it asked,",
+  "87": "Use English that a Class 5 student can read. Or ask for the worksheet in Telugu or Hindi, if that is the language of your classroom.",
+  "93": "Before you print,",
+  "94": "check the worksheet yourself. The AI drafts.",
+  "110": "The AI does not know which chapter we finished.",
+  "116": "Question 3 is too hard, make it simpler. Or, replace question 4 with one about sunlight.",
+  "119": "Three things to tell the AI every time. Who your students are."
+ }
+}

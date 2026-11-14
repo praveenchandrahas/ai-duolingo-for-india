@@ -1,0 +1,32 @@
+[
+ {
+  "id": "ws-01",
+  "title": "Worksheets that fit your class",
+  "role": "teacher",
+  "topic": "worksheets",
+  "language": "en",
+  "presenter": "Stand-in presenter",
+  "source": "library/raw/ws-01.mp4",
+  "standin": true
+ },
+ {
+  "id": "lp-01",
+  "title": "A lesson plan you can teach tomorrow",
+  "role": "teacher",
+  "topic": "lessonplans",
+  "language": "en",
+  "presenter": "Stand-in presenter",
+  "source": "library/raw/lp-01.mp4",
+  "standin": true
+ },
+ {
+  "id": "pm-01",
+  "title": "Messages parents will read",
+  "role": "teacher",
+  "topic": "parents",
+  "language": "en",
+  "presenter": "Stand-in presenter",
+  "source": "library/raw/pm-01.mp4",
+  "standin": true
+ }
+]

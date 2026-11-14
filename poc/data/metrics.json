@@ -1,0 +1,60 @@
+{
+ "built_at": "2026-11-14T09:23:51Z",
+ "library": {
+  "classes": 3,
+  "minutes": 16.6,
+  "snippets": 64,
+  "by_length": {
+   "class": 1,
+   "1m": 18,
+   "20s": 21,
+   "10s": 22,
+   "section": 2
+  },
+  "approved": 64,
+  "pending": 0,
+  "rejected": 0,
+  "clean_cut_rate": 1,
+  "sentences": 293,
+  "captions_fixed_by_hand": 47,
+  "reviewers": [
+   "Claude (text check only, not listened to)"
+  ]
+ },
+ "coverage": {
+  "concepts": 17,
+  "with_approved_snippet": 13,
+  "share": 0.765,
+  "missing": [
+   "ex-intro",
+   "ex-age",
+   "ex-example",
+   "ex-length"
+  ]
+ },
+ "processing": {
+  "engine": "whisper-small (sherpa-onnx) + silero-vad",
+  "cpus": 2,
+  "transcribe_minutes_per_hour_of_video": 38.2,
+  "cut_and_tag_input_tokens_per_hour_of_video": 23911,
+  "cut_and_tag_output_tokens_per_hour_of_video": 22406,
+  "tokens_are": "estimates (characters / 4) unless the API reported usage"
+ },
+ "delivery": {
+  "source_mb_per_hour": 56,
+  "published_video_mb_per_hour": 48.4,
+  "audio_only_mb_per_hour": 15.3,
+  "published_video_kbps": 107,
+  "audio_only_kbps": 34
+ },
+ "search": {
+  "questions": 30,
+  "top1": 29,
+  "top3": 30,
+  "top1_rate": 0.967,
+  "top3_rate": 1,
+  "unanswerable": 3,
+  "unanswerable_caught": 3,
+  "list": "library/questions.json (starter list; replace with questions from real learners)"
+ }
+}

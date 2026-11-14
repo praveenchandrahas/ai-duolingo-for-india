@@ -1,0 +1,321 @@
+{
+ "made_by": "Claude, in the build session, from the prompt in cut_prompt.txt (the API path was not run: no key)",
+ "snippets": [
+  {
+   "first": 0,
+   "last": 85,
+   "kind": "class",
+   "title": "Full class: messages parents will read",
+   "summary": "The whole class: three things to tell the AI for a note parents will read and act on.",
+   "concept": "pm-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me the whole class on messages to parents",
+    "how do I write to parents with AI from start to finish"
+   ]
+  },
+  {
+   "first": 0,
+   "last": 9,
+   "kind": "hook",
+   "title": "Messages parents will read",
+   "summary": "A note to parents must be short, kind and clear; tell the AI who is reading, the tone, and the one thing to do.",
+   "concept": "pm-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "I don't understand the task",
+    "what am I supposed to add",
+    "how do I write a message to parents with AI",
+    "why does the AI message sound wrong"
+   ]
+  },
+  {
+   "first": 2,
+   "last": 3,
+   "kind": "point",
+   "title": "The AI guesses the tone, and guesses wrong",
+   "summary": "A note to parents has to be short, kind and clear.",
+   "concept": "pm-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what makes a good message to parents",
+    "why can't I just send what the AI writes"
+   ]
+  },
+  {
+   "first": 4,
+   "last": 8,
+   "kind": "why",
+   "title": "Tell it three things",
+   "summary": "Without details you get an office circular; say who is reading, the tone, and the one thing parents should do.",
+   "concept": "pm-intro",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what details does the AI need for a parent message",
+    "what are the three things for a message"
+   ]
+  },
+  {
+   "first": 10,
+   "last": 33,
+   "kind": "section",
+   "title": "1: who is reading, and where",
+   "summary": "The rule, why it works, a worked example and what not to ask for.",
+   "concept": "pm-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "it sounds like an office circular",
+    "the message is too formal and long"
+   ]
+  },
+  {
+   "first": 10,
+   "last": 11,
+   "kind": "point",
+   "title": "Say who is reading, and where",
+   "summary": "A parent on a phone needs four lines, not a circular.",
+   "concept": "pm-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "it sounds like an office circular",
+    "the message is too long",
+    "how long should a message to parents be"
+   ]
+  },
+  {
+   "first": 10,
+   "last": 14,
+   "kind": "why",
+   "title": "Why the AI writes a formal letter",
+   "summary": "It does not know parents will read this on WhatsApp, on a small screen, on the way home.",
+   "concept": "pm-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why is the message so formal",
+    "it reads like a government notice",
+    "parents read on WhatsApp and this is too long"
+   ]
+  },
+  {
+   "first": 15,
+   "last": 32,
+   "kind": "example",
+   "title": "Worked example: written for a parent on a phone",
+   "summary": "Adding “Parents are busy and will read it on a phone” gives a four-line note; you can also ask for simple Telugu or very short sentences.",
+   "concept": "pm-who",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me how to make the message short",
+    "can I get the message in Telugu",
+    "some parents cannot read English well",
+    "some parents have messages read out to them"
+   ]
+  },
+  {
+   "first": 33,
+   "last": 33,
+   "kind": "tip",
+   "title": "Do not write “make it professional”",
+   "summary": "For a parent, professional means clear and respectful; ask for exactly that.",
+   "concept": "pm-who",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "I asked for a professional message and it got stiff",
+    "should the message be formal"
+   ]
+  },
+  {
+   "first": 34,
+   "last": 54,
+   "kind": "section",
+   "title": "2: name the tone",
+   "summary": "The rule, why it works, a worked example and a last check.",
+   "concept": "pm-tone",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the tone feels like I am blaming the parents"
+   ]
+  },
+  {
+   "first": 34,
+   "last": 37,
+   "kind": "point",
+   "title": "Name the tone",
+   "summary": "Say it in plain words: warm, respectful, not complaining.",
+   "concept": "pm-tone",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "the tone feels like I am blaming the parents",
+    "the message sounds rude",
+    "how do I make it sound kind"
+   ]
+  },
+  {
+   "first": 34,
+   "last": 40,
+   "kind": "why",
+   "title": "Why AI drafts sound like a complaint",
+   "summary": "When the subject is a problem, the AI writes a complaint, and a parent who feels blamed does not help.",
+   "concept": "pm-tone",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "why does the message sound like a complaint",
+    "parents will feel insulted by this",
+    "the message sounds harsh"
+   ]
+  },
+  {
+   "first": 41,
+   "last": 51,
+   "kind": "example",
+   "title": "Worked example: warm and respectful",
+   "summary": "One line changes “parents have not been monitoring” into “a little help at home goes a long way”; describing the tone as a person works best.",
+   "concept": "pm-tone",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me how to fix the tone",
+    "how do I describe the tone I want",
+    "how to say something difficult politely to parents"
+   ]
+  },
+  {
+   "first": 52,
+   "last": 54,
+   "kind": "tip",
+   "title": "Read it aloud once",
+   "summary": "If you would not say a sentence to a parent's face, remove it.",
+   "concept": "pm-tone",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "how do I check the message before sending",
+    "is the message ok to send"
+   ]
+  },
+  {
+   "first": 55,
+   "last": 74,
+   "kind": "section",
+   "title": "3: end with one ask",
+   "summary": "The rule, why it works, a worked example and a tip about time.",
+   "concept": "pm-ask",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "parents won't know what to do after reading it"
+   ]
+  },
+  {
+   "first": 55,
+   "last": 56,
+   "kind": "point",
+   "title": "End with one ask",
+   "summary": "Decide the one thing you want parents to do, and ask the AI to end with exactly that.",
+   "concept": "pm-ask",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "parents won't know what to do after reading it",
+    "the message has no clear request",
+    "how should the message end"
+   ]
+  },
+  {
+   "first": 55,
+   "last": 60,
+   "kind": "why",
+   "title": "Why “kindly take necessary action” does nothing",
+   "summary": "The parent does not know what action; a message works when the next step is known and small.",
+   "concept": "pm-ask",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "parents read it and nothing happens",
+    "the ending is vague",
+    "it ends with kindly do the needful"
+   ]
+  },
+  {
+   "first": 57,
+   "last": 72,
+   "kind": "example",
+   "title": "Worked example: ten minutes of reading a day",
+   "summary": "Ending with one request a parent can do tonight; ask for one thing only, and say how to reply.",
+   "concept": "pm-ask",
+   "level": "new",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "show me a good ending for the message",
+    "how do I get parents to reply",
+    "I want to ask parents for several things",
+    "what can parents who don't read English do"
+   ]
+  },
+  {
+   "first": 75,
+   "last": 85,
+   "kind": "tip",
+   "title": "Recap: the full message prompt",
+   "summary": "Who is reading, the tone, one ask; then read it once as a parent.",
+   "concept": "pm-intro",
+   "level": "some",
+   "roles": [
+    "teacher"
+   ],
+   "questions": [
+    "what does the complete message prompt look like",
+    "give me a quick summary for parent messages",
+    "show me the final prompt for a message"
+   ]
+  }
+ ]
+}

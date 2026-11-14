@@ -1,0 +1,637 @@
+{
+ "note": "The concept list and the exercises are written by a person. Snippets are tagged against these concept ids.",
+ "roles": [
+  {
+   "id": "teacher",
+   "icon": "📚",
+   "name": "School teacher"
+  },
+  {
+   "id": "marketing",
+   "icon": "📣",
+   "name": "Marketing"
+  },
+  {
+   "id": "sales",
+   "icon": "🤝",
+   "name": "Sales"
+  },
+  {
+   "id": "finance",
+   "icon": "🧾",
+   "name": "Finance & accounts"
+  },
+  {
+   "id": "hr",
+   "icon": "👥",
+   "name": "HR"
+  },
+  {
+   "id": "student",
+   "icon": "🎓",
+   "name": "College student"
+  }
+ ],
+ "levels": [
+  {
+   "id": "new",
+   "icon": "🌱",
+   "key": "lvNew",
+   "sub": "lvNewSub",
+   "explainer": "1m",
+   "plan": "New to AI: a 1-minute explainer before every exercise"
+  },
+  {
+   "id": "some",
+   "icon": "🌿",
+   "key": "lvSome",
+   "sub": "lvSomeSub",
+   "explainer": "20s",
+   "plan": "Some experience: 20-second explainers, more time on practice"
+  },
+  {
+   "id": "often",
+   "icon": "🌳",
+   "key": "lvOften",
+   "sub": "lvOftenSub",
+   "explainer": "10s",
+   "plan": "Regular user: 10-second recaps, straight to practice"
+  }
+ ],
+ "topics": [
+  {
+   "id": "worksheets",
+   "role": "teacher",
+   "icon": "📝",
+   "name": "Worksheets & question papers",
+   "intro": "ws-intro",
+   "concepts": [
+    "ws-intro",
+    "ws-who",
+    "ws-howmuch",
+    "ws-words",
+    "ws-check"
+   ],
+   "exercise": {
+    "type": "fixprompt",
+    "task": "Get a photosynthesis worksheet your Class 7 can actually do.",
+    "base": "Make a worksheet on photosynthesis.",
+    "head": "Worksheet: Photosynthesis",
+    "chips": [
+     {
+      "t": "Please make it really good.",
+      "note": "“Make it good” gave the AI nothing to work with."
+     },
+     {
+      "t": "It is for Class 7, mixed reading levels.",
+      "ok": 1,
+      "concept": "ws-who",
+      "no": "1. Describe the light-dependent reactions in the thylakoid membrane.",
+      "yes": "1. What three things does a plant need to make food?",
+      "bad": "Too hard for Class 7",
+      "good": "Right level for Class 7"
+     },
+     {
+      "t": "Give 5 questions with an answer key.",
+      "ok": 1,
+      "concept": "ws-howmuch",
+      "no": "… and 23 more questions, with no answers",
+      "yes": "… 4 more questions, with an answer key",
+      "bad": "Too long, no answer key",
+      "good": "5 questions with answers"
+     },
+     {
+      "t": "IMPORTANT!!! EASY!!!",
+      "note": "Shouting didn't help. Details do."
+     },
+     {
+      "t": "Use short sentences and everyday words.",
+      "ok": 1,
+      "concept": "ws-words",
+      "no": "Instructions: Attempt all questions with reference to the prescribed text.",
+      "yes": "Instructions: Write short answers. One line is enough.",
+      "bad": "Textbook language",
+      "good": "Simple, everyday words"
+     }
+    ]
+   }
+  },
+  {
+   "id": "lessonplans",
+   "role": "teacher",
+   "icon": "🗓️",
+   "name": "Lesson plans",
+   "intro": "lp-intro",
+   "concepts": [
+    "lp-intro",
+    "lp-who",
+    "lp-time",
+    "lp-room"
+   ],
+   "exercise": {
+    "type": "fixprompt",
+    "task": "Get a plan for tomorrow's class on fractions that you could really teach.",
+    "base": "Write a lesson plan on fractions.",
+    "head": "Lesson plan: Fractions",
+    "chips": [
+     {
+      "t": "It is Class 5's first lesson on fractions.",
+      "ok": 1,
+      "concept": "lp-who",
+      "no": "Start: Revise equivalent fractions from last year.",
+      "yes": "Start: Fold a paper in half. “This is one half.”",
+      "bad": "Assumes they already know fractions",
+      "good": "Starts from zero for Class 5"
+     },
+     {
+      "t": "Make it the best lesson plan ever.",
+      "note": "“Best ever” told the AI nothing new."
+     },
+     {
+      "t": "I have one 40-minute period.",
+      "ok": 1,
+      "concept": "lp-time",
+      "no": "Length: a 3-day unit with an assessment.",
+      "yes": "Length: one 40-minute period, in 4 steps.",
+      "bad": "Far too long",
+      "good": "Fits one period"
+     },
+     {
+      "t": "I have only chalk, a board and paper.",
+      "ok": 1,
+      "concept": "lp-room",
+      "no": "Activity: a tablet quiz and a projector slideshow.",
+      "yes": "Activity: pair work with paper strips and chalk.",
+      "bad": "Needs a projector and tablets",
+      "good": "Uses what you have"
+     },
+     {
+      "t": "Think step by step.",
+      "note": "It sounded clever and changed nothing here."
+     }
+    ]
+   }
+  },
+  {
+   "id": "parents",
+   "role": "teacher",
+   "icon": "✉️",
+   "name": "Messages to parents",
+   "intro": "pm-intro",
+   "concepts": [
+    "pm-intro",
+    "pm-who",
+    "pm-tone",
+    "pm-ask"
+   ],
+   "exercise": {
+    "type": "fixprompt",
+    "task": "Write a note asking parents to help with reading practice at home.",
+    "base": "Write a message to parents about reading.",
+    "head": "Message to parents",
+    "chips": [
+     {
+      "t": "Make it professional.",
+      "note": "“Professional” made it stiffer."
+     },
+     {
+      "t": "Parents are busy and will read it on a phone.",
+      "ok": 1,
+      "concept": "pm-who",
+      "no": "Dear Parent/Guardian, it has been observed that reading proficiency is below the expected standard.",
+      "yes": "Namaste! A short note about reading this term.",
+      "bad": "Reads like an office circular",
+      "good": "Short enough for a phone"
+     },
+     {
+      "t": "Be warm and respectful, not complaining.",
+      "ok": 1,
+      "concept": "pm-tone",
+      "no": "Parents have not been monitoring reading at home.",
+      "yes": "Your child is working hard, and a little help at home goes a long way.",
+      "bad": "Sounds like a complaint",
+      "good": "Warm and respectful"
+     },
+     {
+      "t": "Use impressive words.",
+      "note": "Impressive words are harder to read."
+     },
+     {
+      "t": "End with one request: 10 minutes of reading a day.",
+      "ok": 1,
+      "concept": "pm-ask",
+      "no": "Kindly take necessary action.",
+      "yes": "Could you listen to them read aloud for 10 minutes each evening?",
+      "bad": "No clear request",
+      "good": "One clear request"
+     }
+    ]
+   }
+  },
+  {
+   "id": "explain",
+   "role": "teacher",
+   "icon": "💡",
+   "name": "Explaining hard topics",
+   "intro": "ex-intro",
+   "concepts": [
+    "ex-intro",
+    "ex-age",
+    "ex-example",
+    "ex-length"
+   ],
+   "exercise": {
+    "type": "fixprompt",
+    "task": "Get an explanation of day and night that a Class 4 child will follow.",
+    "base": "Explain day and night.",
+    "head": "Why we have day and night",
+    "chips": [
+     {
+      "t": "It is for a 9-year-old in Class 4.",
+      "ok": 1,
+      "concept": "ex-age",
+      "no": "The Earth rotates on an axis inclined at 23.5° to its orbital plane.",
+      "yes": "The Earth is like a ball that keeps turning.",
+      "bad": "Written for adults",
+      "good": "Right for a 9-year-old"
+     },
+     {
+      "t": "Use an example from daily life.",
+      "ok": 1,
+      "concept": "ex-example",
+      "no": "The terminator line divides the illuminated hemisphere from the dark one.",
+      "yes": "Shine a torch on a ball: the bright side is day, the dark side is night.",
+      "bad": "No example, only theory",
+      "good": "Uses a torch and a ball"
+     },
+     {
+      "t": "Explain it properly.",
+      "note": "“Properly” means nothing to an AI."
+     },
+     {
+      "t": "Be very detailed.",
+      "note": "“Very detailed” made it longer, not clearer."
+     },
+     {
+      "t": "Keep it to 4 short sentences.",
+      "ok": 1,
+      "concept": "ex-length",
+      "no": "(continues for a full page)",
+      "yes": "(4 sentences in total)",
+      "bad": "Too long to use in class",
+      "good": "Four short sentences"
+     }
+    ]
+   }
+  }
+ ],
+ "concepts": [
+  {
+   "id": "ws-intro",
+   "topic": "worksheets",
+   "title": "Why the first worksheet never fits",
+   "q": "I don't understand what I am supposed to add.",
+   "prereq": []
+  },
+  {
+   "id": "ws-who",
+   "topic": "worksheets",
+   "title": "Tell the AI who your students are",
+   "q": "The questions are too hard for my class.",
+   "prereq": [
+    "ws-intro"
+   ],
+   "check": {
+    "stem": "You ask for a worksheet on the water cycle. The questions come back far too hard for your Class 4. What do you add to the prompt?",
+    "options": [
+     {
+      "t": "PLEASE MAKE IT EASY!!!",
+      "ok": false,
+      "why": "Easy for whom? Capital letters tell the AI nothing new."
+     },
+     {
+      "t": "It is for Class 4, and this is their first time with the topic.",
+      "ok": true,
+      "why": "One line about the students moves the level of every question."
+     },
+     {
+      "t": "Make it the best worksheet possible.",
+      "ok": false,
+      "why": "“Best” does not tell the AI who it is writing for."
+     }
+    ]
+   }
+  },
+  {
+   "id": "ws-howmuch",
+   "topic": "worksheets",
+   "title": "Say how much you want",
+   "q": "There are far too many questions, and no answers.",
+   "prereq": [
+    "ws-intro"
+   ],
+   "check": {
+    "stem": "The AI returns 28 questions and no answers. You have one period. What do you add?",
+    "options": [
+     {
+      "t": "Give six questions with an answer key.",
+      "ok": true,
+      "why": "A number, and the key in the same prompt. The AI stops guessing."
+     },
+     {
+      "t": "Keep it short.",
+      "ok": false,
+      "why": "Short compared to what? The AI still has to guess. Give a number."
+     },
+     {
+      "t": "Do not give too many questions.",
+      "ok": false,
+      "why": "How many is too many? Give a number."
+     }
+    ]
+   }
+  },
+  {
+   "id": "ws-words",
+   "topic": "worksheets",
+   "title": "Ask for simple words",
+   "q": "The language is too difficult for my students.",
+   "prereq": [
+    "ws-intro"
+   ],
+   "check": {
+    "stem": "Your students know the science but trip on the wording of the questions. What do you add?",
+    "options": [
+     {
+      "t": "Use professional language.",
+      "ok": false,
+      "why": "“Professional” makes it longer and stiffer."
+     },
+     {
+      "t": "Explain every question in detail.",
+      "ok": false,
+      "why": "That gives them more words to trip on."
+     },
+     {
+      "t": "Use short sentences and everyday words.",
+      "ok": true,
+      "why": "Say how the language should sound and the AI rewrites everything that way."
+     }
+    ]
+   }
+  },
+  {
+   "id": "ws-check",
+   "topic": "worksheets",
+   "title": "Check it before you print",
+   "q": "Can I trust the answer key?",
+   "prereq": [
+    "ws-who",
+    "ws-howmuch",
+    "ws-words"
+   ],
+   "check": {
+    "stem": "The worksheet looks right. What do you do before printing 40 copies?",
+    "options": [
+     {
+      "t": "Print it. The AI is usually right.",
+      "ok": false,
+      "why": "AI makes mistakes with facts, and it makes them with full confidence."
+     },
+     {
+      "t": "Read the answer key and solve the worksheet once yourself.",
+      "ok": true,
+      "why": "The AI drafts. The check has to be yours."
+     },
+     {
+      "t": "Ask the AI if it is sure.",
+      "ok": false,
+      "why": "It will say yes. The check has to be yours."
+     }
+    ]
+   }
+  },
+  {
+   "id": "lp-intro",
+   "topic": "lessonplans",
+   "title": "A lesson plan in 30 seconds",
+   "q": "I don't understand what I am supposed to add.",
+   "prereq": []
+  },
+  {
+   "id": "lp-who",
+   "topic": "lessonplans",
+   "title": "Say the class and what they already know",
+   "q": "The plan is too advanced for my students.",
+   "prereq": [
+    "lp-intro"
+   ],
+   "check": {
+    "stem": "The plan opens with “revise last year's decimals”. Your class has never met decimals. What do you add?",
+    "options": [
+     {
+      "t": "It is Class 5's first lesson on decimals.",
+      "ok": true,
+      "why": "The class gives the age. “First lesson” gives the starting point. You need both."
+     },
+     {
+      "t": "Make it the best lesson plan ever.",
+      "ok": false,
+      "why": "“Best ever” tells the AI nothing new."
+     },
+     {
+      "t": "Add more revision.",
+      "ok": false,
+      "why": "There is nothing to revise yet. Say where the class really is."
+     }
+    ]
+   }
+  },
+  {
+   "id": "lp-time",
+   "topic": "lessonplans",
+   "title": "Give it your time limit",
+   "q": "The plan is far too long for one period.",
+   "prereq": [
+    "lp-intro"
+   ],
+   "check": {
+    "stem": "The plan is a five-day unit. You have one period tomorrow. What do you add?",
+    "options": [
+     {
+      "t": "Make it shorter.",
+      "ok": false,
+      "why": "Shorter than what? Give the minutes."
+     },
+     {
+      "t": "Remove the homework.",
+      "ok": false,
+      "why": "That trims one item. The plan still does not fit a period."
+     },
+     {
+      "t": "I have one 40-minute period. Put the minutes next to each step.",
+      "ok": true,
+      "why": "With an exact limit, the AI cuts the plan to fit the bell."
+     }
+    ]
+   }
+  },
+  {
+   "id": "lp-room",
+   "topic": "lessonplans",
+   "title": "Tell it what is in your room",
+   "q": "It asks for things my school doesn't have.",
+   "prereq": [
+    "lp-intro"
+   ],
+   "check": {
+    "stem": "The activity needs a projector and tablets. Your room has a blackboard. What do you add?",
+    "options": [
+     {
+      "t": "Use modern teaching methods.",
+      "ok": false,
+      "why": "That invites even more gadgets."
+     },
+     {
+      "t": "I have only chalk, a board and paper, and 45 students.",
+      "ok": true,
+      "why": "List what you really have and the activities change to match."
+     },
+     {
+      "t": "Make the activity fun.",
+      "ok": false,
+      "why": "Fun, but still on tablets. Say what you have."
+     }
+    ]
+   }
+  },
+  {
+   "id": "pm-intro",
+   "topic": "parents",
+   "title": "Messages parents will read",
+   "q": "I don't understand what I am supposed to add.",
+   "prereq": []
+  },
+  {
+   "id": "pm-who",
+   "topic": "parents",
+   "title": "Say who is reading, and where",
+   "q": "It sounds like an office circular.",
+   "prereq": [
+    "pm-intro"
+   ],
+   "check": {
+    "stem": "The draft is a long formal letter. Most parents will see it on WhatsApp. What do you add?",
+    "options": [
+     {
+      "t": "Make it professional.",
+      "ok": false,
+      "why": "“Professional” makes it stiffer and longer."
+     },
+     {
+      "t": "Parents are busy and will read it on a phone. Keep it to four lines.",
+      "ok": true,
+      "why": "Tell the AI who is reading and on what."
+     },
+     {
+      "t": "Add a proper subject line and a reference number.",
+      "ok": false,
+      "why": "That makes it even more of a circular."
+     }
+    ]
+   }
+  },
+  {
+   "id": "pm-tone",
+   "topic": "parents",
+   "title": "Name the tone",
+   "q": "The tone feels like I am blaming the parents.",
+   "prereq": [
+    "pm-intro"
+   ],
+   "check": {
+    "stem": "One line in the draft says “parents are not checking homework”. What do you add?",
+    "options": [
+     {
+      "t": "Be strict, so parents take it seriously.",
+      "ok": false,
+      "why": "A parent who feels blamed gets defensive, or scolds the child."
+     },
+     {
+      "t": "Use impressive words.",
+      "ok": false,
+      "why": "Harder to read, and the blame is still there."
+     },
+     {
+      "t": "Be warm and respectful, not complaining.",
+      "ok": true,
+      "why": "Say the tone in plain words and the AI follows it closely."
+     }
+    ]
+   }
+  },
+  {
+   "id": "pm-ask",
+   "topic": "parents",
+   "title": "End with one ask",
+   "q": "Parents won't know what to do after reading it.",
+   "prereq": [
+    "pm-intro"
+   ],
+   "check": {
+    "stem": "The message ends “kindly take necessary action”. What do you add?",
+    "options": [
+     {
+      "t": "End with one request: sign the diary every Friday.",
+      "ok": true,
+      "why": "One small, clear step that a parent can do."
+     },
+     {
+      "t": "End politely.",
+      "ok": false,
+      "why": "Polite, but the parent still does not know what to do."
+     },
+     {
+      "t": "List everything parents should do this term.",
+      "ok": false,
+      "why": "Ask for five things and none of them get done."
+     }
+    ]
+   }
+  },
+  {
+   "id": "ex-intro",
+   "topic": "explain",
+   "title": "An explanation your students can follow",
+   "q": "I don't understand what I am supposed to add.",
+   "prereq": []
+  },
+  {
+   "id": "ex-age",
+   "topic": "explain",
+   "title": "Say the child's age",
+   "q": "The explanation is too difficult for children.",
+   "prereq": [
+    "ex-intro"
+   ]
+  },
+  {
+   "id": "ex-example",
+   "topic": "explain",
+   "title": "Ask for an everyday example",
+   "q": "It is all theory, with no example.",
+   "prereq": [
+    "ex-intro"
+   ]
+  },
+  {
+   "id": "ex-length",
+   "topic": "explain",
+   "title": "Set the length",
+   "q": "The answer is too long to use in class.",
+   "prereq": [
+    "ex-intro"
+   ]
+  }
+ ]
+}

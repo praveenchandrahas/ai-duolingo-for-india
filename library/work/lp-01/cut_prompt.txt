@@ -1,0 +1,118 @@
+You are preparing a recorded class for a micro-learning app. A real teacher is speaking. Learners will
+watch short snippets of this class, and when a learner is stuck the app plays the shortest snippet that answers
+their question. Your job is to choose where the snippets start and end and to describe each one. You never rewrite
+or summarise what the teacher teaches; you only pick sentences.
+
+CLASS: A lesson plan you can teach tomorrow
+ROLE THE CLASS IS FOR: School teacher
+LANGUAGE: en
+
+CONCEPTS this track teaches (use these ids; use null only if a snippet truly fits none):
+- lp-intro: A lesson plan in 30 seconds
+- lp-who: Say the class and what they already know
+- lp-time: Give it your time limit
+- lp-room: Tell it what is in your room
+
+TRANSCRIPT, one sentence per line as [number] (start-end) text. "||" marks a long pause after the sentence.
+[0] (00:01-00:02) Hello again, teachers.
+[1] (00:02-00:05) A good lesson plan takes about an hour to write.
+[2] (00:05-00:11) An AI can draft one in 30 seconds, but the draft is only as good as what you tell it.
+[3] (00:12-00:21) Ask for a lesson plan on fractions and you may get a three-day unit with a projector, tablets and revision of things your class never learned. ||
+[4] (00:22-00:28) So give it three things, the class and what they already know, the time you have and what is in your room.
+[5] (00:28-00:31) Then you fix the draft because you are the teacher.
+[6] (00:32-00:36) Today's example is the first lesson on fractions for Class V. ||
+[7] (00:38-00:43) First, say the class and what they already know. Then the plan starts in the right place.
+[8] (00:44-00:47) The AI cannot tell what your students have learned.
+[9] (00:47-00:52) If you only say fractions, it may assume they met fractions last year.
+[10] (00:52-00:55) It will start with revision of something that was never taught.
+[11] (00:56-00:57) Here is my first prompt.
+[12] (00:58-01:00) Write a lesson plan on fractions.
+[13] (01:00-01:02) The plan begins like this.
+[14] (01:02-01:05) Start Revise Equivalent Fractions from Last Year.
+[15] (01:06-01:10) My class 5 has never seen a fraction, so I add one line.
+[16] (01:10-01:13) It is class 5 first lesson on fraction.
+[17] (01:13-01:14) Now the plan begins.
+[18] (01:15-01:16) Fold a paper in half.
+[19] (01:16-01:17) This is one half.
+[20] (01:18-01:22) That is where a first lesson should begin, with something the children can hold.
+[21] (01:23-01:24) Notice the two parts of that line.
+[22] (01:25-01:27) Class 5 tells at the age.
+[23] (01:27-01:29) First lesson tells it the starting point.
+[24] (01:29-01:30) You need both.
+[25] (01:31-01:33) If your class is behind, say so.
+[26] (01:33-01:36) For example, most of them still find division hard.
+[27] (01:37-01:39) The plan will slow down and add practice. ||
+[28] (01:40-01:42) A common mistake is to write.
+[29] (01:42-01:44) Make it the best lesson plan ever!
+[30] (01:45-01:47) Best ever tells the AI nothing new.
+[31] (01:47-01:49) It was already trying its best.
+[32] (01:49-01:51) Tell it about the children instead. ||
+[33] (01:53-01:54) and give it your time limit.
+[34] (01:55-01:57) Tell the AI exactly how long you have.
+[35] (01:58-02:00) and it cuts the plan to fit the bell.
+[36] (02:01-02:02) without a time limit.
+[37] (02:02-02:05) The AI plans for an ideal school with no bell.
+[38] (02:05-02:11) You get an introduction, three activities, group work, a quiz and homework review.
+[39] (02:11-02:12) On paper it is lovely.
+[40] (02:13-02:15) In a real period, you would finish a third of it.
+[41] (02:16-02:17) Look at our fractions plan.
+[42] (02:18-02:22) At the top it says "Length" a three-day unit with an assessment.
+[43] (02:22-02:23) I have one period.
+[44] (02:24-02:27) So I add, I have one 40 minute period.
+[45] (02:27-02:28) I send it again.
+[46] (02:28-02:32) Now it says, "Length, 140 minute period in 4 steps."
+[47] (02:33-02:35) Five minutes to start. 15 to teach.
+[48] (02:36-02:38) 15 to practice, 5 to close.
+[49] (02:38-02:41) Every step has its minutes written next to it.
+[50] (02:41-02:44) That is a plan I can follow with a clock on the wall.
+[51] (02:44-02:47) If you lose time to attendance, tell it that too.
+[52] (02:47-02:48) I write.
+[53] (02:48-02:50) The first five minutes go to attendance.
+[54] (02:51-02:54) It then plans for 35 minutes, which is the truth.
+[55] (02:55-03:02) Ask for the minutes next to every step. Then, when the class runs late, you can see at a glance which step to drop. ||
+[56] (03:04-03:06) Third, tell it what is in your room.
+[57] (03:06-03:10) List what you really have and the activities change to match.
+[58] (03:11-03:18) The AI has read thousands of lesson plans from schools with smart boards and one tablet for each child.
+[59] (03:19-03:20) So that is what it suggests.
+[60] (03:21-03:22) It is not showing off.
+[61] (03:22-03:24) It simply does not know your room.
+[62] (03:25-03:30) In our plan, the activity says, "A tablet, quiz, and a projector slideshow."
+[63] (03:30-03:33) My school has neither, so I add the third line.
+[64] (03:34-03:36) I have only chalk, a board, and paper.
+[65] (03:36-03:40) Now, the activity is pair work with paper strips and chalk.
+[66] (03:40-03:45) Each pair folds a strip into halves, then quarters and writes the fraction on it.
+[67] (03:46-03:51) That costs nothing and I can do it tomorrow morning. You can list other things as well.
+[68] (03:51-03:53) 45 students in the room.
+[69] (03:53-03:55) Benches that do not move.
+[70] (03:55-03:56) No printer.
+[71] (03:56-04:06) Each of these changes the plan. With fixed benches, it stops asking for circles and group corners. With no printer, it stops asking for handouts.
+[72] (04:07-04:15) Do not be shy about what your school lacks. The AI is not judging. The more honest the list, the more usable the plan. ||
+[73] (04:17-04:17) So...
+[74] (04:18-04:23) Three lines for every lesson plan. The class and what they know. The time you have.
+[75] (04:23-04:24) What is in your room?
+[76] (04:25-04:28) Our full prompt was, write a lesson plan on fractions.
+[77] (04:29-04:31) It is class 5 first lesson on fraction.
+[78] (04:31-04:33) I have one 40-minute period.
+[79] (04:34-04:36) I have only chalk, a board, and paper.
+[80] (04:36-04:37) Read the draft once.
+[81] (04:38-04:41) Change what does not suit your children and it is ready.
+[82] (04:41-04:44) The AI Drafts You Decide
+
+Cut snippets at these lengths: about 10 seconds, about 20 seconds, about 1 minute, a whole section (2 to 5 minutes), and longer blocks of 10 and 15 minutes when the class is long enough.
+Rules:
+1. A snippet is a run of whole sentences, given as "first" and "last" sentence numbers (inclusive).
+2. It must make sense to someone who has seen nothing else: it starts where a thought starts, never mid-example,
+   and it does not open with words that point backwards ("this", "that", "so", "back to").
+3. It teaches one idea. If a run teaches two, cut two snippets.
+4. Short snippets sit inside longer ones: the 10-second point inside the 20-second explanation or the
+   1-minute example, those inside the section, the sections inside the whole class. Always include one snippet
+   that is the whole class.
+5. For every concept, try to give a 10-second, a 20-second and a 1-minute snippet, plus its section.
+6. "questions" are 3 to 6 things a learner would type or say when stuck, in their own everyday words, that this
+   snippet answers. Do not copy the teacher's sentences.
+7. "level" is "new", "some" or "often" (how much the learner has used AI). "kind" is one of
+   hook, point, why, example, tip, section, class.
+
+Answer with JSON only, in this shape:
+{"snippets": [{"first": 0, "last": 3, "kind": "example", "title": "...", "summary": "one sentence",
+  "concept": "concept-id or null", "level": "new", "roles": ["teacher"], "questions": ["...", "..."]}]}

@@ -1,0 +1,680 @@
+[
+ {
+  "id": "ws-01-0-123",
+  "class": "ws-01",
+  "s0": 0,
+  "s1": 123,
+  "start": 0.39,
+  "end": 426.4,
+  "dur": 426.01,
+  "bucket": "class",
+  "kind": "class",
+  "title": "Full class: worksheets that fit your class",
+  "summary": "The whole class: three things to tell the AI for a worksheet, and how to check it before printing.",
+  "concept": "ws-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "show me the whole class on worksheets",
+   "I want to see the full lesson again",
+   "how do I make a worksheet with AI from start to finish"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": null
+ },
+ {
+  "id": "ws-01-0-13",
+  "class": "ws-01",
+  "s0": 0,
+  "s1": 13,
+  "start": 0.39,
+  "end": 59.42,
+  "dur": 59.03,
+  "bucket": "1m",
+  "kind": "hook",
+  "title": "Why the first worksheet never fits",
+  "summary": "An AI writes a worksheet in seconds, but for nobody in particular, until you tell it three things.",
+  "concept": "ws-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "why is the worksheet from AI so generic",
+   "what am I supposed to add to the prompt",
+   "I don't understand the task",
+   "why did AI give me a useless worksheet"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-0-123"
+ },
+ {
+  "id": "ws-01-3-9",
+  "class": "ws-01",
+  "s0": 3,
+  "s1": 9,
+  "start": 13.03,
+  "end": 35.42,
+  "dur": 22.39,
+  "bucket": "20s",
+  "kind": "why",
+  "title": "What the AI gives you when it knows nothing",
+  "summary": "A worksheet asked for with no details came back with 24 college-level questions.",
+  "concept": "ws-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "why are the AI's questions not for my class",
+   "AI worksheet does not suit my students",
+   "what goes wrong if I just ask for a worksheet"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-0-13"
+ },
+ {
+  "id": "ws-01-10-12",
+  "class": "ws-01",
+  "s0": 10,
+  "s1": 12,
+  "start": 35.91,
+  "end": 49.34,
+  "dur": 13.43,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "Tell the AI three things",
+  "summary": "Who your students are, how much you want, and how simple the words should be.",
+  "concept": "ws-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "what should I tell the AI",
+   "what details do I add to my prompt",
+   "what are the three things"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-0-13"
+ },
+ {
+  "id": "ws-01-14-43",
+  "class": "ws-01",
+  "s0": 14,
+  "s1": 43,
+  "start": 60.64,
+  "end": 154.56,
+  "dur": 93.92,
+  "bucket": "1m",
+  "kind": "section",
+  "title": "Rule 1: say who your students are",
+  "summary": "The rule, why it works, a worked example and a common mistake.",
+  "concept": "ws-who",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "the questions are too hard for my class",
+   "how do I get questions at the right level",
+   "the worksheet is too advanced"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-0-123"
+ },
+ {
+  "id": "ws-01-14-18",
+  "class": "ws-01",
+  "s0": 14,
+  "s1": 18,
+  "start": 60.64,
+  "end": 86.11,
+  "dur": 25.47,
+  "bucket": "20s",
+  "kind": "why",
+  "title": "Why the AI needs to know your students",
+  "summary": "The AI cannot see your classroom, so it aims at adults unless you say who the students are.",
+  "concept": "ws-who",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "why does AI give difficult questions",
+   "the questions are too hard for my students",
+   "AI wrote college level questions for school children",
+   "the worksheet is too tough for my kids"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-14-43"
+ },
+ {
+  "id": "ws-01-14-15",
+  "class": "ws-01",
+  "s0": 14,
+  "s1": 15,
+  "start": 60.64,
+  "end": 68.45,
+  "dur": 7.81,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "Tell the AI who your students are",
+  "summary": "Say the class and the level, and the questions come down to match.",
+  "concept": "ws-who",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "the questions are too hard for my class",
+   "how to make the worksheet easier",
+   "the level is wrong for my students"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-14-18"
+ },
+ {
+  "id": "ws-01-20-37",
+  "class": "ws-01",
+  "s0": 20,
+  "s1": 37,
+  "start": 87.84,
+  "end": 137.73,
+  "dur": 49.89,
+  "bucket": "1m",
+  "kind": "example",
+  "title": "Worked example: add the class to the prompt",
+  "summary": "Adding “It is for Class 7, with mixed reading levels” turns a college question into one Class 7 can answer.",
+  "concept": "ws-who",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "show me an example of fixing a hard worksheet",
+   "what exactly do I type to make it suit class 7",
+   "my class has slow readers",
+   "how do I mention mixed levels in my class"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-14-43"
+ },
+ {
+  "id": "ws-01-38-43",
+  "class": "ws-01",
+  "s0": 38,
+  "s1": 43,
+  "start": 138.18,
+  "end": 154.56,
+  "dur": 16.38,
+  "bucket": "20s",
+  "kind": "tip",
+  "title": "Give the class, not the adjective",
+  "summary": "Writing EASY in capitals tells the AI nothing: easy for whom?",
+  "concept": "ws-who",
+  "level": "some",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "I wrote make it easy but it is still hard",
+   "does writing in capital letters help",
+   "I said IMPORTANT and nothing changed"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-14-43"
+ },
+ {
+  "id": "ws-01-44-65",
+  "class": "ws-01",
+  "s0": 44,
+  "s1": 65,
+  "start": 155.81,
+  "end": 235.39,
+  "dur": 79.58,
+  "bucket": "1m",
+  "kind": "section",
+  "title": "Rule 2: say how much you want",
+  "summary": "The rule, why it works, a worked example and a tip about the answer key.",
+  "concept": "ws-howmuch",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "there are far too many questions",
+   "there are no answers",
+   "how do I control the length of the worksheet"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-0-123"
+ },
+ {
+  "id": "ws-01-44-47",
+  "class": "ws-01",
+  "s0": 44,
+  "s1": 47,
+  "start": 155.81,
+  "end": 177.69,
+  "dur": 21.88,
+  "bucket": "20s",
+  "kind": "why",
+  "title": "Why the AI gives too many questions",
+  "summary": "With no number, the AI guesses and gives 20 or 30 questions, more than one period can hold.",
+  "concept": "ws-howmuch",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "why did it give me so many questions",
+   "it gave 30 questions and I need only a few",
+   "the worksheet does not fit in one period"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-44-65"
+ },
+ {
+  "id": "ws-01-44-45",
+  "class": "ws-01",
+  "s0": 44,
+  "s1": 45,
+  "start": 155.81,
+  "end": 162.46,
+  "dur": 6.65,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "Say how much you want",
+  "summary": "Ask for a number of questions, and ask for the answer key.",
+  "concept": "ws-howmuch",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "there are too many questions",
+   "how do I get an answer key",
+   "the worksheet is too long"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-44-47"
+ },
+ {
+  "id": "ws-01-50-61",
+  "class": "ws-01",
+  "s0": 50,
+  "s1": 61,
+  "start": 182.5,
+  "end": 221.82,
+  "dur": 39.32,
+  "bucket": "20s",
+  "kind": "example",
+  "title": "Worked example: five questions with an answer key",
+  "summary": "Adding “Give five questions with an answer key” cuts 24 questions to five with answers; you can also give the kinds of questions and the marks.",
+  "concept": "ws-howmuch",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "show me how to ask for fewer questions",
+   "how do I ask for fill in the blanks and one-line answers",
+   "can I ask for marks for each question",
+   "how to turn the worksheet into a class test"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-44-65"
+ },
+ {
+  "id": "ws-01-62-65",
+  "class": "ws-01",
+  "s0": 62,
+  "s1": 65,
+  "start": 222.27,
+  "end": 235.39,
+  "dur": 13.12,
+  "bucket": "10s",
+  "kind": "tip",
+  "title": "Ask for the answer key in the same prompt",
+  "summary": "Asked for later, the answer key may come with changed questions.",
+  "concept": "ws-howmuch",
+  "level": "some",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "the answers do not match the questions",
+   "I asked for the answer key later and the questions changed",
+   "when should I ask for the answers"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-44-65"
+ },
+ {
+  "id": "ws-01-66-92",
+  "class": "ws-01",
+  "s0": 66,
+  "s1": 92,
+  "start": 236.64,
+  "end": 321.66,
+  "dur": 85.02,
+  "bucket": "1m",
+  "kind": "section",
+  "title": "Rule 3: ask for simple words",
+  "summary": "The rule, why it works, a worked example and what not to ask for.",
+  "concept": "ws-words",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "the language is too difficult for my students",
+   "the worksheet reads like a textbook"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-0-123"
+ },
+ {
+  "id": "ws-01-66-71",
+  "class": "ws-01",
+  "s0": 66,
+  "s1": 71,
+  "start": 236.64,
+  "end": 261.69,
+  "dur": 25.05,
+  "bucket": "20s",
+  "kind": "why",
+  "title": "Why the AI writes like a textbook",
+  "summary": "The AI learnt from textbooks and reports, so children who know the science still trip on the wording.",
+  "concept": "ws-words",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "why does it sound like a textbook",
+   "my students understand the topic but not the question",
+   "English is not my students' first language"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-66-92"
+ },
+ {
+  "id": "ws-01-66-67",
+  "class": "ws-01",
+  "s0": 66,
+  "s1": 67,
+  "start": 236.64,
+  "end": 245.12,
+  "dur": 8.48,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "Ask for simple words",
+  "summary": "Tell the AI how the language should sound: short sentences and everyday words.",
+  "concept": "ws-words",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "the language is too difficult",
+   "how do I make the wording simple",
+   "the English is too hard for my students"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-66-71"
+ },
+ {
+  "id": "ws-01-72-87",
+  "class": "ws-01",
+  "s0": 72,
+  "s1": 87,
+  "start": 262.21,
+  "end": 309.89,
+  "dur": 47.68,
+  "bucket": "1m",
+  "kind": "example",
+  "title": "Worked example: short sentences, everyday words",
+  "summary": "One added line turns “attempt all questions with reference to the prescribed text” into “write short answers”; you can also name the reading level or ask for Telugu or Hindi.",
+  "concept": "ws-words",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "show me how to simplify the language",
+   "can I get the worksheet in Telugu or Hindi",
+   "how do I ask for English a class 5 child can read",
+   "the instructions are too formal"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-66-92"
+ },
+ {
+  "id": "ws-01-88-92",
+  "class": "ws-01",
+  "s0": 88,
+  "s1": 92,
+  "start": 310.34,
+  "end": 321.66,
+  "dur": 11.32,
+  "bucket": "10s",
+  "kind": "tip",
+  "title": "Do not ask for impressive language",
+  "summary": "“Professional” and “impressive” make a worksheet longer and stiffer; ask for short, plain and clear.",
+  "concept": "ws-words",
+  "level": "some",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "I asked it to be professional and it got worse",
+   "should I ask for good English",
+   "the worksheet became long and stiff"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-66-92"
+ },
+ {
+  "id": "ws-01-93-117",
+  "class": "ws-01",
+  "s0": 93,
+  "s1": 117,
+  "start": 322.91,
+  "end": 398.91,
+  "dur": 76.0,
+  "bucket": "1m",
+  "kind": "section",
+  "title": "Before you print: check it yourself",
+  "summary": "Three checks on the AI's worksheet, and how to ask for one change.",
+  "concept": "ws-check",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "can I trust the worksheet",
+   "what should I check before printing"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-0-123"
+ },
+ {
+  "id": "ws-01-93-95",
+  "class": "ws-01",
+  "s0": 93,
+  "s1": 95,
+  "start": 322.91,
+  "end": 328.89,
+  "dur": 5.98,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "The AI drafts, you are the teacher",
+  "summary": "Check the worksheet yourself before you print it.",
+  "concept": "ws-check",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "can I print it straight away",
+   "do I need to check what AI wrote"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-93-117"
+ },
+ {
+  "id": "ws-01-96-102",
+  "class": "ws-01",
+  "s0": 96,
+  "s1": 102,
+  "start": 329.41,
+  "end": 346.56,
+  "dur": 17.15,
+  "bucket": "20s",
+  "kind": "example",
+  "title": "The full worksheet prompt, in four lines",
+  "summary": "The finished prompt: topic, class and level, number of questions with a key, and simple words.",
+  "concept": "ws-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "what does the complete prompt look like",
+   "show me the final prompt",
+   "give me a prompt I can copy for a worksheet"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-93-117"
+ },
+ {
+  "id": "ws-01-103-113",
+  "class": "ws-01",
+  "s0": 103,
+  "s1": 113,
+  "start": 346.63,
+  "end": 383.77,
+  "dur": 37.14,
+  "bucket": "20s",
+  "kind": "example",
+  "title": "Three checks before you print",
+  "summary": "Read the answer key for wrong facts, check against your textbook, and solve it once as a student.",
+  "concept": "ws-check",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "can I trust the answer key",
+   "the AI gave a wrong answer",
+   "is the AI always correct",
+   "a question is from a chapter we have not done",
+   "how do I know the worksheet is not too long"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-93-117"
+ },
+ {
+  "id": "ws-01-114-117",
+  "class": "ws-01",
+  "s0": 114,
+  "s1": 117,
+  "start": 384.19,
+  "end": 398.91,
+  "dur": 14.72,
+  "bucket": "10s",
+  "kind": "tip",
+  "title": "Something wrong? Ask for one change",
+  "summary": "Tell the AI which question to fix; it keeps the rest.",
+  "concept": "ws-check",
+  "level": "some",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "one question is bad, do I start again",
+   "how do I change just one question",
+   "can I ask the AI to replace a question"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-93-117"
+ },
+ {
+  "id": "ws-01-118-121",
+  "class": "ws-01",
+  "s0": 118,
+  "s1": 121,
+  "start": 400.16,
+  "end": 412.33,
+  "dur": 12.17,
+  "bucket": "10s",
+  "kind": "tip",
+  "title": "Recap: three things to tell, one thing to do",
+  "summary": "Who your students are, how much you want, how simple the words should be; then check before you print.",
+  "concept": "ws-intro",
+  "level": "some",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "give me a quick summary",
+   "what were the main points again"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "ws-01-0-123"
+ }
+]

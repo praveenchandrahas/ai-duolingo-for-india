@@ -1,0 +1,160 @@
+You are preparing a recorded class for a micro-learning app. A real teacher is speaking. Learners will
+watch short snippets of this class, and when a learner is stuck the app plays the shortest snippet that answers
+their question. Your job is to choose where the snippets start and end and to describe each one. You never rewrite
+or summarise what the teacher teaches; you only pick sentences.
+
+CLASS: Worksheets that fit your class
+ROLE THE CLASS IS FOR: School teacher
+LANGUAGE: en
+
+CONCEPTS this track teaches (use these ids; use null only if a snippet truly fits none):
+- ws-intro: Why the first worksheet never fits
+- ws-who: Tell the AI who your students are
+- ws-howmuch: Say how much you want
+- ws-words: Ask for simple words
+- ws-check: Check it before you print
+
+TRANSCRIPT, one sentence per line as [number] (start-end) text. "||" marks a long pause after the sentence.
+[0] (00:01-00:02) Hello, teachers!
+[1] (00:02-00:04) Today we make a worksheet with AI.
+[2] (00:04-00:12) Ask an AI for a worksheet and you get one in seconds, but it does not know your class, so it writes for nobody in particular.
+[3] (00:13-00:18) Last year, I asked for a worksheet on photosynthesis for my class 7.
+[4] (00:18-00:20) I got 24 questions.
+[5] (00:20-00:26) The first one asked about light-dependent reactions in the thylakoid membrane.
+[6] (00:26-00:27) That is a college question.
+[7] (00:28-00:31) My students would have closed the notebook at question one.
+[8] (00:31-00:32) The AI was not wrong.
+[9] (00:33-00:35) It just did not know who it was writing for.
+[10] (00:36-00:37) The fix is simple.
+[11] (00:38-00:44) Tell the AI three things, who your students are, how much you want, and how simple the words should be.
+[12] (00:45-00:49) Same AI, same topic, and now the worksheet fits your classroom.
+[13] (00:50-00:59) In this class, we take them one at a time, with the same photosynthesis worksheet. At the end, we check the worksheet before it goes to print. ||
+[14] (01:01-01:04) Rule 1. Tell the AI who your students are.
+[15] (01:04-01:08) Say the class and the level, and the questions come down to match.
+[16] (01:09-01:11) The AI cannot see your classroom.
+[17] (01:11-01:23) It does not know if you teach class 3 or a teacher training college. When it does not know, it aims at the middle of everything it has read, and most of that was written for adults.
+[18] (01:23-01:26) One line about your students changes its target.
+[19] (01:27-01:28) Let us try it.
+[20] (01:28-01:29) Here is the first prompt.
+[21] (01:30-01:32) Make a worksheet on photosynthesis.
+[22] (01:32-01:34) And here is question one from the AI.
+[23] (01:35-01:39) Describe the light-dependent reactions in the thylakoid membrane.
+[24] (01:39-01:41) Too hard for Class 7.
+[25] (01:41-01:43) Now I add one line to the prompt.
+[26] (01:43-01:46) It is for Class 7 with mixed reading levels.
+[27] (01:47-01:48) I send it again.
+[28] (01:48-01:49) Look at question one now.
+[29] (01:50-01:52) What three things does a plant need to make food?
+[30] (01:53-01:56) That is a question my class 7 can answer.
+[31] (01:56-01:58) Sunlight, water and air.
+[32] (01:58-02:00) I did not ask the AI to be easy.
+[33] (02:00-02:02) I did not write the word simple.
+[34] (02:02-02:10) I only said who the students are and the level changed by itself if your class has children who read slowly.
+[35] (02:10-02:11) Say that too.
+[36] (02:11-02:14) Mixed reading levels is a useful phrase.
+[37] (02:14-02:17) The AI will then mix easy and medium questions.
+[38] (02:18-02:20) A common mistake here is to shout.
+[39] (02:20-02:24) Teachers type important, make it easy in capital letters.
+[40] (02:25-02:27) Capital letters tell the AI nothing new.
+[41] (02:28-02:28) Easy for home.
+[42] (02:29-02:32) Easy for a class 10 student is hard for class 5.
+[43] (02:33-02:34) Give the class not the adjective. ||
+[44] (02:36-02:38) Rule 2. Say how much you want.
+[45] (02:39-02:42) Ask for a number of questions and ask for the answer key.
+[46] (02:43-02:48) If you do not give a number, the AI guesses, and it likes to be generous.
+[47] (02:48-02:57) It will give you 20 or 30 questions, because more looks more helpful. But you have one period of 40 minutes, and you have to correct every notebook. ||
+[48] (02:58-03:00) Back to our worksheet.
+[49] (03:00-03:02) The level is right now, but look at the length.
+[50] (03:03-03:07) 24 questions and no answers. So I add one more line to the prompt.
+[51] (03:08-03:10) Give five questions with an answer key.
+[52] (03:10-03:11) I send it.
+[53] (03:11-03:14) Now there are five questions and under them.
+[54] (03:14-03:15) 5 answers.
+[55] (03:16-03:23) That fits one period, and the correction takes me 10 minutes instead of an hour. You can go one step further.
+[56] (03:23-03:24) Tell it the kinds of questions.
+[57] (03:25-03:31) For example, two fill in the blanks, two one-line answers, and one diagram to label.
+[58] (03:31-03:33) The AI follows that list exactly.
+[59] (03:33-03:35) I often ask for the marks too.
+[60] (03:36-03:38) Five questions, ten marks in total.
+[61] (03:38-03:42) Then the worksheet is ready to become a small class test.
+[62] (03:42-03:43) One more tip.
+[63] (03:44-03:47) Always ask for the answer key in the same prompt.
+[64] (03:47-03:51) If you ask later, the AI sometimes changes the questions.
+[65] (03:51-03:55) Ask once, and you get the questions and the answers together. ||
+[66] (03:57-03:59) Rule 3. Ask for simple words.
+[67] (04:00-04:05) Tell the AI how the language should sound. Short sentences and everyday words.
+[68] (04:06-04:10) The AI learned to write from textbooks, reports, and websites.
+[69] (04:10-04:14) So its natural voice sounds like a textbook for many of our students.
+[70] (04:14-04:17) English is a second or third language.
+[71] (04:17-04:21) A child may know the science and still get stuck on the wording of the question.
+[72] (04:22-04:25) Look at the instruction line on our worksheet.
+[73] (04:25-04:30) It says, "Attempt all questions with reference to the prescribed text."
+[74] (04:30-04:32) No 12 year old talks like that.
+[75] (04:32-04:35) So I add the third line to the prompt.
+[76] (04:35-04:38) Use short sentences and everyday words.
+[77] (04:38-04:39) I send it.
+[78] (04:39-04:41) The instruction now says...
+[79] (04:41-04:42) Write short answers.
+[80] (04:43-04:48) One line is enough, and the questions changed as well, before it asked.
+[81] (04:48-04:50) What is the significance of chlorophyll?
+[82] (04:50-04:51) Now it asks.
+[83] (04:52-04:54) What does the green color in a leaf do?
+[84] (04:54-04:57) Same idea in words a child uses.
+[85] (04:57-04:59) You can also name the language level.
+[86] (04:59-05:00) I sometimes write.
+[87] (05:01-05:10) Use English that a Class 5 student can read. Or ask for the worksheet in Tolugu or Hindi, if that is the language of your classroom.
+[88] (05:10-05:13) Do not ask for impressive language.
+[89] (05:13-05:15) Do not ask it to be professional.
+[90] (05:15-05:18) Those words make the worksheet longer and stiffer.
+[91] (05:18-05:20) Ask for the opposite.
+[92] (05:20-05:21) Short, plain and clear. ||
+[93] (05:23-05:24) before you print.
+[94] (05:24-05:27) Check the worksheet yourself, the AI drafts.
+[95] (05:28-05:29) You are the teacher.
+[96] (05:30-05:31) Here is the full prompt we built.
+[97] (05:32-05:34) Make a worksheet on photosynthesis.
+[98] (05:34-05:37) It is for Class 7 with mixed reading levels.
+[99] (05:38-05:40) Give five questions with an answer key.
+[100] (05:40-05:43) Use short sentences and everyday words.
+[101] (05:43-05:44) Four short lines.
+[102] (05:45-05:46) It took me under a minute to type.
+[103] (05:47-05:48) Now the checking.
+[104] (05:48-05:50) First, I read the answer key.
+[105] (05:50-06:00) AI makes mistakes with facts, and it makes them with full confidence. In one of my worksheets, the key said plants breathe in oxygen to make food.
+[106] (06:00-06:01) That is wrong.
+[107] (06:01-06:03) It is carbon dioxide.
+[108] (06:03-06:06) If I had printed it, 40 children would have learned it wrong.
+[109] (06:07-06:09) Second, I check against my textbook.
+[110] (06:09-06:12) The AI does not know which chapter we finish.
+[111] (06:12-06:16) If question 4 is from next month's lesson, I remove it.
+[112] (06:16-06:19) Third, I solve the worksheet once as a student.
+[113] (06:20-06:24) If I need more than 15 minutes, it is too long for my class.
+[114] (06:24-06:27) If something is wrong, you do not start again.
+[115] (06:27-06:29) Just tell the AI what to change.
+[116] (06:30-06:36) Question 3 is too hard to make it simpler. Or, replace question 4 with one about sunlight.
+[117] (06:36-06:39) It keeps the rest and fixes that one part. ||
+[118] (06:40-06:41) Let us close.
+[119] (06:42-06:46) Three things to tell the AI every time who your students are.
+[120] (06:46-06:51) How much you want, how simple the words should be, and one thing for you to do.
+[121] (06:51-06:52) Check before you print.
+[122] (06:52-06:56) Try it today with the next topic in your own syllabus.
+[123] (06:56-07:06) Your first prompt will take two minutes. By the end of the week, it will take 30 seconds. In the next class, we use the same idea to plan a whole lesson.
+
+Cut snippets at these lengths: about 10 seconds, about 20 seconds, about 1 minute, a whole section (2 to 5 minutes), and longer blocks of 10 and 15 minutes when the class is long enough.
+Rules:
+1. A snippet is a run of whole sentences, given as "first" and "last" sentence numbers (inclusive).
+2. It must make sense to someone who has seen nothing else: it starts where a thought starts, never mid-example,
+   and it does not open with words that point backwards ("this", "that", "so", "back to").
+3. It teaches one idea. If a run teaches two, cut two snippets.
+4. Short snippets sit inside longer ones: the 10-second point inside the 20-second explanation or the
+   1-minute example, those inside the section, the sections inside the whole class. Always include one snippet
+   that is the whole class.
+5. For every concept, try to give a 10-second, a 20-second and a 1-minute snippet, plus its section.
+6. "questions" are 3 to 6 things a learner would type or say when stuck, in their own everyday words, that this
+   snippet answers. Do not copy the teacher's sentences.
+7. "level" is "new", "some" or "often" (how much the learner has used AI). "kind" is one of
+   hook, point, why, example, tip, section, class.
+
+Answer with JSON only, in this shape:
+{"snippets": [{"first": 0, "last": 3, "kind": "example", "title": "...", "summary": "one sentence",
+  "concept": "concept-id or null", "level": "new", "roles": ["teacher"], "questions": ["...", "..."]}]}

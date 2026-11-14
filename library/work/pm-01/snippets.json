@@ -1,0 +1,508 @@
+[
+ {
+  "id": "pm-01-0-85",
+  "class": "pm-01",
+  "s0": 0,
+  "s1": 85,
+  "start": 0.39,
+  "end": 284.29,
+  "dur": 283.9,
+  "bucket": "section",
+  "kind": "class",
+  "title": "Full class: messages parents will read",
+  "summary": "The whole class: three things to tell the AI for a note parents will read and act on.",
+  "concept": "pm-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "show me the whole class on messages to parents",
+   "how do I write to parents with AI from start to finish"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": null
+ },
+ {
+  "id": "pm-01-0-9",
+  "class": "pm-01",
+  "s0": 0,
+  "s1": 9,
+  "start": 0.39,
+  "end": 40.54,
+  "dur": 40.15,
+  "bucket": "1m",
+  "kind": "hook",
+  "title": "Messages parents will read",
+  "summary": "A note to parents must be short, kind and clear; tell the AI who is reading, the tone, and the one thing to do.",
+  "concept": "pm-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "I don't understand the task",
+   "what am I supposed to add",
+   "how do I write a message to parents with AI",
+   "why does the AI message sound wrong"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-0-85"
+ },
+ {
+  "id": "pm-01-2-3",
+  "class": "pm-01",
+  "s0": 2,
+  "s1": 3,
+  "start": 3.94,
+  "end": 13.63,
+  "dur": 9.69,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "The AI guesses the tone, and guesses wrong",
+  "summary": "A note to parents has to be short, kind and clear.",
+  "concept": "pm-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "what makes a good message to parents",
+   "why can't I just send what the AI writes"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-0-9"
+ },
+ {
+  "id": "pm-01-4-8",
+  "class": "pm-01",
+  "s0": 4,
+  "s1": 8,
+  "start": 14.18,
+  "end": 34.59,
+  "dur": 20.41,
+  "bucket": "20s",
+  "kind": "why",
+  "title": "Tell it three things",
+  "summary": "Without details you get an office circular; say who is reading, the tone, and the one thing parents should do.",
+  "concept": "pm-intro",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "what details does the AI need for a parent message",
+   "what are the three things for a message"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-0-9"
+ },
+ {
+  "id": "pm-01-10-33",
+  "class": "pm-01",
+  "s0": 10,
+  "s1": 33,
+  "start": 41.83,
+  "end": 120.7,
+  "dur": 78.87,
+  "bucket": "1m",
+  "kind": "section",
+  "title": "1: who is reading, and where",
+  "summary": "The rule, why it works, a worked example and what not to ask for.",
+  "concept": "pm-who",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "it sounds like an office circular",
+   "the message is too formal and long"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-0-85"
+ },
+ {
+  "id": "pm-01-10-14",
+  "class": "pm-01",
+  "s0": 10,
+  "s1": 14,
+  "start": 41.83,
+  "end": 63.87,
+  "dur": 22.04,
+  "bucket": "20s",
+  "kind": "why",
+  "title": "Why the AI writes a formal letter",
+  "summary": "It does not know parents will read this on WhatsApp, on a small screen, on the way home.",
+  "concept": "pm-who",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "why is the message so formal",
+   "it reads like a government notice",
+   "parents read on WhatsApp and this is too long"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-10-33"
+ },
+ {
+  "id": "pm-01-10-11",
+  "class": "pm-01",
+  "s0": 10,
+  "s1": 11,
+  "start": 41.83,
+  "end": 47.74,
+  "dur": 5.91,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "Say who is reading, and where",
+  "summary": "A parent on a phone needs four lines, not a circular.",
+  "concept": "pm-who",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "it sounds like an office circular",
+   "the message is too long",
+   "how long should a message to parents be"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-10-14"
+ },
+ {
+  "id": "pm-01-15-32",
+  "class": "pm-01",
+  "s0": 15,
+  "s1": 32,
+  "start": 64.32,
+  "end": 109.41,
+  "dur": 45.09,
+  "bucket": "1m",
+  "kind": "example",
+  "title": "Worked example: written for a parent on a phone",
+  "summary": "Adding “Parents are busy and will read it on a phone” gives a four-line note; you can also ask for simple Telugu or very short sentences.",
+  "concept": "pm-who",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "show me how to make the message short",
+   "can I get the message in Telugu",
+   "some parents cannot read English well",
+   "some parents have messages read out to them"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-10-33"
+ },
+ {
+  "id": "pm-01-33-33",
+  "class": "pm-01",
+  "s0": 33,
+  "s1": 33,
+  "start": 110.08,
+  "end": 120.7,
+  "dur": 10.62,
+  "bucket": "10s",
+  "kind": "tip",
+  "title": "Do not write “make it professional”",
+  "summary": "For a parent, professional means clear and respectful; ask for exactly that.",
+  "concept": "pm-who",
+  "level": "some",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "I asked for a professional message and it got stiff",
+   "should the message be formal"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-10-33"
+ },
+ {
+  "id": "pm-01-34-54",
+  "class": "pm-01",
+  "s0": 34,
+  "s1": 54,
+  "start": 121.92,
+  "end": 190.3,
+  "dur": 68.38,
+  "bucket": "1m",
+  "kind": "section",
+  "title": "2: name the tone",
+  "summary": "The rule, why it works, a worked example and a last check.",
+  "concept": "pm-tone",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "the tone feels like I am blaming the parents"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-0-85"
+ },
+ {
+  "id": "pm-01-34-40",
+  "class": "pm-01",
+  "s0": 34,
+  "s1": 40,
+  "start": 121.92,
+  "end": 145.25,
+  "dur": 23.33,
+  "bucket": "20s",
+  "kind": "why",
+  "title": "Why AI drafts sound like a complaint",
+  "summary": "When the subject is a problem, the AI writes a complaint, and a parent who feels blamed does not help.",
+  "concept": "pm-tone",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "why does the message sound like a complaint",
+   "parents will feel insulted by this",
+   "the message sounds harsh"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-34-54"
+ },
+ {
+  "id": "pm-01-34-37",
+  "class": "pm-01",
+  "s0": 34,
+  "s1": 37,
+  "start": 121.92,
+  "end": 130.05,
+  "dur": 8.13,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "Name the tone",
+  "summary": "Say it in plain words: warm, respectful, not complaining.",
+  "concept": "pm-tone",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "the tone feels like I am blaming the parents",
+   "the message sounds rude",
+   "how do I make it sound kind"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-34-40"
+ },
+ {
+  "id": "pm-01-41-51",
+  "class": "pm-01",
+  "s0": 41,
+  "s1": 51,
+  "start": 145.86,
+  "end": 181.79,
+  "dur": 35.93,
+  "bucket": "20s",
+  "kind": "example",
+  "title": "Worked example: warm and respectful",
+  "summary": "One line changes “parents have not been monitoring” into “a little help at home goes a long way”; describing the tone as a person works best.",
+  "concept": "pm-tone",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "show me how to fix the tone",
+   "how do I describe the tone I want",
+   "how to say something difficult politely to parents"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-34-54"
+ },
+ {
+  "id": "pm-01-52-54",
+  "class": "pm-01",
+  "s0": 52,
+  "s1": 54,
+  "start": 182.21,
+  "end": 190.3,
+  "dur": 8.09,
+  "bucket": "10s",
+  "kind": "tip",
+  "title": "Read it aloud once",
+  "summary": "If you would not say a sentence to a parent's face, remove it.",
+  "concept": "pm-tone",
+  "level": "some",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "how do I check the message before sending",
+   "is the message ok to send"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-34-54"
+ },
+ {
+  "id": "pm-01-55-74",
+  "class": "pm-01",
+  "s0": 55,
+  "s1": 74,
+  "start": 191.55,
+  "end": 256.73,
+  "dur": 65.18,
+  "bucket": "1m",
+  "kind": "section",
+  "title": "3: end with one ask",
+  "summary": "The rule, why it works, a worked example and a tip about time.",
+  "concept": "pm-ask",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "parents won't know what to do after reading it"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-0-85"
+ },
+ {
+  "id": "pm-01-55-60",
+  "class": "pm-01",
+  "s0": 55,
+  "s1": 60,
+  "start": 191.55,
+  "end": 213.53,
+  "dur": 21.98,
+  "bucket": "20s",
+  "kind": "why",
+  "title": "Why “kindly take necessary action” does nothing",
+  "summary": "The parent does not know what action; a message works when the next step is known and small.",
+  "concept": "pm-ask",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "parents read it and nothing happens",
+   "the ending is vague",
+   "it ends with kindly do the needful"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-55-74"
+ },
+ {
+  "id": "pm-01-55-56",
+  "class": "pm-01",
+  "s0": 55,
+  "s1": 56,
+  "start": 191.55,
+  "end": 199.58,
+  "dur": 8.03,
+  "bucket": "10s",
+  "kind": "point",
+  "title": "End with one ask",
+  "summary": "Decide the one thing you want parents to do, and ask the AI to end with exactly that.",
+  "concept": "pm-ask",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "parents won't know what to do after reading it",
+   "the message has no clear request",
+   "how should the message end"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-55-60"
+ },
+ {
+  "id": "pm-01-57-72",
+  "class": "pm-01",
+  "s0": 57,
+  "s1": 72,
+  "start": 200.03,
+  "end": 251.2,
+  "dur": 51.17,
+  "bucket": "1m",
+  "kind": "example",
+  "title": "Worked example: ten minutes of reading a day",
+  "summary": "Ending with one request a parent can do tonight; ask for one thing only, and say how to reply.",
+  "concept": "pm-ask",
+  "level": "new",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "show me a good ending for the message",
+   "how do I get parents to reply",
+   "I want to ask parents for several things",
+   "what can parents who don't read English do"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-55-74"
+ },
+ {
+  "id": "pm-01-75-85",
+  "class": "pm-01",
+  "s0": 75,
+  "s1": 85,
+  "start": 258.08,
+  "end": 284.29,
+  "dur": 26.21,
+  "bucket": "20s",
+  "kind": "tip",
+  "title": "Recap: the full message prompt",
+  "summary": "Who is reading, the tone, one ask; then read it once as a parent.",
+  "concept": "pm-intro",
+  "level": "some",
+  "roles": [
+   "teacher"
+  ],
+  "questions": [
+   "what does the complete message prompt look like",
+   "give me a quick summary for parent messages",
+   "show me the final prompt for a message"
+  ],
+  "status": "pending",
+  "source": "file",
+  "flags": [],
+  "parent": "pm-01-0-85"
+ }
+]
